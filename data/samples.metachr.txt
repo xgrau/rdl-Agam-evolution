@@ -1,0 +1,2 @@
+ox_code	SRAid	population	species
+SRS228219	SRP020566	KNchr	chri

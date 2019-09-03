@@ -1,0 +1,1143 @@
+ox_code	src_code	population	country	region	contributor	year	m_s	sex	n_sequences	mean_coverage	phenotype	insecticide	ace1_genotype	pop_dup	119Sgen	pop_119Sgen
+AA0040-C	Twifo_Praso__E2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	95033368	30.99	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0041-C	Twifo_Praso__H3	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	95843804	31.7	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0042-C	Takoradi_C7	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	107420666	35.65	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0043-C	Takoradi_H8	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	95993752	29.46	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0044-C	Takoradi_D10	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	103044262	33.67	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0048-C	Madina_A1	GHgam	Ghana	Madina	David_Weetman	2012	S	F	101183648	32.64	alive	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0049-C	Madina_E3	GHcol	Ghana	Madina	David_Weetman	2012	M	F	106641272	32.84	alive	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AA0050-C	Madina_E5	GHgam	Ghana	Madina	David_Weetman	2012	S	F	93961924	29.82	dead	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0051-C	Twifo_Praso__C1	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	99910300	33.33	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0052-C	Twifo_Praso__F2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	100899280	32.29	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0053-C	Twifo_Praso__A4	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	104791234	34.14	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0054-C	Takoradi_E7	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	94902576	30.38	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0055-C	Takoradi_B9	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	95721108	30.93	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0056-C	Takoradi_G10	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	102828780	31.52	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0060-C	Madina_C1	GHgam	Ghana	Madina	David_Weetman	2012	S	F	90534918	29.46	alive	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0061-C	Madina_F3	GHgam	Ghana	Madina	David_Weetman	2012	S	F	91137592	29.45	alive	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0063-C	Twifo_Praso__D1	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	90062282	29.33	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0064-C	Twifo_Praso__G2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	100028190	31.61	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0066-C	Takoradi_G7	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	86749914	27.43	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0067-C	Takoradi_C9	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	101513748	32.58	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0068-C	Takoradi_H10	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	97448404	31.42	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0072-C	Madina_F1	GHgam	Ghana	Madina	David_Weetman	2012	S	F	97192268	29.31	alive	Bendiocarb	119Swt_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0073-C	Madina_H3	GHcol	Ghana	Madina	David_Weetman	2012	M	F	100703586	33.75	alive	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AA0074-C	Madina_G5	GHcol	Ghana	Madina	David_Weetman	2012	M	F	104975078	33.95	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0075-C	Twifo_Praso__F1	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	98566392	31.67	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0076-C	Twifo_Praso__B3	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	92182496	29.91	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0077-C	Twifo_Praso__C4	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	89362286	27.69	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0080-C	Takoradi_A11	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	102825240	31.97	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0084-C	Madina_A2	GHgam	Ghana	Madina	David_Weetman	2012	S	F	104241714	34.36	alive	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0085-C	Madina_A4	GHgam	Ghana	Madina	David_Weetman	2012	S	F	100752712	31.84	alive	Bendiocarb	119Swt_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0086-C	Madina_H5	GHgam	Ghana	Madina	David_Weetman	2012	S	F	101686586	33.05	dead	Bendiocarb	wtwt_FALSE	GHgam_FALSE	wt	GHgam_wt
+AA0087-C	Twifo_Praso__H1	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	100038300	32	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0088-C	Twifo_Praso__C3	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	88706992	30.17	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0089-C	Twifo_Praso__D4	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	94922152	30.8	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0090-C	Takoradi_D8	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	106627612	34.43	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0091-C	Takoradi_G9	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	102159544	33.61	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0096-C	Madina_H2	GHgam	Ghana	Madina	David_Weetman	2012	S	F	91509044	29.27	alive	Bendiocarb	119Swt_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0097-C	Madina_E4	GHcol	Ghana	Madina	David_Weetman	2012	M	F	98143084	31.88	alive	Bendiocarb	119Swt_FALSE	GHcol_FALSE	119S	GHcol_119S
+AA0098-C	Madina_A6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	93843990	30.93	dead	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AA0099-C	Twifo_Praso__A2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	102342614	32.62	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0100-C	Twifo_Praso__E3	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	92821322	30.98	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0101-C	Twifo_Praso__E4	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	96486012	30.22	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0102-C	Takoradi_E8	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	93408120	29.73	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0103-C	Takoradi_H9	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	102625356	33.23	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0104-C	Takoradi_E11	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	95384196	31.18	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0107-C	Koforidua_D6	GHcol	Ghana	Koforidua	David_Weetman	2012	M	F	122136766	40.69	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0108-C	Madina_A3	GHgam	Ghana	Madina	David_Weetman	2012	S	F	85995648	27.85	alive	Bendiocarb	119S119S_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0109-C	Madina_F4	GHcol	Ghana	Madina	David_Weetman	2012	M	F	104581480	33.66	alive	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0110-C	Madina_B6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	110193578	36.01	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0111-C	Twifo_Praso__B2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	104724732	34.2	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0113-C	Twifo_Praso__H4	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	97363646	30.68	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0114-C	Takoradi_F8	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	96762928	27.84	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0115-C	Takoradi_A10	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	101554368	30.96	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0116-C	Takoradi_F11	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	97608716	31.25	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0122-C	Madina_C6	GHgam	Ghana	Madina	David_Weetman	2012	S	F	107165344	34.41	dead	Bendiocarb	wtwt_FALSE	GHgam_FALSE	wt	GHgam_wt
+AA0123-C	Twifo_Praso__D2	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	91488956	29.65	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0124-C	Twifo_Praso__G3	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	98325596	32.06	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0125-C	Twifo_Praso__A5	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	99933768	32.81	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0127-C	Takoradi_C10	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	98951960	30.97	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0132-C	Madina_D3	GHcol	Ghana	Madina	David_Weetman	2012	M	F	101639112	32.39	alive	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AA0133-C	Madina_B5	GHgam	Ghana	Madina	David_Weetman	2012	S	F	109019346	33.76	alive	Bendiocarb	119Swt_TRUE	GHgam_TRUE	119S	GHgam_119S
+AA0134-C	Madina_D6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	85704690	28.14	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0135-C	Twifo_Praso__C5	GHcol	Ghana	Twifo_Praso	David_Weetman	2012	M	F	105874060	34.37	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0136-C	Takoradi_A12	GHcol	Ghana	Takoradi	David_Weetman	2012	M	F	100355038	31.34	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0139-C	Madina_F6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	97694602	31.65	dead	Bendiocarb	wtwt_FALSE	GHcol_FALSE	wt	GHcol_wt
+AA0140-C	Madina_G6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	97619200	31.97	dead	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AA0141-C	Madina_H6	GHcol	Ghana	Madina	David_Weetman	2012	M	F	107530492	34.83	dead	Bendiocarb	119Swt_TRUE	GHcol_TRUE	119S	GHcol_119S
+AB0085-C	BF2-4	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	89905852	28.01	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0087-C	BF3-3	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	116706234	36.76	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0088-C	BF3-5	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	112090460	23.3	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0089-C	BF3-8	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	145350454	41.36	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0090-C	BF3-10	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	F	105012254	34.64	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0091-C	BF3-12	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	F	98833426	29.97	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0092-C	BF3-13	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	89897604	29.79	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0094-C	BF3-17	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	94712888	31.76	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0095-C	BF4-1	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	102184952	32.91	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0097-C	BF4-5	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	123867582	38.21	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0098-C	BF4-6	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	111579866	35.09	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0099-C	BF6-1	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	101764662	30.27	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0100-C	BF6-2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	112109710	32.21	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0101-C	BF6-3	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	102477906	28.86	NA	NA	119Swt_TRUE	BFcol_TRUE	119S	BFcol_119S
+AB0103-C	BF6-7	BFgam	Burkina_Faso	Bana_M	Austin_Burt	2012	S	F	105747410	31.85	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0104-C	BF6-8	BFgam	Burkina_Faso	Bana_M	Austin_Burt	2012	S	F	110651954	33.23	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0108-C	BF7-5	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	111394400	12.01	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0109-C	BF9-1	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	111138116	33.2	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0110-C	BF9-2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	158505714	49.59	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0111-C	BF9-3	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	92577574	30.3	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0112-C	BF3-18	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	F	114628046	36.49	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0113-C	BF3-19	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	105726174	30.8	NA	NA	119Swt_TRUE	BFcol_TRUE	119S	BFcol_119S
+AB0114-C	BF4-7	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	163544496	51.5	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0115-C	BF4-8	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	131902346	42.35	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0117-C	BF3-21	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	78682840	24.3	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0118-C	BF3-22	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	108521494	34.57	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0119-C	BF3-23	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	86522242	26.69	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0122-C	BF3-26	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	M	91622016	29.02	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0123-C	BF3-27	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	M	108346680	34.77	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0124-C	BF3-28	BFcol	Burkina_Faso	Bana	Austin_Burt	2012	M	M	96687784	30.26	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0126-C	BF3-30	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	73519888	22.76	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0127-C	BF3-31	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	100242720	30.3	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0128-C	BF3-32	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	98882614	30.44	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0129-C	BF3-33	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	86478500	27.21	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0130-C	BF3-34	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	90478964	27.77	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0133-C	BF2-14	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	104680878	32.74	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0134-C	BF2-15	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	93164158	26.75	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0135-C	BF2-16	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	89058906	28.36	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0136-C	BF2-17	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	93477938	28.46	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0137-C	BF2-18	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	107119658	35.51	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0138-C	BF2-19	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	104224064	32.09	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0139-C	BF2-20	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	101147414	31.42	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0140-C	BF2-21	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	110728572	35.79	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0142-C	BF2-23	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	89204824	30.31	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0143-C	BF8-1	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	87057938	27.75	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0145-C	BF8-3	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	101694380	33.19	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0146-C	BF8-5	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	87355624	25.75	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0147-C	BF8-6	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	128317024	41.79	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0148-C	BF8-7	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	113153758	35.39	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0150-C	BF3-37	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	104506982	31.74	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0151-C	BF3-38	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	139839586	41.85	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0153-C	BF3-40	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	102236676	31.02	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0155-C	BF3-42	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	102789370	32.1	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0157-C	BF3-44	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	94001246	29.07	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0158-C	BF3-45	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	96082380	29.43	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0159-C	BF3-46	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	98784976	30.17	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0160-C	BF3-47	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	72878486	22.43	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0161-C	BF3-48	BFgam	Burkina_Faso	Bana	Austin_Burt	2012	S	M	135544660	40.53	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0162-C	BF3-54	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	86297380	26.69	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0164-C	BF3-56	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	79682812	24.52	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0165-C	BF3-59	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	123808034	37.33	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0166-C	BF3-60	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	92180458	28.14	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0167-C	BF3-61	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	121897332	36.53	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0169-C	BF3-64	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	86323822	26.59	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0170-C	BF3-65	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	88910634	28.6	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0171-C	BF3-66	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	M	76711192	23.43	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0172-C	BF10-1	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	93054446	26.98	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0173-C	BF10-2	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	110797712	24.85	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0174-C	BF10-3	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	85694964	23.1	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0175-C	BF10-4	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	88433390	28.02	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0176-C	BF10-5	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	82857398	26.12	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0177-C	BF10-7	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	88728970	21.14	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0178-C	BF10-8	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	102127354	31.55	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0179-C	BF10-9	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	107048128	28.93	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0181-C	BFBana_4_2	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	112794312	36.11	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0182-C	BFBana_4_3	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	99125704	31.73	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0183-C	BFBana5_1	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	89894120	26.15	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0184-C	BFBana_5_2	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	91623478	28.16	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0185-C	BFBana_6_1	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	101581056	33.31	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0186-C	BFBana_6_2	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	90639292	29.07	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0187-C	BFBana_7_1	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	115130040	32.22	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0188-C	BFBana_7_2	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	95156528	25.77	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0189-C	BFBana_8_1	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	127537108	39.82	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0190-C	BFBana_8_2	BFcol	Burkina_Faso	Bana_M	Austin_Burt	2012	M	F	117604304	37.99	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0191-C	BFBana_17_2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	106976592	35.04	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0192-C	BFBana_17_3	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	106240586	34	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0195-C	BFBana_19_1	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	41856482	13.8	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0196-C	BFBana_19_2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	109112972	33.59	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0197-C	BFPala_36_1	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	108444644	34.41	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0198-C	BFPala_36_2	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	110815562	34.53	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0199-C	BFPala_36_3	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	107709374	31.1	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0200-C	BFPala_36_4	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	100632516	31.3	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0201-C	BFPala_48_1	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	96936276	31.77	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0202-C	BFPala_48_2	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	111656894	36.99	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0203-C	BFPala_48_3	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	89992978	29.41	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0204-C	BFPala_58_1	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	111830668	37.24	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0205-C	BFPala_58_2	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	118030304	37.86	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0206-C	BFPala_58_3	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	116492418	37.38	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0207-C	BFSour_59_1	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	120735434	37.72	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0208-C	BFSour_59_2	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	112084150	34.53	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0209-C	BFBana_14_1	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	118043738	37.96	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0210-C	BFBana_14_2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	158865480	48.94	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0211-C	BFBana_16_1	BFgam	Burkina_Faso	Bana_V	Austin_Burt	2012	S	F	112964850	35.06	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0212-C	BFBana_16_2	BFcol	Burkina_Faso	Bana_V	Austin_Burt	2012	M	F	97935414	32.14	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0213-C	BFSour_59_3	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	114895884	34.58	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0215-C	BFSour_46_2	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	118636076	39.5	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0217-C	BFSour_54_1	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	104164004	32.39	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0218-C	BFSour_54_2	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	140578838	43.65	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0219-C	BFSour_54_3	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	107259160	34.45	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0221-C	BFSour_55_2	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	109793482	33.19	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0222-C	BFSour_55_3	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	110084314	32.55	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0223-C	BFSour_56_1	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	108350646	35.16	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0224-C	BFSour_57_1	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	118980508	39.27	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0226-C	BFSour_57_3	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	105094584	33.6	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0227-C	BF11-2	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	94146816	29.37	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0228-C	BF11-3	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	81762002	26.27	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0229-C	BF11-4	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	96591894	32.44	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0231-C	BF11-7	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	65711922	21.28	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0232-C	BF11-8	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	202923008	47.4	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0233-C	BF11-9	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	101673334	32.48	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0234-C	BF11-10	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	76022042	25.05	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0235-C	BF11-11	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	81774702	26.33	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0236-C	BF11-12	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	274074182	85.2	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0237-C	BF11-13	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	99769250	32.98	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0238-C	BF11-14	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	111628010	36.81	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0239-C	BF11-15	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	127005922	40.08	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0240-C	BF11-16	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	79660228	26.51	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0241-C	BF11-17	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	140659424	42.9	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0242-C	BF11-18	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	102262548	32.98	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0243-C	BF11-19	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	87718744	28.93	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0244-C	BF11-20	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	102110064	27.69	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0246-C	BF11-22	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	109148156	35.09	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0247-C	BF11-23	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	36592958	12.74	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0248-C	BF11-25	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	131578688	41.29	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0249-C	BF11-26	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	72728612	24.17	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0250-C	BF11-27	BFcol	Burkina_Faso	Sour	Austin_Burt	2012	M	F	85271154	27.1	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0251-C	BF11-28	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	95983920	31.14	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0252-C	BF11-29	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	45647624	15.38	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0253-C	BF11-30	BFgam	Burkina_Faso	Sour	Austin_Burt	2012	S	F	217188358	68.27	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0255-C	BF12-2	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	103763020	31.96	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0256-C	BF12-3	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	104192420	32.53	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0257-C	BF12-4	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	112350788	36.13	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0258-C	BF12-5	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	87932222	29.29	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0260-C	BF12-7	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	222622690	68.56	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0261-C	BF12-8	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	118577780	37.72	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0262-C	BF12-9	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	90283140	29.46	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0263-C	BF12-10	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	87614236	28.72	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0264-C	BF12-13	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	92415122	29.5	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0265-C	BF12-14	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	110571284	33.98	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0266-C	BF12-15	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	145191910	46.26	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0267-C	BF12-16	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	105273054	31.58	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0268-C	BF12-17	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	99074812	31.44	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0270-C	BF12-20	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	67133348	22.14	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0271-C	BF12-22	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	157871434	49.52	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0272-C	BF12-23	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	93388860	29.33	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0273-C	BF12-24	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	252400726	80.25	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0274-C	BF12-25	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	108685078	32.81	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AB0275-C	BF12-26	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	141236506	39.51	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0276-C	BF12-27	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	99259424	31.57	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0277-C	BF12-28	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	251417336	79.2	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0278-C	BF12-29	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	206265632	66.54	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0279-C	BF12-30	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	114180260	36.98	NA	NA	119Swt_TRUE	BFcol_TRUE	119S	BFcol_119S
+AB0280-C	BF12-31	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	192768242	60.86	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0281-C	BF12-32	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	103403794	32.28	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0282-C	BF12-33	BFcol	Burkina_Faso	Pala	Austin_Burt	2012	M	F	126481642	33.21	NA	NA	wtwt_FALSE	BFcol_FALSE	wt	BFcol_wt
+AB0283-C	BF10-12	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	87745524	28.23	NA	NA	wtwt_FALSE	BFgam_FALSE	wt	BFgam_wt
+AB0284-C	BF10-13	BFgam	Burkina_Faso	Pala	Austin_Burt	2012	S	F	90042918	28.74	NA	NA	119Swt_TRUE	BFgam_TRUE	119S	BFgam_119S
+AC0089-C	1_A1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	94035400	30.28	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0090-C	1_A4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	109522970	34.43	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0091-C	1_A5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	86481608	27.27	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0092-C	1_A8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101330674	32.73	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0093-C	1_A10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	117315684	38.3	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0094-C	1_A12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	105491856	31.78	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0095-C	1_B2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	106048336	33.34	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0096-C	1_B3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	88028600	28.59	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0097-C	1_B4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	110267524	35.86	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0098-C	1_B8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	98981950	31.9	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0099-C	1_B11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	103255648	32.44	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0100-C	1_B12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100357386	30.9	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0101-C	1_C3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107673084	34.22	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0102-C	1_C4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107744558	35.08	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0103-C	1_C7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	102932858	33.59	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0104-C	1_C11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	89482314	27.84	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0105-C	1_C12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	115673294	38.09	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0106-C	1_D2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	106965458	34.07	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0107-C	1_D3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	113322186	35.19	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0108-C	1_D4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85652796	27.35	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0109-C	1_D5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107012390	34.02	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0110-C	1_D6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	108895914	34.86	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0111-C	1_D7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	93939172	29.73	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0112-C	1_D9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100571182	33.12	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0113-C	1_D12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	93009946	30.28	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0114-C	1_E1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	91092212	30.18	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0115-C	1_E3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	99332020	32.38	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0116-C	1_E4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	98900896	32.1	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0117-C	1_E7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	90270436	29.11	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0118-C	1_E10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85987806	27.52	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0119-C	1_E11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101932378	32.83	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0120-C	1_E12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	87428636	27.98	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0121-C	1_F1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	111900508	35.66	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0122-C	1_F2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107330188	34.16	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0123-C	1_F3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	91715112	28.99	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0124-C	1_F4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	97121140	31.05	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0125-C	1_F6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	125997246	39.15	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0126-C	1_F7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	88489128	29.21	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0127-C	1_F9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	94829928	31.07	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0128-C	1_F11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	92912148	30.2	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0129-C	1_F12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	96976052	31.19	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0130-C	1_G1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100361652	32.91	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0131-C	1_G3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	116888076	37.01	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0132-C	1_G4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85634032	27.85	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0133-C	1_G7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	94947786	30.58	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0134-C	1_G10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	180933378	55.75	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0135-C	1_G11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	90153942	27.88	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0136-C	1_G12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107059698	34.19	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0137-C	1_H1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	95179730	29.72	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0138-C	1_H2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	91399874	30.35	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0139-C	1_H3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	91630238	29.16	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0140-C	1_H8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	74409468	24.17	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0141-C	1_H11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	108132446	34.96	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0142-C	2_A1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	95546676	31.14	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0143-C	2_A2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	115154756	37.45	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0144-C	2_A6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85728366	28.32	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0145-C	2_A9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100722028	32.76	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0146-C	2_B1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	81683160	27.21	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0147-C	2_B4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	103067954	33.37	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0148-C	2_B6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85836806	28.56	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0149-C	2_B7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	83861158	27.25	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0150-C	2_B8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	115980372	38.25	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0151-C	2_B10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	88088890	28.72	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0152-C	2_B11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	106332160	34.99	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0153-C	2_B12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	86006636	28.51	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0154-C	2_C2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	102685954	30.94	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0155-C	2_C3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	102374840	30.11	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0156-C	2_C4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	99395636	31.16	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0157-C	2_C6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100742162	31.74	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0158-C	2_C7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	93641794	30.52	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0159-C	2_C8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	112933872	36.25	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0160-C	2_C12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	124004896	39.51	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0161-C	2_D4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107974166	34.01	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0162-C	2_D5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	97016692	30.88	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0163-C	2_D8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	88814484	28.46	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0164-C	2_D9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101111214	32.89	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0166-C	2_E1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	104830328	31.12	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0167-C	2_E2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	104900694	34.95	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0168-C	2_E3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101137204	30.42	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0169-C	2_E5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100146748	32.29	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0170-C	2_E6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	97593794	31.85	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0171-C	2_E9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85712344	27.92	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0172-C	2_E10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	78324778	23.85	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0173-C	2_E11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	88276556	27.35	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0174-C	2_F1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	89098292	26.35	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0176-C	2_F3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	92854606	28.6	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0177-C	2_F4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	107509408	32.88	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0178-C	2_F5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101847098	32.43	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0179-C	2_F9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	96285312	30.67	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0180-C	2_F11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101375556	31.14	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0181-C	2_G4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	111692048	36.1	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0182-C	2_G5	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	96136322	30.6	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0183-C	2_G6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	96544540	30.62	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0184-C	2_G7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	115580234	36.25	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0185-C	2_G9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	86037892	28.23	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0186-C	2_G11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	118876252	38.86	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0187-C	2_G12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	104570140	34.28	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0188-C	2_H3	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	96276944	30.94	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0189-C	2_H4	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	77895310	25.49	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0190-C	2_H6	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	93191810	29.83	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0191-C	2_H7	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	101530528	32.86	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0192-C	2_H8	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	85305834	26.96	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0193-C	2_H9	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	95787526	30.48	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0194-C	2_H10	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	116550234	34.52	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0195-C	2_H11	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	121525430	38.55	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0196-C	2_H12	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	112296076	35.06	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0197-C	3_A1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	91277002	29.36	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0199-C	3_D1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	126994178	41.56	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0200-C	3_D2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	105827722	34.29	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0201-C	3_E1	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	100594190	32.87	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0202-C	3_G2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	139854082	44.69	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AC0203-C	3_H2	UGgam	Uganda	Nagongera,_Tororo	Martin_Donnelly	2012	S	F	111260978	35.04	NA	NA	wtwt_FALSE	UGgam_FALSE	wt	UGgam_wt
+AG0082-C	2518	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	93088052	30.53	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0085-C	2521	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	103517758	32.14	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0089-C	2525	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	114898838	35.13	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0096-C	2532	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	105627176	32.73	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0097-C	2533	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	95764982	23.23	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0098-C	2534	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	106380856	31.44	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0100-C	2536	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	99062072	31.01	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0102-C	2538	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	101620214	15.59	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0104-C	2540	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	114893394	33.2	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0106-C	2542	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	112836980	35.62	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0108-C	2544	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	101180674	26.17	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0109-C	2545	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	93946208	29.15	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0111-C	2547	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	115927674	27.29	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0118-C	2554	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	89787754	27.85	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0120-C	2556	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	111333074	34.31	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0121-C	2557	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	102242720	30.72	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0123-C	2559	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	98439046	31.12	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0125-C	2561	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	116612874	35.05	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0126-C	2562	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	112143610	35.52	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0127-C	2563	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	106442138	33.32	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0128-C	2595	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	92288274	28.51	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0129-C	2596	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	87220392	20.01	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0133-C	2600	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	104058934	30.95	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0134-C	2601	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	102146260	23.42	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0136-C	2603	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	92499044	22.22	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0137-C	2604	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	96961410	30.29	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0138-C	2605	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	107496034	32.26	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0139-C	2606	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	96301520	29.87	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0141-C	2608	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	88773448	28.71	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0142-C	2609	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	100858634	31.89	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0143-C	2610	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	105758948	33.17	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0144-C	2611	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	99695766	31.54	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0145-C	2612	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	107613436	20.52	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0146-C	2613	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	90476112	28.28	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0147-C	2614	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	93346656	30.15	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0148-C	2615	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	109978602	33.94	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0152-C	2619	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	101127004	31.1	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0153-C	2620	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	96743242	22.16	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0156-C	2623	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	105039056	31.45	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0159-C	2626	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	93000786	30.31	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0162-C	2629	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	106342658	33.53	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0163-C	2630	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	94671110	22.26	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0169-C	2636	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	86220452	28.38	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0170-C	2637	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	101918016	30.22	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0172-C	2639	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	110302986	35.13	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0178-C	2676	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	97985126	31.05	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0179-C	2677	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	109586036	34.91	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0181-C	2679	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	114190006	24.03	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0183-C	2681	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	104161250	31.81	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0195-C	2693	GM	Gambia,_The	SIB	Martin_Donnelly	2011		F	85840156	26.27	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0197-C	2695	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	107865828	33.77	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0202-C	2700	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	121089526	37.47	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0203-C	2701	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	126233400	36.19	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0204-C	2702	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	116858066	36.06	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0206-C	2704	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	101367958	32.33	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0208-C	2706	GM	Gambia,_The	MSN	Martin_Donnelly	2011		F	104692934	33.13	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0214-C	2712	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	114088166	28.97	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0221-C	2719	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	105921032	28.85	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0223-C	2721	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	106843346	33.97	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0227-C	2725	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	103936788	31.28	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0229-C	2758	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	94089364	30.21	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0230-C	2759	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	102047324	33.44	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0231-C	2760	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	98889216	32.5	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0232-C	2761	GM	Gambia,_The	KSK	Martin_Donnelly	2011		F	99143756	32.68	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AG0263-C	2792	GM	Gambia,_The	KBK	Martin_Donnelly	2011		F	111795630	35.58	NA	NA	wtwt_FALSE	GM_FALSE	wt	GM_wt
+AJ0023-C	BIS001	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	94122512	29.99	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0024-C	BIS002	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	49406858	16.07	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0028-C	BIS006	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	97841208	28.77	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0032-C	BIS010	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	92499892	29.01	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0035-C	BIS013	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M	F	93528702	29.47	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0036-C	BIS014	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	76265002	25.27	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0037-C	BIS015	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M	F	83713156	27.07	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0038-C	BIS016	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	85304610	28.06	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0039-C	BIS017	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M	F	78366758	24.72	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0043-C	BIS021	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	93811518	30.57	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0044-C	BIS022	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	73130604	24.41	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0045-C	BIS023	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	118278002	37.28	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0047-C	BIS025	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	72272916	22.96	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0051-C	BIS029	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	87695624	26.67	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0052-C	BIS030	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	89610342	30.08	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0056-C	BIS034	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	88798358	28.6	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0059-C	BIS037	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	99124976	32.02	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0060-C	BIS038	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	96741566	30.23	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0061-C	BIS039	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	80323372	25.53	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0063-C	BIS041	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	90771354	29.19	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0064-C	BIS042	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	104049374	32.42	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0066-C	BIS044	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	91264234	29.5	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0068-C	BIS046	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	86249854	26.48	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0070-C	BIS048	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	85669812	27.05	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0071-C	BIS049	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	118098254	37.3	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0072-C	BIS050	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	99731470	31.56	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0074-C	BIS052	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	93691662	28.73	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0075-C	BIS053	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	107820520	34.1	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0076-C	BIS054	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	111365470	34.69	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0077-C	BIS055	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	97904868	30.41	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0078-C	BIS056	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	91230496	29.89	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0080-C	BIS058	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	75200770	25.1	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0081-C	BIS059	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	89023286	27.39	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0084-C	BIS062	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	143605446	43.74	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0085-C	BIS063	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	300632488	90.49	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0086-C	BIS064	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	82006720	24.52	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0087-C	BIS065	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	151469916	47.87	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0088-C	BIS066	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	86678080	27.57	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0090-C	BIS068	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	89181652	29.27	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0092-C	BIS070	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	104531552	32.74	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0093-C	BIS071	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	101197890	31.04	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0095-C	BIS073	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	96398484	30.62	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0096-C	BIS074	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	105327954	34.22	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0097-C	BIS075	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	108050858	34.34	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0098-C	BIS076	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	106060436	33.91	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0099-C	BIS077	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	101898018	31.65	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0100-C	BIS078	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	102922278	33.3	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0101-C	BIS079	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	129263226	41.97	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0102-C	BIS080	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	107731926	34.58	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0103-C	BIS081	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	70440408	23.48	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0105-C	BIS083	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M-S	F	105262734	34.37	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0107-C	BIS085	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	90221928	28.97	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0109-C	BIS087	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	93268838	30.08	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0113-C	BIS091	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	99765718	31.89	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0115-C	BIS093	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	M	F	89732774	29.1	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0116-C	BIS094	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	82547130	25.72	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0117-C	BIS095	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	122201388	36.93	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0119-C	BIS097	GW	Guinea-Bissau	Antula	Joao_Pinto	2010	S	F	84655338	27.67	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0128-C	10GBS_0607	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	86938102	28.02	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0129-C	10GBS_0660	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	M-S	F	95288922	29.15	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0130-C	10GBS_0662	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	92842184	28.47	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0131-C	10GBS_0683	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	93064982	29.56	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0132-C	10GBS_0695	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	99846510	32.43	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0133-C	10GBS_0895	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	100987924	32.45	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0134-C	10GBS_0902	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	90174748	25.26	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0135-C	10GBS_0907	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	104175322	32.82	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0136-C	10GBS_0912	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	105983120	34.63	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0137-C	10GBS_0913	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	101247066	32.97	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0138-C	10GBS_0915	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	95242890	29.19	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0139-C	10GBS_0916	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	99942748	25.74	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0140-C	10GBS_0920	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	96766012	22.31	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0141-C	10GBS_0925	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	87729624	28.18	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0142-C	10GBS_0928	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	95002534	30.3	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0143-C	10GBS_0932	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	89327702	27.98	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0144-C	10GBS_0946	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	94077738	29.73	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0145-C	10GBS_1151	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	97439836	28.42	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0146-C	10GBS_1156	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	98654818	32.08	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0147-C	10GBS_1157	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	M-S	F	136852296	43.69	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0148-C	10GBS_1166	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	93967918	30.08	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0149-C	10GBS_1178	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	96438028	31.06	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0150-C	10GBS_1181	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	100192758	32.49	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0151-C	10GBS_1189	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	88199210	28.8	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0152-C	10GBS_1199	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	M-S	F	100313968	32.87	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0153-C	10GBS_1201	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	97175478	32.04	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0154-C	10GBS_1208	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	100135844	31.15	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0155-C	10GBS_1212	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	101685496	33.04	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0156-C	10GBS_1214	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	84892268	27.73	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0157-C	10GBS_1215	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	104655500	33.07	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0158-C	10GBS_1221	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	M-S	F	92215008	30.31	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0159-C	10GBS_1229	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	97091684	30.59	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AJ0161-C	10GBS_1237	GW	Guinea-Bissau	Safim	Joao_Pinto	2010	S	F	89263180	29.17	NA	NA	wtwt_FALSE	GW_FALSE	wt	GW_wt
+AK0060-C	KIL51	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	102532296	29.43	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0062-C	KIL47	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	101494060	33.21	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0065-C	KIL3	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	117270550	37.65	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0066-C	KIL4	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	98872614	32.73	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0067-C	KIL5	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	90981136	30.33	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0068-C	KIL6	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	105350504	34.15	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0069-C	KIL7	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	67236894	22.64	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0070-C	KIL8	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	61556310	21.29	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0072-C	KIL10	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	130729202	42.27	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0073-C	KIL11	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	84724840	27.86	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0074-C	KIL12	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	48071054	16.45	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0075-C	KIL13	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	84100286	26.97	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0076-C	KIL14	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	59909806	20.48	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0077-C	KIL15	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	128509614	41.36	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0078-C	KIL16	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	86432118	28.86	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0079-C	KIL17	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	89239086	29.76	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0080-C	KIL18	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	65620966	22.32	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0081-C	KIL19	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	93469310	31.07	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0082-C	KIL20	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	270609012	85.7	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0085-C	KIL23	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	52682434	17.39	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0086-C	KIL24	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	101981268	32.98	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0087-C	KIL25	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	94340978	30.7	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0088-C	KIL26	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	102843726	32.6	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0089-C	KIL27	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	68240182	22.36	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0090-C	KIL28	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	109154472	34.82	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0091-C	KIL29	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	78471016	25.05	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0092-C	KIL30	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	76338508	24.77	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0093-C	KIL31	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	88228944	28.88	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0094-C	KIL32	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	99931308	32.39	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0095-C	KIL33	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	127697122	40.98	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0096-C	KIL56	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	92573146	29.46	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0098-C	KIL58	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	89402168	28.6	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0099-C	KIL59	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	170784006	44.78	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0100-C	KIL60	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	131149300	41.36	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0101-C	KIL61	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	206484972	57.82	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0102-C	KIL62	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	66281682	20.53	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0103-C	KIL63	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	47281864	15.25	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0104-C	KIL64	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	205621846	65.7	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0105-C	KIL65	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	151545356	48.67	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0106-C	KIL66	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	58290698	19.19	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0107-C	KIL67	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	506623250	162.09	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0108-C	KIL68	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	169706414	50.82	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0109-C	KIL69	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	189642238	55.02	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0110-C	KIL70	KE	Kenya	Kilifi-Junju	Janet_Midega	2012		F	93438526	30.92	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0116-C	KIL76	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	154804826	48.1	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0117-C	KIL77	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	56536758	17.08	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0119-C	KIL79	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	156126612	49.5	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AK0127-C	KIL86	KE	Kenya	Kilifi-Mbogolo	Janet_Midega	2012		F	106796376	34.77	NA	NA	wtwt_FALSE	KE_FALSE	wt	KE_wt
+AN0007-C	CM0901778	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	102380716	30.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0008-C	CM0901779	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	79034844	23.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0009-C	CM0901780	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	152170460	44.04	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0010-C	CM0901782	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	82713106	23.54	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0011-C	CM0901783	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	99774144	29.71	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0012-C	CM0901784	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	134807532	37.73	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0013-C	CM0901785	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	381710782	111.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0014-C	CM0901786	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	136182494	40.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0015-C	CM0901787	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	108552708	36.34	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0016-C	CM0901789	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	65574954	20.99	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0017-C	CM0901790	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	101442640	34.13	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0018-C	CM0901791	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	76725020	24.82	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0019-C	CM0901792	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	93847950	25.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0020-C	CM0901794	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	99409404	29.45	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0022-C	CM0902285	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	72963800	22.54	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0023-C	CM0902286	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	67953998	21.02	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0024-C	CM0902287	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	82032712	25.04	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0025-C	CM0902288	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	93309810	28.82	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0026-C	CM0902289	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	82067356	25.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0027-C	CM0902290	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	63546386	19.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0028-C	CM0902291	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	108904570	33.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0029-C	CM0902293	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	59595980	18.26	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0030-C	CM0902295	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	65098238	20.06	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0031-C	CM0902296	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	69584518	22.09	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0032-C	CM0902297	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	82992754	25.33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0033-C	CM0902298	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	62694606	19.39	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0034-C	CM0902327	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	64588572	19.59	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0035-C	CM0902328	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	48338682	15.28	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0036-C	CM0902333	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	M	106177594	31.8	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0037-C	CM0902262	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	173647432	57.1	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0038-C	CM0902263	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	85810282	27.77	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0039-C	CM0902265	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	107993086	34.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0040-C	CM0902266	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	95815786	29.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0041-C	CM0902267	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	107959274	33.9	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0042-C	CM0902268	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	57724570	17.68	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0043-C	CM0902269	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	92058670	29.92	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0044-C	CM0902273	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	316803126	90.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0045-C	CM0902274	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	109020052	31.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0046-C	CM0902275	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	108925812	26.54	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0047-C	CM0902277	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	149476436	30.69	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0048-C	CM0902278	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	110298290	31.29	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0049-C	CM0902279	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	96346434	23.27	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0050-C	CM0902280	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	126842648	25.33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0051-C	CM0902281	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	143607992	46.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0053-C	CM0902283	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	101732592	31.5	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0054-C	CM0902284	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	64904694	21.29	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0055-C	CM0902299	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	79231112	26.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0056-C	CM0902300	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	91865616	28.29	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0057-C	CM0902305	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	97671386	29.12	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0058-C	CM0902306	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	93272442	28.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0059-C	CM0902308	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	101248932	31.12	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0060-C	CM0902309	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	119789656	31.62	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0061-C	CM0901968	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	106280342	35.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0062-C	CM0901969	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	173480974	54.51	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0063-C	CM0901970	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	81125852	23.02	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0064-C	CM0901971	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	78996928	24.79	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0065-C	CM0901974	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	83309844	27.07	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0066-C	CM0901975	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	78249078	22.29	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0067-C	CM0902002	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	81435170	26.39	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0068-C	CM0902006	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	94130260	29.18	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0069-C	CM0902007	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	83144432	22.91	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0070-C	CM0902023	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	101521952	33.17	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0071-C	CM0902025	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	145887174	45.08	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0072-C	CM0902028	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	83243882	27.45	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0073-C	CM0902029	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	60073152	19.81	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0074-C	CM0902030	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	167701046	49.36	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0075-C	CM0902031	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	86495724	28.32	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0076-C	CM0902072	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	78777946	22.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0077-C	CM0902073	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	85829518	26.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0079-C	CM0902077	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	108170328	29	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0080-C	CM0902078	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	79579710	20.83	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0081-C	CM0902079	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	129284128	36.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0082-C	CM0902080	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	84807116	24.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0083-C	CM0902081	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	91114140	23.8	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0084-C	CM0902082	CMgam	Cameroon	Zembe-Borongo	Nora_Besansky	2009	S	F	101344664	30.52	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0085-C	CM0902128	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	107768594	26.17	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0086-C	CM0902131	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	99594968	23.11	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0087-C	CM0902133	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	120699290	33.08	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0088-C	CM0902156	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	91114758	19.11	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0089-C	CM0902157	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	77550652	22.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0090-C	CM0902158	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	68172582	19.26	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0091-C	CM0902159	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	92701324	25.98	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0092-C	CM0902161	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	223100226	59.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0093-C	CM0902162	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	65334034	17.23	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0094-C	CM0902163	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	101685234	28.91	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0095-C	CM0902164	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	88181622	19.68	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0096-C	CM0902166	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	109742978	32.25	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0097-C	CM0902172	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	94576722	26	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0098-C	CM0902174	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	97030006	29.28	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0099-C	CM0902206	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	61941102	16.97	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0100-C	CM0902207	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	100675284	29.03	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0101-C	CM0902229	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	73183504	23.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0102-C	CM0902232	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	78843938	22.33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0103-C	CM0902244	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	107002246	31.58	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0104-C	CM0902301	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	117495088	30.13	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0105-C	CM0902302	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	100244110	28.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0106-C	CM0902303	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	94162580	29.51	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0107-C	CM0902304	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	103464324	31.36	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0108-C	CM0902307	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	62074228	18.52	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0109-C	CM0902331	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	81400742	23.33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0111-C	CM0902342	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	132022452	34.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0112-C	CM0902343	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	70978438	18.17	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0113-C	CM0902354	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	76503142	22.95	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0114-C	CM0902357	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	64863192	18.86	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0115-C	CM0902358	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	96882660	29.8	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0117-C	CM0902364	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	98010584	30.37	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0118-C	CM0902365	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	97889992	28.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0119-C	CM0902366	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	93031616	27.24	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0120-C	CM0902372	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	103235040	29.91	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0121-C	CM0902373	CMgam	Cameroon	Gado-Badzere	Nora_Besansky	2009	S	F	101529336	24.17	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0122-C	CM0901767	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	79836644	24.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0123-C	CM0901768	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	134255782	41.94	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0124-C	CM0901769	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	113808116	35.86	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0125-C	CM0901770	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	109497756	33.82	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0126-C	CM0901771	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	100410658	31.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0127-C	CM0901772	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	92503154	26.21	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0128-C	CM0901773	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	101257468	31.18	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0129-C	CM0901774	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	110085136	34.75	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0130-C	CM0901775	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	83830412	25.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0131-C	CM0901776	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	44645018	14.21	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0132-C	CM0901777	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	152237890	40.24	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0134-C	CM0901852	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	96985048	31.01	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0135-C	CM0901853	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	181288056	53.68	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0136-C	CM0901855	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	M	113249104	35.3	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0137-C	CM0901587	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	161067802	53.12	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0138-C	CM0901588	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	147708110	48.63	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0139-C	CM0901589	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	198078592	63.83	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0140-C	CM0901590	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	182257780	60.02	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0141-C	CM0901591	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	167370052	55.46	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0142-C	CM0901592	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	182123344	59.61	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0143-C	CM0901593	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	94951778	31.94	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0144-C	CM0901594	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	174339000	58.8	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0147-C	CM0901597	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	191144466	62.77	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0149-C	CM0901599	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	110435708	33.02	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0151-C	CM0901601	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	115120714	37.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0152-C	CM0901602	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	103985174	34.48	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0153-C	CM0901603	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	93111954	31.1	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0154-C	CM0901604	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	87813384	29.11	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0155-C	CM0901605	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	90778570	30.58	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0156-C	CM0901606	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	85719880	28.08	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0157-C	CM0901607	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	106425632	35.41	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0158-C	CM0901608	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	52739258	18.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0159-C	CM0901609	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	106139902	35.52	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0160-C	CM0901610	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	118091538	40.07	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0162-C	CM0901612	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	93590124	30.6	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0163-C	CM0901613	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	147135586	49.2	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0164-C	CM0901615	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	78678436	26.67	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0165-C	CM0901616	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	87933514	29.26	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0166-C	CM0901617	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	94284484	29.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0167-C	CM0901618	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	62886888	20.09	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0168-C	CM0901619	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	99746432	32.94	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0169-C	CM0901620	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	77253074	26.47	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0170-C	CM0901621	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	90857650	30.61	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0171-C	CM0901623	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	169153586	51.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0172-C	CM0901624	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	109998486	33.18	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0173-C	CM0901625	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	134031266	31.94	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0174-C	CM0901626	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	94705008	25.91	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0175-C	CM0901627	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	109337272	31.24	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0176-C	CM0901628	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	111821276	28.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0177-C	CM0901629	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	118929054	36.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0178-C	CM0901630	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	107684098	29.56	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0179-C	CM0901631	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	106366060	31.95	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0180-C	CM0901632	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	99956914	29.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0181-C	CM0901633	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	86252886	21.27	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0182-C	CM0901635	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	124683210	36.85	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0183-C	CM0901636	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	233852602	62.73	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0184-C	CM0901553	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	76194114	19.09	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0185-C	CM0901554	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	102404516	24.66	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0186-C	CM0901555	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	88890578	27.95	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0187-C	CM0901556	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	78808686	22.66	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0188-C	CM0901558	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	81074756	21.38	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0189-C	CM0901559	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	184203402	53.23	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0190-C	CM0901560	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	88572830	23	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0191-C	CM0901561	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	80791692	24.5	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0192-C	CM0901562	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	94610804	24.69	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0193-C	CM0901564	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	83685048	23.21	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0194-C	CM0901565	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	88884022	27.51	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0196-C	CM0901568	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	91828314	24.19	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0197-C	CM0901570	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	98638576	31.15	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0198-C	CM0901572	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	87497388	26.37	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0199-C	CM0901573	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	98445282	27.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0200-C	CM0901575	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	98408356	27.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0201-C	CM0901576	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	92228732	26.36	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0202-C	CM0901578	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	87834178	22.05	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0203-C	CM0901579	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	109149744	32.49	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0204-C	CM0901580	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	107927016	28.93	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0205-C	CM0901581	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	55923006	16.7	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0206-C	CM0901582	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	72526530	21.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0207-C	CM0901583	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	98016572	27.2	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0208-C	CM0901584	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	106990928	35.49	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0209-C	CM0901585	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	49298686	16.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0210-C	CM0901793	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	83611338	24.75	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0212-C	CM0901801	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	84890272	25.07	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0213-C	CM0901803	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	96825770	22.21	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0214-C	CM0901804	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	94331240	27.65	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0215-C	CM0901805	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	97384570	30.6	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0217-C	CM0901808	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	104764036	29.77	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0218-C	CM0901809	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	88771328	26.17	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0219-C	CM0901810	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	131512376	37.98	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0220-C	CM0901814	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	88988312	26.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0221-C	CM0901818	CMgam	Cameroon	Mayos	Nora_Besansky	2009	S	F	122838096	36.93	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0222-C	CM0901912	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	115117576	35	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0223-C	CM0901913	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	82311922	25.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0224-C	CM0901914	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	96621096	30.69	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0225-C	CM0901915	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	83559574	26.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0226-C	CM0901916	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	96775344	30.13	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0227-C	CM0901917	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	89958382	29.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0228-C	CM0901918	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	124902302	37.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0229-C	CM0901919	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	92128668	28.53	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0230-C	CM0901950	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	109265172	33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0231-C	CM0901951	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	92911956	29.38	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0232-C	CM0901952	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	102423504	32.26	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0233-C	CM0901953	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	96046508	29.46	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0234-C	CM0901954	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	90402838	28.82	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0235-C	CM0901955	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	95089594	29.88	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0236-C	CM0901956	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	M	104740628	31.87	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0237-C	CM0901857	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	93969614	21.95	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0238-C	CM0901858	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	194858264	55.46	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0239-C	CM0901859	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	138588730	34.25	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0240-C	CM0901864	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	85680756	26.19	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0241-C	CM0901865	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	111018776	33.15	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0242-C	CM0901866	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	91504272	30.52	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0243-C	CM0901867	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	48287458	15.73	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0244-C	CM0901868	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	99985820	28.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0245-C	CM0901872	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	109067028	32.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0246-C	CM0901873	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	363625902	59.88	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0247-C	CM0901878	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	122372634	35.04	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0248-C	CM0901880	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	111124940	29.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0250-C	CM0901882	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	143553368	40.82	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0251-C	CM0901883	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	105790666	29.77	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0252-C	CM0901885	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	76353190	21.88	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0253-C	CM0901886	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	269078012	60.46	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0254-C	CM0901887	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	275992754	80.42	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0255-C	CM0901888	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	120842982	37.97	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0256-C	CM0901889	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	106010806	32.89	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0258-C	CM0901891	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	108194254	36	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0259-C	CM0901892	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	91510100	29.03	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0260-C	CM0901893	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	88705908	30.1	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0261-C	CM0901894	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	92631202	27.71	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0262-C	CM0901895	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	96029012	32.07	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0263-C	CM0901896	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	110912136	35.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0264-C	CM0901897	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	103695152	29.93	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0265-C	CM0901898	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	212631298	67.37	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0266-C	CM0901899	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	116785434	36.3	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0267-C	CM0901901	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	106209768	33.31	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0268-C	CM0901902	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	81896922	26.78	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0269-C	CM0901903	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	84638922	27.78	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0270-C	CM0901905	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	94988852	32.14	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0271-C	CM0901906	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	49195434	13.73	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0272-C	CM0901937	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	138990628	39.46	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0275-C	CM0901940	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	387041620	98.48	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0276-C	CM0901941	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	94805076	31.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0277-C	CM0901942	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	104110286	28.83	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0278-C	CM0901943	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	89599382	23.58	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0279-C	CM0901944	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	85906908	26.18	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0280-C	CM0901181	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	92083734	29.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0281-C	CM0901182	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	100491206	31.37	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0282-C	CM0901183	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	123967526	40.13	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0283-C	CM0901191	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	98397514	31.78	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0284-C	CM0901193	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	85120060	27.97	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0285-C	CM0901201	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	112783648	35.98	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0286-C	CM0901214	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	92860322	29.52	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0287-C	CM0901239	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	102516016	33.4	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0288-C	CM0901240	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	109027468	36.05	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0289-C	CM0901241	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	177196650	55.65	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0290-C	CM0901242	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	100404510	32.54	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0291-C	CM0901243	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	102912534	33.44	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0292-C	CM0901244	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	97196082	31.54	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0293-C	CM0901245	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	99946840	32.63	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0294-C	CM0901280	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	96727098	31.57	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0295-C	CM0901281	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	137394740	43.51	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0296-C	CM0901284	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	118821084	37.68	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0297-C	CM0901285	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	74600288	24.22	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0298-C	CM0901286	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	96770970	32.35	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0299-C	CM0901287	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	105055282	34.59	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0300-C	CM0901324	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	103888884	33.36	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0301-C	CM0901325	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	75306374	24.38	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0302-C	CM0901388	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	406650914	110.5	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0303-C	CM0901395	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	94433846	23.43	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0304-C	CM0901396	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	79648584	20.92	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0305-C	CM0901397	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	59413818	16.08	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0306-C	CM0901398	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	137851462	33.07	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0307-C	CM0901399	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	185276224	43.08	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0308-C	CM0901400	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	158095224	50.05	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0309-C	CM0901403	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	112568806	37.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0310-C	CM0901404	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	102873078	33.37	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0311-C	CM0901405	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	126488084	40.2	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0312-C	CM0901407	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	121451486	38.16	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0313-C	CM0901410	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	106838052	22.05	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0314-C	CM0901412	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	95489664	32.03	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0315-C	CM0901413	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	118799132	36.95	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0316-C	CM0901414	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	92114554	20.06	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0317-C	CM0901860	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	82323786	22.28	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0318-C	CM0901861	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	114002114	29.33	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0319-C	CM0901862	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	154049184	38.74	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0320-C	CM0901863	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	68847140	16.32	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AN0321-C	CM0901871	CMgam	Cameroon	Daiguene	Nora_Besansky	2009	S	F	87312942	23.81	NA	NA	wtwt_FALSE	CMgam_FALSE	wt	CMgam_wt
+AP0002-C	64	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	147552040	44.72	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0005-C	38	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	86833234	29.5	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0006-C	77	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	105364662	34.09	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0007-C	60	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	134608084	42.38	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0008-C	61	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	68608372	22.33	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0009-C	62	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	88817610	27.2	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0010-C	63	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	145581244	43.85	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0011-C	65	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	70840668	21.85	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0014-C	72	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	114022478	31.77	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0017-C	81	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	116223318	37.24	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0018-C	85	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	116599026	32.8	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0019-C	88	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	81935308	25.24	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0020-C	78	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	61029514	19.33	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0021-C	92	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	128535274	40.62	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0022-C	94	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	114675666	35.08	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0023-C	79	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	101114962	33.48	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0024-C	98	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	73494538	21.91	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0025-C	100	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	97442600	28.05	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0030-C	76	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	110168332	36.86	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0031-C	80	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	64061978	20.55	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0032-C	89	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	70702354	21.85	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0033-C	95	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	F	87748418	28.4	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0034-C	97	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	148442774	41.31	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AP0035-C	99	FRgam	France	Mayotte	Igor_Sharakhov	NA	S	M	95319410	28.49	NA	NA	wtwt_FALSE	FRgam_FALSE	wt	FRgam_wt
+AQ0001-C	1C58.5	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	111356542	36.57	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0002-C	1C58.6	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	135374866	43.08	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0004-C	C58.1	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	111968426	35.49	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0005-C	C58.2	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	119463054	39.08	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0011-C	TL58.6	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	75222968	24.7	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0012-C	TL58.1	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	112175226	36.27	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0013-C	TL58.4	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	118000462	37.93	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0014-C	TL9.1	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	96324592	31.07	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AQ0015-C	TL9.2	GQgam	Equatorial_Guinea	Bioko	Igor_Sharakhov	NA	S	F	134396680	41.6	NA	NA	wtwt_FALSE	GQgam_FALSE	wt	GQgam_wt
+AR0001-C	LUA001	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	113692568	34.63	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0007-C	LUA007	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	99082110	31.48	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0008-C	LUA008	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	91490260	29.21	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0009-C	LUA009	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	105932994	33.27	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0010-C	LUA010	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	115066732	37.74	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0011-C	LUA011	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	105048076	31.87	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0012-C	LUA012	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	105096046	35	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0013-C	LUA013	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	82229076	26.03	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0014-C	LUA014	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	104423686	32.76	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0015-C	LUA015	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	89544974	29.3	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0016-C	LUA016	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	82045122	25.74	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0017-C	LUA017	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	88461946	27.97	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0018-C	LUA018	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	39967272	12.87	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0019-C	LUA019	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	92841496	30.47	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0020-C	LUA020	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	89507990	27.64	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0021-C	LUA021	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	62409564	19.44	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0022-C	LUA022	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	94378862	29.11	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0023-C	LUA023	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	94617032	29.16	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0024-C	LUA024	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	99928404	29.92	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0026-C	LUA026	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	100980310	30.44	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0027-C	LUA027	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	98051838	29.99	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0034-C	LUA034	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	71622878	22.72	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0035-C	LUA035	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	99249560	30.99	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0036-C	LUA036	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	91177826	28.77	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0038-C	LUA038	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	99089092	31.22	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0040-C	LUA040	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	94618282	29.35	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0042-C	LUA042	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	97098524	31.55	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0043-C	LUA043	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	98518316	31.59	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0044-C	LUA044	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	91597590	28.16	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0045-C	LUA045	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	116771594	36.22	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0046-C	LUA046	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	108287260	32.6	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0047-C	LUA047	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	81491198	27.21	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0048-C	LUA048	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	109890310	34.46	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0049-C	LUA049	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	83078320	27.98	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0050-C	LUA050	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	102737040	30.49	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0051-C	LUA051	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	77649564	26.09	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0052-C	LUA052	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	93684502	29.24	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0053-C	LUA053	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	84177928	26.5	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0054-C	LUA054	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	81028790	26.03	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0057-C	LUA057	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	92649398	29.78	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0059-C	LUA059	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	102290938	33.05	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0060-C	LUA060	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	99223056	31.57	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0061-C	LUA061	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	69163440	22.49	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0062-C	LUA062	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	88068714	27.66	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0063-C	LUA063	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	83878848	27.57	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0064-C	LUA064	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	88506992	28.54	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0065-C	LUA065	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	122255572	38.85	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0066-C	LUA066	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	107451220	34.62	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0069-C	LUA069	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	102197788	34.18	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0070-C	LUA070	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	120095148	31.28	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0071-C	LUA071	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	96425146	29.99	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0072-C	LUA072	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	292235984	21.9	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0073-C	LUA073	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	84873846	27.52	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0074-C	LUA074	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	107677226	33.67	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0075-C	LUA075	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	96055776	30.7	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0076-C	LUA076	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	86444090	27.6	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0077-C	LUA077	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	106801560	33.76	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0078-C	LUA078	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	70866952	23.56	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0079-C	LUA079	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	87568936	27.65	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0080-C	LUA080	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	85810328	28.19	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0081-C	LUA081	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	92393940	29.8	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0082-C	LUA082	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	89230312	28.14	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0083-C	LUA083	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	117154794	37.91	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0084-C	LUA084	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	71109824	16.97	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0085-C	LUA085	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	87196016	29.07	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0086-C	LUA086	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	76974012	24.12	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0087-C	LUA087	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	139663142	44.39	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0088-C	LUA088	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	98923748	31.98	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0089-C	LUA089	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	102285596	32.64	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0090-C	LUA090	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	119250566	39.05	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0092-C	LUA092	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	85819022	27.97	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0093-C	LUA093	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	101877796	32.73	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0095-C	LUA095	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	76031354	24.89	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0096-C	LUA096	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	109267536	34.46	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0097-C	LUA097	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	98942016	32.57	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0098-C	LUA098	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	92951040	30.71	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0099-C	LUA099	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	74509650	26.08	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AR0100-C	LUA100	AOcol	Angola	Luanda	Joao_Pinto	2009	M	F	117396356	37.25	NA	NA	wtwt_FALSE	AOcol_FALSE	wt	AOcol_wt
+AS0001-C	LIB001	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	95407900	31.96	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0002-C	LIB002	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	91412508	30.54	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0003-C	LIB003	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	93515284	30.9	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0004-C	LIB004	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	106445332	34.72	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0005-C	LIB005	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	93317724	30.36	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0006-C	LIB006	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	88368216	28.94	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0007-C	LIB007	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	86209460	29.22	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0008-C	LIB008	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	113562516	36.63	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0009-C	LIB009	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	104891658	34.19	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0010-C	LIB010	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	91997280	30.31	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0011-C	LIB011	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	107500670	35.71	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0012-C	LIB012	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	89644956	30.37	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0013-C	LIB013	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	114523314	37.4	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0014-C	LIB014	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	114873076	36.99	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0015-C	LIB015	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	72808294	23.43	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0016-C	LIB016	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	93993048	30.29	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0017-C	LIB017	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	116139562	37.51	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0018-C	LIB018	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	95083186	30.89	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0019-C	LIB019	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	106897394	34.26	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0020-C	LIB020	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	113399970	35.32	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0021-C	LIB021	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	95031208	30.79	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0022-C	LIB022	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	101753358	32.91	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0024-C	LIB024	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	88610890	27.91	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0025-C	LIB025	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	35334132	12.1	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0026-C	LIB026	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	88812378	29.09	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0027-C	LIB027	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	114764176	37.76	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0028-C	LIB028	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	109757818	34.18	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0029-C	LIB029	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	93767958	29.43	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0030-C	LIB030	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	112462804	35.2	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0032-C	LIB032	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	113927254	34.96	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0033-C	LIB033	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	66327196	21.26	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0034-C	LIB034	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	88444406	28.63	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0035-C	LIB035	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	95909928	31.3	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0036-C	LIB036	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	100120724	33.54	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0037-C	LIB037	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	90562216	28.6	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0039-C	LIB039	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	105457300	34.71	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0040-C	LIB040	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	95725706	30.59	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0041-C	LIB041	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	104023904	33.37	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0042-C	LIB042	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	92375134	28.1	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0044-C	LIB044	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	56009974	18.72	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0045-C	LIB045	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	101293228	32.78	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0046-C	LIB046	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	110273778	35.51	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0047-C	LIB047	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	66666138	21.94	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0048-C	LIB048	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	108971648	33.69	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0049-C	LIB049	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	67139006	22.16	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0051-C	LIB051	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	98856282	32.75	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0052-C	LIB052	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	71696804	23.81	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0053-C	LIB053	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	116748284	36.97	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0054-C	LIB054	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	97458580	18.21	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0055-C	LIB055	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	107362622	34.73	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0056-C	LIB056	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	92080258	29.78	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0057-C	LIB057	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	108441034	34.05	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0058-C	LIB058	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	97185402	31.35	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0059-C	LIB059	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	100743932	28.58	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0060-C	LIB060	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	90302674	29.09	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0062-C	LIB062	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	92278428	28.8	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0064-C	LIB064	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	97764826	31.16	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0065-C	LIB065	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	86937604	26.51	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0066-C	LIB066	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	66501316	21.46	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0068-C	LIB068	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	111610884	36.12	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0069-C	LIB069	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	109889320	35.34	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0070-C	LIB070	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	97479858	32.33	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0071-C	LIB071	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	92190532	29.82	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0072-C	LIB072	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	98895302	29.79	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0073-C	LIB073	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	116826888	36.21	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0074-C	LIB074	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	89948066	29.38	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0076-C	LIB076	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	112638696	35.3	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0077-C	LIB077	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	86915104	28.2	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AS0078-C	LIB078	GAgam	Gabon	Libreville	Joao_Pinto	2000	S	F	59156264	19.35	NA	NA	wtwt_FALSE	GAgam_FALSE	wt	GAgam_wt
+AV0001-C	KB001	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	101188184	32.05	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0002-C	KB002	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	84291044	28.08	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0003-C	KB003	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	93939098	29.99	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0004-C	KB008	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	125181816	40.42	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0005-C	KB010	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	106810266	35.11	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0006-C	KB016	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	78184140	25.71	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0007-C	KB041	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	M-S	F	86368656	28.76	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0008-C	KB051	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	78490032	25.58	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0009-C	KB054	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	56202882	17.71	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0010-C	KB057	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	79091970	25.8	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0011-C	KB058	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	104373604	32.49	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0012-C	KB066	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	85020456	26.79	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0013-C	KB081	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	98058596	32.37	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0014-C	KB088	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	91649964	29.9	NA	NA	wtwt_TRUE	GNgam_TRUE	wt	GNgam_wt
+AV0015-C	KB089	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	82193836	27.5	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0017-C	KB110	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	98935872	32.51	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0018-C	KB111	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	88827510	28.99	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0020-C	KB118	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	100967380	30.85	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0021-C	KB124	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	102551920	31.73	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0022-C	KB128	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	94538392	29.47	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0024-C	KB162	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	83709538	26.72	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0025-C	KB281	GNgam	Guinea	Koraboh	Kenneth_Vernick	2012	S	F	39929964	13.21	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0026-C	KD005	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	65951602	21.24	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0027-C	KD029	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	113412324	36.71	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0028-C	KD034	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	111570568	36.44	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0029-C	KD044	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	94573532	30.73	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0030-C	KD104	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	69197558	23.36	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0031-C	KD105	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	77685852	25.23	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0032-C	KD130	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	97340194	32.95	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0033-C	KD148	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	158060590	50.25	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0034-C	KD156	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	92118696	27.32	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0035-C	KD159	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	85890610	26.81	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0036-C	KD170	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	49948500	16.33	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0037-C	KD177	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	61275102	19.84	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0038-C	KD246	GNcol	Guinea	Koundara	Kenneth_Vernick	2012	M	F	98739380	30.87	NA	NA	wtwt_FALSE	GNcol_FALSE	wt	GNcol_wt
+AV0039-C	KD248	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	113999470	33.83	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0040-C	KD255	GNcol	Guinea	Koundara	Kenneth_Vernick	2012	M	F	116667822	35.42	NA	NA	wtwt_FALSE	GNcol_FALSE	wt	GNcol_wt
+AV0041-C	KD264	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	83840132	25.99	NA	NA	119Swt_TRUE	GNgam_TRUE	119S	GNgam_119S
+AV0042-C	KD277	GNcol	Guinea	Koundara	Kenneth_Vernick	2012	M	F	116397790	35.68	NA	NA	wtwt_FALSE	GNcol_FALSE	wt	GNcol_wt
+AV0043-C	KD306	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	36846414	12.06	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0044-C	KD309	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	108387868	31.85	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0045-C	KD339	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	98115760	30.8	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AV0046-C	KD353	GNcol	Guinea	Koundara	Kenneth_Vernick	2012	M	F	68296222	21.57	NA	NA	wtwt_FALSE	GNcol_FALSE	wt	GNcol_wt
+AV0047-C	KD363	GNgam	Guinea	Koundara	Kenneth_Vernick	2012	S	F	103391134	30.94	NA	NA	wtwt_FALSE	GNgam_FALSE	wt	GNgam_wt
+AY0006-C	Tia_dPM_8	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	92062494	29.87	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0007-C	Tia_dPM_16	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	99436108	30.92	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0010-C	Tia_dPM_38	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	102737152	32.7	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0011-C	Tia_dPM_44	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	97128450	31.25	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0012-C	Tia_dPM_51	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98242336	31.81	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0013-C	Tia_aPM_3	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98003590	31.85	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0015-C	Tia_aPM_41	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	103202350	33.22	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0016-C	Tia_aPM_32	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	91838414	29.89	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0017-C	Tia_dPM_7	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	84527184	26.86	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0018-C	Tia_dPM_14	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	97381778	31.07	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0019-C	Tia_dPM_22	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	101186020	32.56	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0020-C	Tia_dPM_29	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	96583056	30.66	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0021-C	Tia_dPM_37	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	100727656	31.83	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0023-C	Tia_dPM_50	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	84685562	27.47	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0024-C	Tia_aPM_1	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98105946	31.7	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0025-C	Tia_aPM_11	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95844526	29.28	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0026-C	Tia_aPM_28	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	103231242	32.84	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0027-C	Tia_aPM_38	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	82339458	26.58	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0029-C	Tia_dPM_13	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	90200192	29.58	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0031-C	Tia_dPM_28	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95863132	30.64	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0032-C	Tia_dPM_36	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	94713402	23.61	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0033-C	Tia_dPM_42	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	85830480	27.43	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0034-C	Tia_dPM_49	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	116205506	35.33	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0035-C	Tia_aPM_19	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	104217532	32.74	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0036-C	Tia_aPM_10	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	94093842	30.67	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0038-C	Tia_aPM_31	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95817080	30.66	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0039-C	Tia_dPM_5	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98078776	31.16	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0040-C	Tia_dPM_12	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	88561576	28.52	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0041-C	Tia_dPM_20	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	97478592	30.41	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0042-C	Tia_dPM_27	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	100457110	22.44	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0043-C	Tia_dPM_34	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	96254120	30.48	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0045-C	Tia_aPM_9	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	97984630	30.7	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0046-C	Tia_aPM_18	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98508496	30.68	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0047-C	Tia_aPM_26	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	93060924	29.82	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0048-C	Tia_aPM_27	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	105286960	33.55	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0049-C	Tia_aPM_40	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98657368	31.78	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0050-C	Tia_dPM_4	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	85438810	27.89	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0052-C	Tia_dPM_19	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	89086424	27.58	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0053-C	Tia_dPM_26	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	93312306	30.81	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0054-C	Tia_dPM_33	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	99723442	32.1	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0055-C	Tia_dPM_55	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	112393152	37.35	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0056-C	Tia_aPM_8	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	105331900	34.18	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0057-C	Tia_aPM_17	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	103424408	33.33	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0058-C	Tia_aPM_25	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	94239280	29.54	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0059-C	Tia_aPM_36	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	90387728	27.93	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0060-C	Tia_aPM_30	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95129228	31.05	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0061-C	Tia_dPM_3	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	93685638	29.54	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0062-C	Tia_dPM_10	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	102271052	31.96	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0063-C	Tia_dPM_18	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95855540	29.92	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0064-C	Tia_dPM_25	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	93234608	30.11	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0065-C	Tia_dPM_48	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	99574902	30.24	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0066-C	Tia_dPM_54	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	100712030	29.32	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0067-C	Tia_aPM_6	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	96175126	30.9	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0068-C	Tia_aPM_15	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95617762	30.58	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0069-C	Tia_aPM_24	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	99354268	32.02	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0070-C	Tia_aPM_35	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	92689602	30.4	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0072-C	Tia_dPM_2	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98344274	32.24	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0074-C	Tia_dPM_17	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	100923050	33.28	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0076-C	Tia_dPM_47	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	89669580	27.58	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0077-C	Tia_dPM_53	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	99024338	31.01	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0078-C	Tia_aPM_5	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	101034336	32.38	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0079-C	Tia_aPM_14	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98759958	32.04	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0080-C	Tia_aPM_23	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	97640586	31.29	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0082-C	Tia_aPM_29	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	98382152	31.22	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0083-C	Tia_dPM_1	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	93259480	30.57	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0085-C	Tia_dPM_31	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	109173728	33.36	dead	pirimiphos_methyl	wtwt_FALSE	CIcol_FALSE	wt	CIcol_wt
+AY0087-C	Tia_dPM_46	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	101458232	32.56	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0088-C	Tia_dPM_52	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95140584	30.75	dead	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0089-C	Tia_aPM_4	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	92383724	29.04	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0090-C	Tia_aPM_13	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	96210618	30.94	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S
+AY0091-C	Tia_aPM_37	CIcol	Cote_d'Ivoire	Tiassale	David_Weetman	2012	M	F	95973872	31.3	alive	pirimiphos_methyl	119Swt_TRUE	CIcol_TRUE	119S	CIcol_119S

@@ -1,0 +1,5 @@
+ox_code	SRAid	population	species
+SRS408185	SRP020530	CMmel	mela
+SRS408142	SRP020515	CMmel	mela
+SRS408147	SRP020520	CMmel	mela
+SRS408994	SRP020604	CMmel	mela
