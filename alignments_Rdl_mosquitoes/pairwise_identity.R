@@ -15,7 +15,10 @@ ali_idm = as.matrix(1-(ali_idm ^ 2))         # conversion: distance to identity.
                                              # For example, if identity between 2 sequences is 80 the squared root of (1.0 - 0.8) i.e. 0.4472136
 
 # print results for Anogam Rdl ortholog
-print(ali_idm["Anogam_AGAP006028-RC",])
+print(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
+print(ali_idm["Anogam_AGAP006028-RC","Aedaeg_AAEL008354-RJ"])
+max(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
+min(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
 
 
 # print heatmap
