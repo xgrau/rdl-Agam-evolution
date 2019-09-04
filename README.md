@@ -12,11 +12,17 @@ The scripts in this repo can be used to reproduce all main analyses from ``this 
 
 All analyses are organised in three scripts:
 
-* **``kartyotype_2La_phase2.ipynb``** to karyotype 2La inversions in Ag1000G phase 2 data, using genotype frequencies and known karyotypes from Phase 1. In theory you can use it to karyotype any other inversion as long as you've got a training set (Figure 5, also used in admixture analyses).
-* **``haplotype_analysis_28jun19.ipynb``** can be used to calculate genotype frequencies, build haplotype networks, perfom positive selection scans along the gene & chromosome, and to obtain haplotype alignments (Figures 1-4 and 6)
-* **``admixture_h28jun19.ipynb``** perform Patterson's D tests of introgression (aka ABBA-BABA test) between various pairs of populations (Figures 7 & 8, SM 7 & 8)
+* **`kartyotype_2La_phase2.ipynb`** to karyotype 2La inversions in Ag1000G phase 2 data, using genotype frequencies and known karyotypes from Phase 1. In theory you can use it to karyotype any other inversion as long as you've got a training set (Figure 5, also used in admixture analyses). Output goes to `karyotype_2La_output`.
+* **`haplotype_analysis_28jun19.ipynb`** can be used to calculate genotype frequencies, build haplotype networks, perfom positive selection scans along the gene & chromosome, and to obtain haplotype alignments (Figures 1-4 and 6). Output goes to `haplotype_analysis_output`.
+* **`admixture_h28jun19.ipynb`** perform Patterson's D tests of introgression (aka ABBA-BABA test) between various pairs of populations (Figures 7 & 8, SM 7 & 8). Output goes to `admixture_analysis_output`.
 
 All three scripts are available as ipython notebooks, executable python scripts, and as HTML-formatted documents (with visual outputs).
+
+Other folders:
+
+* **`alignments_Rdl_mosquitoes`**: alignments and a couple of R scripts to calculate pairwise identity and dN/dS ratios for *Rdl* orthologs across species.
+* **`data`** folder with metadata for the scripts above (sample info, karyotypes, etc.).
+* **`scripts_hapclust`** and **`scripts_printtranscripts`**: some helper functions.
 
 ## Data
 
