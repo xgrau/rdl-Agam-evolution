@@ -11,11 +11,7 @@ ali_dnds = dnds(ali)
 ali_dnds = as.matrix(ali_dnds)
 
 # print results for Anogam Rdl ortholog
-# print(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
-# print(ali_dnds["Anogam_AGAP006028-RC","Aedaeg_AAEL008354-RJ"])
-# max(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
-# min(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
-
+print(ali_dnds[c("Anogam_AGAP006028-RA","Anogam_AGAP006028-RB","Anogam_AGAP006028-RC"),"Aedaeg_AAEL008354-RJ"])
 
 # print heatmap
 col.fun = colorRampPalette(interpolate="l",c("aliceblue","deepskyblue","dodgerblue4"))
