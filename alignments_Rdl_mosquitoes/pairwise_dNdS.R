@@ -3,17 +3,18 @@ library(pheatmap)
 
 # read alignment
 setwd("/home/xavi/Documents/VariationAg1k/rdl-Agam-evolution/alignments_Rdl_mosquitoes/")
-ali_file = "rdl_cds_complete_codon.pal2nal.fasta"
+ali_file = "rdl_cds_complete_isoforms_codon.pal2nal.fasta"
 ali = read.FASTA(ali_file, type = "DNA")
 
+# calculate dNdS
 ali_dnds = dnds(ali)
 ali_dnds = as.matrix(ali_dnds)
 
 # print results for Anogam Rdl ortholog
-print(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
-print(ali_dnds["Anogam_AGAP006028-RC","Aedaeg_AAEL008354-RJ"])
-max(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
-min(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
+# print(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
+# print(ali_dnds["Anogam_AGAP006028-RC","Aedaeg_AAEL008354-RJ"])
+# max(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
+# min(ali_dnds["Anogam_AGAP006028-RC",2:nrow(ali_dnds)])
 
 
 # print heatmap

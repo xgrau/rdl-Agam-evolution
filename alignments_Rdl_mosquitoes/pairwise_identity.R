@@ -3,7 +3,7 @@ library(pheatmap)
 
 # read alignment
 setwd("/home/xavi/Documents/VariationAg1k/rdl-Agam-evolution/alignments_Rdl_mosquitoes/")
-ali_file = "rdl_pep_complete.ginsi.fasta"
+ali_file = "rdl_pep_complete_isoforms.ginsi.fasta"
 ali      = read.alignment(ali_file, format = "fasta")
 # ali = readAAMultipleAlignment(ali_file,format = "fasta")
 # ali = read.FASTA(ali_file, type = "AA")
@@ -15,11 +15,7 @@ ali_idm = as.matrix(1-(ali_idm ^ 2))         # conversion: distance to identity.
                                              # For example, if identity between 2 sequences is 80 the squared root of (1.0 - 0.8) i.e. 0.4472136
 
 # print results for Anogam Rdl ortholog
-print(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
-print(ali_idm["Anogam_AGAP006028-RC","Aedaeg_AAEL008354-RJ"])
-max(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
-min(ali_idm["Anogam_AGAP006028-RC",2:nrow(ali_idm)])
-
+print(ali_idm[c("Anogam_AGAP006028-RA","Anogam_AGAP006028-RB","Anogam_AGAP006028-RC"),"Aedaeg_AAEL008354-RJ"])
 
 # print heatmap
 col.fun = colorRampPalette(interpolate="l",c("aliceblue","deepskyblue","dodgerblue4"))
