@@ -1,9 +1,5 @@
 # Genetic variation in *Anopheles* RDL genes
 
-## WAIT
-
-This repository is empty because it's still work in progress.
-
 ## What is this
 
 The scripts in this repo can be used to reproduce all main analyses from ``this manuscript``.
