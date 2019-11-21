@@ -12,7 +12,7 @@ All analyses are organised in three scripts:
 * **`haplotype_analysis_28jun19.ipynb`** can be used to calculate genotype frequencies, build haplotype networks, perfom positive selection scans along the gene & chromosome, and to obtain haplotype alignments (Figures 1-4, 6 and 7). Output goes to `haplotype_analysis_output`.
 * **`admixture_h28jun19.ipynb`** perform Patterson's D tests of introgression (aka ABBA-BABA test) between various pairs of populations (Figure 8). Output goes to `admixture_analysis_output`.
 
-All three scripts are available as ipython notebooks, executable python scripts, and as HTML-formatted documents (with visual outputs).
+All three scripts are available as ipython notebooks and python scripts.
 
 Other folders:
 
