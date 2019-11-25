@@ -84,6 +84,7 @@ warnings.simplefilter('ignore')
 import random
 
 get_ipython().run_line_magic('run', 'scripts_hapclust/hapclust.py')
+get_ipython().run_line_magic('run', 'scripts_printtranscripts/allel_printtranscripts_24gen18.py')
 
 # load plot settings
 sns.set(context="notebook",style="ticks",
@@ -895,22 +896,7 @@ loc_colvar = np.array([var_colors[p] for p in loc_gty_T])
 # In[35]:
 
 
-loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(
-    h=loc_hap,
-    max_dist=max_dist,   
-    max_allele=max_alle, # for MJN only; default is 3
-    show_node_labels=min_fc_h,
-    distance_metric='hamming',network_method=net_meth,
-    hap_colors=loc_colpop,variant_labels=loc_snpnom,
-    return_components=True,show_singletons=False)
-
-num_components = loc_components.shape[0]
-
-# plot pdf
-loc_graph.format = 'pdf'
-loc_graph.attr(label='\n\n%s %s %s:%i\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))
-fn = "%s/%s_%s.hn_%s_var_%s_%s-pop" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)
-loc_graph.render(fn,cleanup=True)
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(\n    h=loc_hap,\n    max_dist=max_dist,   \n    max_allele=max_alle, # for MJN only; default is 3\n    show_node_labels=min_fc_h,\n    distance_metric=\'hamming\',network_method=net_meth,\n    hap_colors=loc_colpop,variant_labels=loc_snpnom,\n    return_components=True,show_singletons=False)\n\nnum_components = loc_components.shape[0]\n\n# plot pdf\nloc_graph.format = \'pdf\'\nloc_graph.attr(label=\'\\n\\n%s %s %s:%i\\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp\' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))\nfn = "%s/%s_%s.hn_%s_var_%s_%s-pop" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)\nloc_graph.render(fn,cleanup=True)')
 
 
 # In[36]:
@@ -977,22 +963,7 @@ print(loc_varn,loc_vari,"print clusters total size:",sum(loc_printhap),"/",len(l
 # In[39]:
 
 
-loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(
-    h=loc_hap.subset(sel1=loc_printhap),
-    max_dist=max_dist,   
-    max_allele=max_alle, # for MJN only; default is 3
-    show_node_labels=100,
-    distance_metric='hamming',network_method=net_meth,
-    hap_colors=loc_colpop[loc_printhap],variant_labels=loc_snpnom,
-    return_components=True,show_singletons=False)
-
-num_components = loc_components.shape[0]
-
-# plot pdf
-loc_graph.format = 'pdf'
-loc_graph.attr(label='\n\n%s %s %s:%i\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))
-fn = "%s/%s_%s.hn_%s_var_%s_%s-pop_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)
-loc_graph.render(fn,cleanup=True)
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(\n    h=loc_hap.subset(sel1=loc_printhap),\n    max_dist=max_dist,   \n    max_allele=max_alle, # for MJN only; default is 3\n    show_node_labels=100,\n    distance_metric=\'hamming\',network_method=net_meth,\n    hap_colors=loc_colpop[loc_printhap],variant_labels=loc_snpnom,\n    return_components=True,show_singletons=False)\n\nnum_components = loc_components.shape[0]\n\n# plot pdf\nloc_graph.format = \'pdf\'\nloc_graph.attr(label=\'\\n\\n%s %s %s:%i\\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp\' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))\nfn = "%s/%s_%s.hn_%s_var_%s_%s-pop_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)\nloc_graph.render(fn,cleanup=True)')
 
 
 # Plot hap networks colored by species:
@@ -1008,22 +979,7 @@ loc_graph.render(fn,cleanup=True)
 # In[40]:
 
 
-loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(
-    h=loc_hap.subset(sel1=loc_printhap),
-    max_dist=max_dist,   
-    max_allele=max_alle, # for MJN only; default is 3
-    show_node_labels=100,
-    distance_metric='hamming',network_method=net_meth,
-    hap_colors=loc_colpos[loc_printhap],variant_labels=loc_snpnom,
-    return_components=True,show_singletons=False)
-
-num_components = loc_components.shape[0]
-
-# plot pdf
-loc_graph.format = 'pdf'
-loc_graph.attr(label='\n\n%s %s %s:%i\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))
-fn = "%s/%s_%s.hn_%s_var_%s_%s-sps_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)
-loc_graph.render(fn,cleanup=True)
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(\n    h=loc_hap.subset(sel1=loc_printhap),\n    max_dist=max_dist,   \n    max_allele=max_alle, # for MJN only; default is 3\n    show_node_labels=100,\n    distance_metric=\'hamming\',network_method=net_meth,\n    hap_colors=loc_colpos[loc_printhap],variant_labels=loc_snpnom,\n    return_components=True,show_singletons=False)\n\nnum_components = loc_components.shape[0]\n\n# plot pdf\nloc_graph.format = \'pdf\'\nloc_graph.attr(label=\'\\n\\n%s %s %s:%i\\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp\' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))\nfn = "%s/%s_%s.hn_%s_var_%s_%s-sps_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)\nloc_graph.render(fn,cleanup=True)')
 
 
 # Plot haplotype networks colored by genotype in the 296th codon:
@@ -1037,22 +993,7 @@ loc_graph.render(fn,cleanup=True)
 # In[41]:
 
 
-loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(
-    h=loc_hap.subset(sel1=loc_printhap),
-    max_dist=max_dist,   
-    max_allele=max_alle, # for MJN only; default is 3
-    show_node_labels=100,
-    distance_metric='hamming',network_method=net_meth,
-    hap_colors=loc_colvar[loc_printhap],variant_labels=loc_snpnom,
-    return_components=True,show_singletons=False)
-
-num_components = loc_components.shape[0]
-
-# plot pdf
-loc_graph.format = 'pdf'
-loc_graph.attr(label='\n\n%s %s %s:%i\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))
-fn = "%s/%s_%s.hn_%s_var_%s_%s-gty_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)
-loc_graph.render(fn,cleanup=True)
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(\n    h=loc_hap.subset(sel1=loc_printhap),\n    max_dist=max_dist,   \n    max_allele=max_alle, # for MJN only; default is 3\n    show_node_labels=100,\n    distance_metric=\'hamming\',network_method=net_meth,\n    hap_colors=loc_colvar[loc_printhap],variant_labels=loc_snpnom,\n    return_components=True,show_singletons=False)\n\nnum_components = loc_components.shape[0]\n\n# plot pdf\nloc_graph.format = \'pdf\'\nloc_graph.attr(label=\'\\n\\n%s %s %s:%i\\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp\' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))\nfn = "%s/%s_%s.hn_%s_var_%s_%s-gty_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)\nloc_graph.render(fn,cleanup=True)')
 
 
 # Add genotypes for 345th codon:
@@ -1091,22 +1032,7 @@ loc_colvar = np.array([var_colors[p] for p in loc_gty_T])
 # In[44]:
 
 
-loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(
-    h=loc_hap.subset(sel1=loc_printhap),
-    max_dist=max_dist,   
-    max_allele=max_alle, # for MJN only; default is 3
-    show_node_labels=100,
-    distance_metric='hamming',network_method=net_meth,
-    hap_colors=loc_colvar[loc_printhap],variant_labels=loc_snpnom,
-    return_components=True,show_singletons=False)
-
-num_components = loc_components.shape[0]
-
-# plot pdf
-loc_graph.format = 'pdf'
-loc_graph.attr(label='\n\n%s %s %s:%i\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))
-fn = "%s/%s_%s.hn_%s_var_%s_%s-gtyvgsc_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)
-loc_graph.render(fn,cleanup=True)
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loc_graph, loc_distinct_sets, loc_components = graph_haplotype_network(\n    h=loc_hap.subset(sel1=loc_printhap),\n    max_dist=max_dist,   \n    max_allele=max_alle, # for MJN only; default is 3\n    show_node_labels=100,\n    distance_metric=\'hamming\',network_method=net_meth,\n    hap_colors=loc_colvar[loc_printhap],variant_labels=loc_snpnom,\n    return_components=True,show_singletons=False)\n\nnum_components = loc_components.shape[0]\n\n# plot pdf\nloc_graph.format = \'pdf\'\nloc_graph.attr(label=\'\\n\\n%s %s %s:%i\\n%i haps clustered into %i clusters with %s maxdist %i, from %i phased vars located +/- %i bp\' % (l_nom,loc_varn,chrom,loc_vari,loc_hap.shape[1],num_components,net_meth,max_dist,loc_hap.shape[0],fbp_hap))\nfn = "%s/%s_%s.hn_%s_var_%s_%s-gtyvgsc_minfq" % (outdir,outcode,l_nom,net_meth,loc_vari,loc_varn)\nloc_graph.render(fn,cleanup=True)')
 
 
 # Legend for population colors:
@@ -1546,7 +1472,7 @@ for i,clui in enumerate([4]):
             ax3.plot(clu_ehh_pos/1e6,clu_ehh_i,color=colors[j],label=clu_lab,mfc='none')
             
             # hap div
-            clu_pos_wib    = allel.stats.moving_statistic(oc_hapvars_seg["POS"].subset(sel0=clu_varbool), statistic=lambda v: v[0], size=100, step=10)
+            clu_pos_wib    = allel.moving_statistic(oc_hapvars_seg["POS"].subset(sel0=clu_varbool), statistic=lambda v: v[0], size=100, step=10)
             clu_hdi_wib    = allel.moving_haplotype_diversity(oc_haploty_hap_seg.subset(sel0=clu_varbool,sel1=clu_sambool), size=100, step=10)
             plt.subplot(3, 1, 2)
             plt.step(clu_pos_wib/1e6, clu_hdi_wib, color=colors[j])
@@ -1725,22 +1651,228 @@ pdf.savefig(fig,bbox_inches='tight')
 pdf.close()
 
 
-# ### Genetic differentiation in the core haplotype
+# Same but without loops:
+
+# In[161]:
+
+
+# # create hap dictionary: similar to pop dict, but for associations hap-cluster
+# popdich_clu_kt = dict()
+# # populate dict of interest
+# popdich_clu_kt["cluster_4_kt0"] =  np.where((loc_components_id_dati["hap_cluster"] == 4) & 
+#                                             (kary_df_hap["estimated_kt"] == 0))[0]
+# popdich_clu_kt["cluster_4_kt2"] =  np.where((loc_components_id_dati["hap_cluster"] == 4) & 
+#                                             (kary_df_hap["estimated_kt"] == 2))[0]
+# popdich_clu_kt["cluster_34_kt0"] = np.where((loc_components_id_dati["hap_cluster"] == 34) &
+#                                             (kary_df_hap["estimated_kt"] == 0))[0]
+# popdich_clu_kt["cluster_34_kt2"] = np.where((loc_components_id_dati["hap_cluster"] == 34) &
+#                                             (kary_df_hap["estimated_kt"] == 2))[0]
+# popdich_clu_kt["cluster_no_kt0"] = np.where((loc_components_id_dati["hap_cluster"] != 4) & 
+#                                             (loc_components_id_dati["hap_cluster"] != 34) & 
+#                                             (kary_df_hap["estimated_kt"] == 0))[0]
+# popdich_clu_kt["cluster_no_kt2"] = np.where((loc_components_id_dati["hap_cluster"] != 4) & 
+#                                             (loc_components_id_dati["hap_cluster"] != 34) & 
+#                                             (kary_df_hap["estimated_kt"] == 2))[0]
+
+# # counts
+# n=0
+# for i in popdich_clu_kt.keys():
+#     m=popdich_clu_kt[i].shape[0]
+#     print(i,m)
+#     n=m+n
+# print("total",n) # it's less than the total size because we ignore heterozygotes
+
+# # new allele counts, aware of clusters and karyotypes
+# # focus on this region
+# clu_varbool = np.logical_and(oc_hapvars_seg["POS"] > loc_start-1e6, 
+#                              oc_hapvars_seg["POS"] <= loc_end+1e6)
+
+# # new allele counts
+# oc_hapalco_hap_clu_seg_kar = oc_haploty_hap_seg.subset(sel0=clu_varbool).count_alleles_subpops(subpops=popdich_clu_kt)
+# oc_hapalco_hap_clu_seg_kar.shape
+
+# clu_varbool = np.logical_and(oc_hapvars_seg["POS"] > loc_start-1e6, 
+#                              oc_hapvars_seg["POS"] <= loc_end+1e6)
+
+# size=5000
+# step=1000
+
+# oc_hapalco_hap_clu_seg
+
+# # divergence between 296G-kt0 and wt-kt2
+# dxy_div_G0_wt2 = allel.windowed_divergence(
+#     ac1=oc_hapalco_hap_clu_seg_kar["cluster_4_kt0"],
+#     ac2=oc_hapalco_hap_clu_seg_kar["cluster_no_kt2"],
+#     pos=oc_hapvars_seg["POS"].subset(sel0=clu_varbool), 
+#     size=size,step=step)
+
+# # divergence between 296G-kt0 and wt-kt0
+# dxy_div_G0_wt0 = allel.windowed_divergence(
+#     ac1=oc_hapalco_hap_clu_seg_kar["cluster_4_kt0"],
+#     ac2=oc_hapalco_hap_clu_seg_kar["cluster_no_kt0"],
+#     pos=oc_hapvars_seg["POS"].subset(sel0=clu_varbool), 
+#     size=size,step=step)
+
+# # divergence between 296G-kt2 and wt-kt2
+# dxy_div_G2_wt2 = allel.windowed_divergence(
+#     ac1=oc_hapalco_hap_clu_seg_kar["cluster_4_kt2"],
+#     ac2=oc_hapalco_hap_clu_seg_kar["cluster_no_kt2"],
+#     pos=oc_hapvars_seg["POS"].subset(sel0=clu_varbool), 
+#     size=size,step=step)
+
+# # divergence between 296G-kt2 and wt-kt0
+# dxy_div_G2_wt0 = allel.windowed_divergence(
+#     ac1=oc_hapalco_hap_clu_seg_kar["cluster_4_kt2"],
+#     ac2=oc_hapalco_hap_clu_seg_kar["cluster_no_kt0"],
+#     pos=oc_hapvars_seg["POS"].subset(sel0=clu_varbool), 
+#     size=size,step=step)
+
+
+# # PLOT
+# fig = plt.figure(figsize=(8,4))
+# ax = plt.subplot(1, 1, 1)
+
+# plt.step(dxy_div_G0_wt2[1][:,0]/1e6, 
+#          dxy_div_G0_wt2[0], 
+#          color="blue", label="296G-kt0 ~ wt-kt2")
+# plt.step(dxy_div_G0_wt2[1][:,0]/1e6, 
+#          dxy_div_G0_wt0[0], 
+#          color="magenta", label="296G-kt0 ~ wt-kt0")
+# plt.step(dxy_div_G0_wt2[1][:,0]/1e6, 
+#          dxy_div_G2_wt2[0], 
+#          color="limegreen", label="296G-kt2 ~ wt-kt2")
+# plt.step(dxy_div_G0_wt2[1][:,0]/1e6, 
+#          dxy_div_G2_wt0[0], 
+#          color="gray", label="296G-kt2 ~ wt-kt0")
+
+# plt.axvline(loc_start/1e6, color='red',linestyle=":",label="locus")
+# plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
+# ax.set_ylim(0,0.01)
+# ax.set_xlim(clu_ehh_pos[0]/1e6,clu_ehh_pos[-1]/1e6)
+# ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5))
+# ax.set_xlabel("Mb")
+# ax.set_ylabel("Dxy")
+# sns.despine(ax=ax,offset=10)
+
+
+# ### Genetic differences in the core haplotype
 # 
-# First, normalised hamming distance between haplotypes, in a pairwise fashion:
+# First, mean pairwise difference between groups of haplotypes:
 
 # In[57]:
 
 
 corehap_varbool = np.logical_and(oc_hapvars_seg["POS"] > loc_vari-fbp_hap, oc_hapvars_seg["POS"] < loc_vari+fbp_hap)
+
+
+# In[58]:
+
+
+mpd_1="cluster_4"
+mpd_2="cluster_34"
+mpd = allel.mean_pairwise_difference_between(
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("mpd", mpd_1 ,"~", mpd_2,
+      np.nanmean(mpd), "+/-", scipy.stats.sem(mpd))
+
+
+# In[59]:
+
+
+mpd_1="cluster_4"
+mpd_2="cluster_no"
+mpd = allel.mean_pairwise_difference_between(
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("mpd", mpd_1 ,"~", mpd_2,
+      np.nanmean(mpd), "+/-", scipy.stats.sem(mpd))
+
+
+# In[60]:
+
+
+mpd_1="cluster_34"
+mpd_2="cluster_no"
+mpd = allel.mean_pairwise_difference_between(
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("mpd", mpd_1 ,"~", mpd_2,
+      np.nanmean(mpd), "+/-", scipy.stats.sem(mpd))
+
+
+# Pairwise divergence Dxy over blocks:
+
+# In[61]:
+
+
+mpd_1="cluster_4"
+mpd_2="cluster_34"
+mpd = allel.sequence_divergence(
+    pos=oc_hapvars_seg["POS"].subset(sel0=corehap_varbool),
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("dxy", mpd_1 ,"~", mpd_2, mpd)
+
+
+# Pairwise divergence (Dxy):
+
+# In[62]:
+
+
+mpd_1="cluster_4"
+mpd_2="cluster_34"
+mpd = allel.sequence_divergence(
+    pos=oc_hapvars_seg["POS"].subset(sel0=corehap_varbool),
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("dxy", mpd_1 ,"~", mpd_2, mpd)
+
+
+# In[63]:
+
+
+mpd_1="cluster_4"
+mpd_2="cluster_no"
+mpd = allel.sequence_divergence(
+    pos=oc_hapvars_seg["POS"].subset(sel0=corehap_varbool),
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("dxy", mpd_1 ,"~", mpd_2, mpd)
+
+
+# In[64]:
+
+
+mpd_1="cluster_34"
+mpd_2="cluster_no"
+mpd = allel.sequence_divergence(
+    pos=oc_hapvars_seg["POS"].subset(sel0=corehap_varbool),
+    ac1=oc_hapalco_hap_clu_seg[mpd_1].subset(sel0=corehap_varbool),
+    ac2=oc_hapalco_hap_clu_seg[mpd_2].subset(sel0=corehap_varbool))
+
+print("dxy", mpd_1 ,"~", mpd_2, mpd)
+
+
+# Normalised hamming distance between haplotypes, in a pairwise fashion:
+
+# In[65]:
+
+
+corehap_varbool = np.logical_and(oc_hapvars_seg["POS"] > loc_vari-fbp_hap, oc_hapvars_seg["POS"] < loc_vari+fbp_hap)
 corehap_saminxs = np.append(np.append(popdich_clu["cluster_4"], popdich_clu["cluster_34"]),popdich_clu["cluster_no"])
-#corehap_saminxs = np.append(popdich_clu["cluster_4"], popdich_clu["cluster_34"])
 corehap_genomat = oc_haploty_hap_seg.subset(
     sel0=corehap_varbool, sel1=corehap_saminxs )
 corehap_genomat.shape
 
 
-# In[58]:
+# In[66]:
 
 
 pdf = PdfPages("%s/%s_%s.distmat.pdf" % (outdir,outcode,l_nom))
@@ -1761,7 +1893,7 @@ pdf.close()
 
 # Second, Fst between groups of haplotypes:
 
-# In[59]:
+# In[67]:
 
 
 block_len_snp = 5000
@@ -1775,7 +1907,7 @@ def loop_Fst(name, popA_list, popC_list,
              color=["blue","darkorange","turquoise","crimson","magenta","limegreen",
                     "forestgreen","slategray","orchid","darkblue"]):
     
-    windows_pos = allel.stats.moving_statistic(pos, statistic=lambda v: v[0], size=block_len_snp,step=step_len_snp)
+    windows_pos = allel.moving_statistic(pos, statistic=lambda v: v[0], size=block_len_snp,step=step_len_snp)
 
     # calculate pvalues and focus in this region: duplicated region proper
     is_locus = np.logical_and(pos > loc_start,pos < loc_end) # gene region
@@ -1850,7 +1982,7 @@ def loop_Fst(name, popA_list, popC_list,
     pdf.close()
 
 
-# In[60]:
+# In[68]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_Fst(\n    name="corehap",\n    popA_list=["cluster_4","cluster_34","cluster_no"],\n    popC_list=["cluster_4","cluster_34","cluster_no"],\n    popA_ac=oc_hapalco_hap_clu_seg, \n    popC_ac=oc_hapalco_hap_clu_seg, \n    pos=oc_hapvars_seg["POS"],\n    cycle="C"\n)')
@@ -1860,7 +1992,7 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_Fst(\n
 # 
 # Sequence diversity in each haplotype group:
 
-# In[61]:
+# In[69]:
 
 
 varbool_loc   = np.logical_and(oc_hapvars_seg["POS"] >= loc_start, oc_hapvars_seg["POS"] <= loc_end)
@@ -1896,7 +2028,7 @@ for popi in ["cluster_34","cluster_4","cluster_no"]:
 # 
 # Compute **Garud H** for each cluster, along the entire chromosome, to see landscape:
 
-# In[62]:
+# In[70]:
 
 
 # parameters
@@ -1907,7 +2039,7 @@ fbp_hap_extra = 1e6
 
 # variants to retain
 print("Retain...")
-clu_pos_wib    = allel.stats.moving_statistic(oc_hapvars_seg["POS"], statistic=lambda v: v[0], size=block_len_hap,step=step_len_hap)
+clu_pos_wib    = allel.moving_statistic(oc_hapvars_seg["POS"], statistic=lambda v: v[0], size=block_len_hap,step=step_len_hap)
 
 # open pdf
 pdf = PdfPages("%s/%s_%s.sel_garudH.pdf" % (outdir,outcode,l_nom))
@@ -2003,7 +2135,7 @@ pdf.close()
 # 
 # Selection statistics within core haplotype:
 
-# In[63]:
+# In[71]:
 
 
 clu_varbool    = np.logical_and(oc_hapvars_seg["POS"] >= loc_vari-fbp_hap , oc_hapvars_seg["POS"] <= loc_vari+fbp_hap)
@@ -2040,7 +2172,7 @@ for i,clui in enumerate(np.append(clu_list_ids_fil,"no")):
 
 # Now, selection statistics within the gene of interest:
 
-# In[64]:
+# In[72]:
 
 
 clu_varbool    = np.logical_and(oc_hapvars_seg["POS"] >= loc_start , oc_hapvars_seg["POS"] <= loc_end)
@@ -2077,7 +2209,7 @@ for i,clui in enumerate(np.append(clu_list_ids_fil,"no")):
 
 # Now, positive selection statistics in Vgsc:
 
-# In[65]:
+# In[73]:
 
 
 clu_varbool    = np.logical_and(oc_hapvars_seg["POS"] >= 2358158 , oc_hapvars_seg["POS"] <= 2431617)
@@ -2114,7 +2246,7 @@ for i,clui in enumerate(np.append(clu_list_ids_fil,"no")):
 
 # Same thing, around Vgsc's 995th codon:
 
-# In[66]:
+# In[74]:
 
 
 clu_varbool    = np.logical_and(oc_hapvars_seg["POS"] >= 2422651-6000 , oc_hapvars_seg["POS"] <= 2422651+6000) # lengths from Clarkson et al biorxiv 2018
@@ -2153,7 +2285,7 @@ for i,clui in enumerate(np.append(clu_list_ids_fil,"no")):
 # 
 # Prepare sequence names. First, genotype in 296th codon:
 
-# In[67]:
+# In[75]:
 
 
 oc_sampleh["296_SG_genotype"] = loc_gty_T.astype(str)
@@ -2161,7 +2293,7 @@ oc_sampleh["296_SG_genotype"] = loc_gty_T.astype(str)
 
 # Add info from 2La karyotype:
 
-# In[68]:
+# In[76]:
 
 
 kary_df = pd.read_csv(kary_fn, sep='\t')
@@ -2178,7 +2310,7 @@ kary_df_hap.shape
 
 # Create alignment dataframe:
 
-# In[69]:
+# In[77]:
 
 
 happhy = pd.DataFrame({
@@ -2190,7 +2322,7 @@ happhy.head()
 
 # #### FASTA *Rdl*
 
-# In[70]:
+# In[78]:
 
 
 export_name        = "loc" 
@@ -2217,7 +2349,7 @@ pd.DataFrame({
 # 
 # Haplotype region around 296th codon only:
 
-# In[71]:
+# In[79]:
 
 
 export_name        = "corehap" 
@@ -2240,7 +2372,7 @@ pd.DataFrame({
 }).to_csv("%s/%s_%s.alig_%s.pos" % (outdir,outcode,l_nom,export_name),sep="\n",index=False, header=False)
 
 
-# In[72]:
+# In[80]:
 
 
 export_name        = "corehap_strict" 
@@ -2267,7 +2399,7 @@ pd.DataFrame({
 # 
 # Haplotype alignemnt in the 5' and 3' region of the gene (gene start and end +/- 10kbp):
 
-# In[73]:
+# In[81]:
 
 
 export_name        = "rdl5p" 
@@ -2290,7 +2422,7 @@ pd.DataFrame({
 }).to_csv("%s/%s_%s.alig_%s.pos" % (outdir,outcode,l_nom,export_name),sep="\n",index=False, header=False)
 
 
-# In[74]:
+# In[82]:
 
 
 export_name        = "rdl3p" 
@@ -2317,7 +2449,7 @@ pd.DataFrame({
 # 
 # Alignments of haplotypes outside of the putative admixture region:
 
-# In[75]:
+# In[83]:
 
 
 export_name        = "rdlup" 
@@ -2340,7 +2472,7 @@ pd.DataFrame({
 }).to_csv("%s/%s_%s.alig_%s.pos" % (outdir,outcode,l_nom,export_name),sep="\n",index=False, header=False)
 
 
-# In[76]:
+# In[84]:
 
 
 export_name        = "rdldo" 
