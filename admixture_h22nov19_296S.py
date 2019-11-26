@@ -11,7 +11,7 @@
 
 
 # output
-outdir   = "admixture_analysis_output_pergenotype"
+outdir   = "results_admixture"
 outcode  = "rdl_admix_296S"
 
 # gene of interest
@@ -360,7 +360,7 @@ step_len_snp  = int(block_len_snp * step_frac_snp)
 
 # Function to loop through population combinations:
 
-# In[23]:
+# In[14]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
@@ -548,13 +548,13 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from ara to col**, we should see similarity between ara-wt and col-296S (and, obviously, between col-296S and ara-296S).
 # * If we only see similarity between col-296S and ara-296S, we can confirm it introgressed, but we can't ascertain the direction. This is the positive control.
 
-# In[24]:
+# In[21]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_ara", \n    popA_list=["col_2_20"], \n    popB_list=["col_2_0"], \n    popC_list=["arab_2_20","arab_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[27]:
+# In[22]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["arab_2_20"], \n    popB_list=["arab_2_0"], \n    popC_list=["col_2_20","col_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')

@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # # Admixture in 2L
@@ -640,16 +640,39 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="colgam_clu296G_back2_ABgam_Ccol",\n    popA_list=["BFgam_2","CMgam_2","GHgam_2","GNgam_2"],\n    popB_list=["UGgam_2"],\n    popC_list=["CIcol_2","GHcol_2","BFcol_2"], \n    popD_list=["meru_2","epir_2","chri_2","arab_2"],\n    popA_ac=oc_genalco_pop_seg_inv, \n    popB_ac=oc_genalco_pop_seg_inv, \n    popC_ac=oc_genalco_pop_seg_inv, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
+# #### Introgression of 296G between karyotypes (`0` and `2`)
+# 
+# Are there signals of introgression between the 2La and 2L+a haplotypes in populations that also have the 296G allele?
+# 
+# * A are non-inverted gam pops in the 296G cluster (GAgam_0,GHgam_0,GNgam_0,CMgam_0,GQgam_0)
+# * B is non-inverted gam not in cluster (UGgam_0)
+# * C are inverted gamcols with 296G cluster ("GHgam_2","GNgam_2","CMgam_2")
+# * D are non-inverted OR inverted outgroups (analysed separately)
+# 
+# This analysis is problematic because `(((A,B),C),D)` is not valid along the entire chromosome, but in the Rdl locus specifically it does hint at 0<>2 introgression specific to 296G-carrying samples.
+
+# In[24]:
+
+
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="colgam_clu296G_interkaryotype_2back",\n    popA_list=["CMgam_0","GAgam_0","GHgam_0","GNgam_0","GQgam_0","AOcol_0","CIcol_0","GHcol_0"], \n    popB_list=["UGgam_0"],\n    popC_list=["BFgam_2","CMgam_2","GHgam_2","GNgam_2"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_pop_seg_inv, \n    popB_ac=oc_genalco_pop_seg_inv, \n    popC_ac=oc_genalco_pop_seg_inv, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+
+
+# In[25]:
+
+
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="colgam_clu296G_interkaryotype_0back",\n    popA_list=["CMgam_0","GAgam_0","GHgam_0","GNgam_0","GQgam_0","AOcol_0","CIcol_0","GHcol_0"], \n    popB_list=["UGgam_0"],\n    popC_list=["BFgam_2","CMgam_2","GHgam_2","GNgam_2"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_pop_seg_inv, \n    popB_ac=oc_genalco_pop_seg_inv, \n    popC_ac=oc_genalco_pop_seg_inv, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+
+
 # #### Plot transcripts in region of interest
 # 
 # Finally, plot the coordinates of transcripts in the region of interest, so that you can create nice-looking plots:
 
-# In[28]:
+# In[26]:
 
 
 pdf = PdfPages("%s/%s.genes.pdf" % (outdir,outcode))
 # plot transcripts
-fig = plt.figure(figsize=(15,1))
+fig = plt.figure(figsize=(15,2))
 ax4 = plt.subplot(1, 4, 3)
 sns.despine(ax=ax4,offset=10)
 locus_genel = plot_transcripts(
@@ -668,7 +691,7 @@ pdf.close()
 # 
 # First, a loop function.
 
-# In[25]:
+# In[27]:
 
 
 def loop_Fst(name, popA_list, popC_list, 
@@ -754,7 +777,7 @@ def loop_Fst(name, popA_list, popC_list,
 
 # Plot differentiation between specimens grouped by species and karyotype:
 
-# In[26]:
+# In[28]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_Fst(\n    name="colgaminv",\n    popA_list=["gam_0","gam_2"],\n    popC_list=["gam_0","col_0","gam_2","col_2"],\n    popA_ac=oc_genalco_sps_seg_inv, \n    popC_ac=oc_genalco_sps_seg_inv, \n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')

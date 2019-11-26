@@ -10,7 +10,7 @@
 
 # output
 chrom    = "2L"
-outdir   = "karyotype_2La_output"
+outdir   = "results_karyotype"
 kary_fn  = "data/samples_p1.karyotype.txt"
 kary_inv = "kt_2la"
 outcode  = "phase2_2La"
@@ -273,35 +273,35 @@ genotyp_n = np.hstack(
 print(genotyp_n.shape)
 
 
-# In[14]:
+# In[16]:
 
 
 # mock inversion genotypes for phase2 and arabiensis
 p2_samples_sub["inv"] = "unk"
 
 
-# In[15]:
+# In[17]:
 
 
 random_ix = np.random.randint(genotyp_n.shape[1], size=10000)
-pca_coo, pca_mod = allel.stats.randomized_pca(genotyp_n[random_ix],scaler="patterson")
+pca_coo, pca_mod = allel.randomized_pca(genotyp_n[random_ix],scaler="patterson")
 
 
 # Dataframe with PCs:
 
-# In[16]:
+# In[18]:
 
 
 p2_samples_sub[is_p2_no_p1]["inv"].values.shape
 
 
-# In[17]:
+# In[19]:
 
 
 kary_df_sub[kary_inv].values.shape
 
 
-# In[18]:
+# In[20]:
 
 
 pca_df = pd.DataFrame(data={
@@ -321,7 +321,7 @@ pca_df = pd.DataFrame(data={
 
 # Variance explained per PC:
 
-# In[19]:
+# In[21]:
 
 
 pdf_pages = PdfPages("%s/%s.%s.pdf" % (outdir,outcode,"explained_variance"))
@@ -339,7 +339,7 @@ pdf_pages.close()
 
 # Plot PCs:
 
-# In[20]:
+# In[22]:
 
 
 pdf_pages = PdfPages("%s/%s.%s.pdf" % (outdir,outcode,"PCA"))
@@ -369,7 +369,7 @@ pdf_pages.close()
 # 
 # SVC (C-Support Vector Classification), a type of SVM (support vector machine). See https://scikit-learn.org/stable/modules/svm.html#
 
-# In[21]:
+# In[23]:
 
 
 import sklearn
@@ -382,7 +382,7 @@ import graphviz
 
 # Create test and train data with individuals from phase 1 (i.e. those for which inversion is not `NA`):
 
-# In[22]:
+# In[24]:
 
 
 # variables from phase 1 + classification, to train classifiers
@@ -402,7 +402,7 @@ print("phase2 dataset to predict",phase2_vars.shape)
 # Support vector classifier (SVC):
 # 
 
-# In[23]:
+# In[25]:
 
 
 # create classifier
@@ -413,7 +413,7 @@ clf_svc = sklearn.svm.SVC(kernel='linear', C=1).fit(phase1_vars, phase1_clas)
 # 
 # Accuracy from Phase1 data:
 
-# In[24]:
+# In[26]:
 
 
 # accuracy from test data
@@ -423,7 +423,7 @@ print("Accuracy = %0.4f" % clf_svc_score)
 
 # Precision and recall from Phase1 data:
 
-# In[25]:
+# In[27]:
 
 
 print(classification_report(phase1_clas, clf_svc.predict(phase1_vars)))
@@ -431,7 +431,7 @@ print(classification_report(phase1_clas, clf_svc.predict(phase1_vars)))
 
 # Confusion matrix with phase1 data:
 
-# In[26]:
+# In[28]:
 
 
 print(confusion_matrix(phase1_clas, clf_svc.predict(phase1_vars)))
@@ -441,7 +441,7 @@ print(confusion_matrix(phase1_clas, clf_svc.predict(phase1_vars)))
 # 
 # Using SVC:
 
-# In[27]:
+# In[29]:
 
 
 phase1_kt_estimated = clf_svc.predict(phase1_vars)
@@ -450,7 +450,7 @@ phase2_kt_estimated = clf_svc.predict(phase2_vars)
 
 # Save results:
 
-# In[28]:
+# In[30]:
 
 
 p2_samples_sub["inv_estimated"]                  = -1
@@ -459,7 +459,7 @@ p2_samples_sub.loc[is_p2_no_p1, "inv_estimated"] = phase2_kt_estimated
 np.unique(p2_samples_sub["inv_estimated"], return_counts=True)
 
 
-# In[29]:
+# In[31]:
 
 
 out_df = pd.DataFrame(data={

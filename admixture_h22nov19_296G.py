@@ -11,7 +11,7 @@
 
 
 # output
-outdir   = "admixture_analysis_output_pergenotype"
+outdir   = "results_admixture"
 outcode  = "rdl_admix_296G"
 
 # gene of interest
@@ -359,7 +359,7 @@ step_len_snp  = int(block_len_snp * step_frac_snp)
 
 # Function to loop through population combinations:
 
-# In[26]:
+# In[14]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
@@ -561,13 +561,13 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[27]:
+# In[22]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_gam", \n    popA_list=["col_0_2"], \n    popB_list=["col_0_0"], \n    popC_list=["gam_0_2","gam_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[28]:
+# In[23]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_col", \n    popA_list=["gam_0_2"], \n    popB_list=["gam_0_0"], \n    popC_list=["col_0_2","col_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
@@ -581,13 +581,13 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[32]:
+# In[24]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_gam", \n    popA_list=["col_2_2"], \n    popB_list=["col_2_0"], \n    popC_list=["gam_2_2","gam_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[30]:
+# In[25]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["gam_2_2"], \n    popB_list=["gam_2_0"], \n    popC_list=["col_2_2","col_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
@@ -597,7 +597,7 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 # 
 # Maybe if we look at Dxy we see something clearer?
 
-# In[75]:
+# In[26]:
 
 
 clu_varbool = np.logical_and(oc_genvars_seg["POS"] > loc_start-1e5, 
