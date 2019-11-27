@@ -2,21 +2,27 @@
 
 ## What is this
 
-The scripts in this repo can be used to reproduce all main analyses from ``this manuscript``.
+The scripts and data in this repository can be used to reproduce all analyses from the manuscript [***Resistance to dieldrin* evolution in African malaria vectors is driven by interspecific and interkaryotypic introgression**](https://github.com/xgrau/rdl-Agam-evolution) (Grau-Bové et al., bioRxiv 2019).
+
+Genome variation data for this project has been generated as part of the [***Anopheles gambiae* 1000 Genomes Consortium**](https://www.malariagen.net/projects/ag1000g).
 
 ## Contents
 
-All analyses are organised in three scripts:
+All main analyses are organised in three ipython notebooks:
 
-* **`kartyotype_2La_phase2.ipynb`** to karyotype 2La inversions in Ag1000G phase 2 data, using genotype frequencies and known karyotypes from Phase 1. In theory you can use it to karyotype any other inversion as long as you've got a training set (Figure 5, also used in admixture analyses). Output goes to `karyotype_2La_output`.
-* **`haplotype_analysis_28jun19.ipynb`** can be used to calculate genotype frequencies, build haplotype networks, perfom positive selection scans along the gene & chromosome, and to obtain haplotype alignments (Figures 1-4, 6 and 7). Output goes to `haplotype_analysis_output`.
-* **`admixture_h28jun19.ipynb`** perform Patterson's D tests of introgression (aka ABBA-BABA test) between various pairs of populations (Figure 8). Output goes to `admixture_analysis_output`.
+* **`karyotype_2La_phase2.ipynb`** to karyotype 2La inversions in Ag1000G phase 2 data, using genotype frequencies and known karyotypes from Phase 1. In theory you can use it to karyotype any other inversion as long as you've got a training set. Output goes to `results_karyotype`, and is used in Figure 5. Some files are also used in the admixture notebooks.
+* **`haplotype_analysis_26nov19.ipynb`** can be used to calculate genotype frequencies, build haplotype networks, perfom positive selection scans along the gene & chromosome, and to obtain haplotype alignments. Output goes to `results_haplotype_analysis` and is used in Figures 1-4, 6 and 8).
+* **`admixture_h22nov19_296G.ipynb`** and **`admixture_h22nov19_296S.ipynb`**: perform Patterson's D tests of introgression (aka ABBA-BABA test) between various pairs of populations. Output goes to `results_admixture` and is used in Figure 7.
 
-All three scripts are available as ipython notebooks and python scripts.
+These scripts are available as ipython notebooks (they can be visualised in github) and python scripts.
 
-Other folders:
+Downstream analyses of *Rdl* alignments:
 
-* **`alignments_Rdl_mosquitoes`**: alignments and a couple of R scripts to calculate pairwise identity and dN/dS ratios for *Rdl* orthologs across species.
+* **`alignments_Rdl_haplotype_phylo`**: alignments of haplotypes from the *Ag1000G* dataset, log files from `iqtree` ML phylogenetic analyses, and a R script to create phylogenetic visualisations (`00_phylodist_04tip_17jun19.R`, as in Figure 6).
+* **`alignments_Rdl_multisps`**: alignments of *Rdl* (CDS and peptides) from multiple mosquito species (*A. gambiae*, *A. arabiensis*, *A. melas*, *A. merus*, *A. christyi*, *A. epiroticus*, *A. minimus*, *A. culicifacies*, *A. funestus*, *A. stephensi*, *A. maculatus*, *A. farauti*, *A. dirus*, *A. atroparvus*, *A. sinensis*, *A. albimanus*, *A. darlingi*, *Aedes aegypti*, *Aedes albopictus*, and *Culex quinquefasciatus*) and a couple of R scripts to calculate pairwise identity (`pairwise_identity.R`) and dN/dS ratios (`pairwise_dNdS.R`).
+
+Other files & folders:
+
 * **`data`** folder with metadata for the scripts above (sample info, karyotypes, etc.).
 * **`scripts_hapclust`** and **`scripts_printtranscripts`**: some helper functions.
 
@@ -26,51 +32,87 @@ Where is the input data?
 
 * All metadata required is in the `data` folder
 * Some accessory scripts are also available in the `scripts_hapclust` and `scripts_printtranscripts` folders
-* Genomic variation data *has to be downloaded* from Ag1000G in MalariaGEN. Download links for Phase1-AR3 and Phase2-AR1:
+* Genomic variation data **has to be downloaded** from Ag1000G in MalariaGEN. Download links for Phase1-AR3 and Phase2-AR1:
 
-```
+```bash
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/
 ```
 
 Notes on data download:
 
-* All genome genome variation files you need are **specified at the beginning of each script**. Once you've downloaded them, edit the scripts to point to the relevant files. Variables to be edited are marked with `#### EDIT THIS` tags.
+* All genome genome variation files you need are **specified at the beginning of each script**. Once you've downloaded them, edit the scripts to point to the relevant files. Variables to be edited are marked with `#### EDIT THIS` comments.
 * Data is available for download in various formats (VCFs, zarr, and HDF5). The scripts above use the zarr arrays and HDF5 files, which are highly compressed and very handy to use compared to VCFs. The python scripts require some special libraries to deal with these formats, mostly implemented in the `scikit-allel`, `zarr` and `h5py` libraries (see dependencies below).
 * **phased variants** are available under the `haplotype/main` subfolder:
 
-```
+```bash
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/haplotypes/main/
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/haplotypes/main/
 ```
 
 * nucleotide **accessibility arrays** in HDF5 format:
-```
+
+```bash
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/accessibility/
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/accessibility/
 ```
 
-* other **metadata** files
-```
+* other **metadata** files:
+
+```bash
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/samples/
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/samples/
 ```
 
-
 ## Dependencies
 
-Everything works with `Python 3.5.5` and the following libraries, which can all be installed using conda (`conda-forge` channel):
+**Python** notebooks work with Python 3.7.4 and the following libraries, which can all be installed using `conda`:
 
-* numpy 1.15.2
-* zarr 2.2.0
-* pandas 0.23.4
-* scikit-allel, allel 1.1.10
-* scikit-learn, sklearn 0.20.0
-* h5py 2.8.0
-* scipy 1.1.0
+* numpy 1.17.3
+* zarr 2.3.2
+* pandas 0.25.3
+* scikit-allel, allel 1.2.1
+* scikit-learn, sklearn 0.21.3
+* h5py 2.10.0
+* scipy 1.3.2
 * bcolz 1.2.1
-* matplotlib 2.2.2
+* matplotlib 3.1.2
 * seaborn 0.9.0
-* itertools
-* mlxtend 0.13.0
+* itertools 7.2.0
 
+**R scripts** work with R 3.6.1 and require the following libraries:
+
+* seqinr 3.4-5
+* ape 5.3
+* phytools 0.6-60
+* pheatmap 1.0.12
+
+If you use these scripts in your own work, please do not forget to cite the relevant packages as well. It's free and it makes everyone happy :)
+
+For example, in R:
+
+```R
+> citation("ape")
+
+To cite ape in a publication use:
+
+  Paradis E. & Schliep K. 2018. ape 5.0: an environment for modern
+  phylogenetics and evolutionary analyses in R. Bioinformatics 35:
+  526-528.
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {ape 5.0: an environment for modern phylogenetics and evolutionary analyses in {R}},
+    author = {E. Paradis and K. Schliep},
+    journal = {Bioinformatics},
+    year = {2018},
+    volume = {35},
+    pages = {526-528},
+  }
+
+As ape is evolving quickly, you may want to cite also its version
+number (found with 'library(help = ape)' or
+'packageVersion("ape")').
+
+```
