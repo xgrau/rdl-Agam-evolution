@@ -32,7 +32,7 @@ Where is the input data?
 
 * All metadata required is in the `data` folder
 * Some accessory scripts are also available in the `scripts_hapclust` and `scripts_printtranscripts` folders
-* Genomic variation data **has to be downloaded** from Ag1000G in MalariaGEN. Download links for Phase1-AR3 and Phase2-AR1:
+* Genomic variation data **has to be downloaded** from the [Ag1000G project archive](https://www.malariagen.net/projects/ag1000g). These are huge files that don't fit in this repository. Download links for Phase1-AR3 and Phase2-AR1:
 
 ```bash
 ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/
@@ -41,7 +41,7 @@ ftp://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/
 
 Notes on data download:
 
-* All genome genome variation files you need are **specified at the beginning of each script**. Once you've downloaded them, edit the scripts to point to the relevant files. Variables to be edited are marked with `#### EDIT THIS` comments.
+* All genome genome variation files you need are **specified at the beginning of each python notebook**. Once you've downloaded them, edit the scripts to point to the relevant files. Variables to be edited are marked with `#### EDIT THIS` comments.
 * Data is available for download in various formats (VCFs, zarr, and HDF5). The scripts above use the zarr arrays and HDF5 files, which are highly compressed and very handy to use compared to VCFs. The python scripts require some special libraries to deal with these formats, mostly implemented in the `scikit-allel`, `zarr` and `h5py` libraries (see dependencies below).
 * **phased variants** are available under the `haplotype/main` subfolder:
 
