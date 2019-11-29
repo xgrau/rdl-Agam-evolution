@@ -34,9 +34,7 @@ p2_popl       = ["BFcol"]
 # outgroup populations
 ou_species    = ["arab","meru","epir","chri"]
 ou_callset_fl = ["/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/arab_ref_hc_vqsr_cnvrt_sort.zarr/", #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/quad_ref_hc_vqsr_cnvrt_sort.zarr/", #### EDIT THIS 
                  "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/meru_hc_vqsr_cnvrt_sort.zarr/",     #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/mela_ref_hc_vqsr_good_cnvrt_sort.zarr/", #### EDIT THIS 
                  "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/genotypes/epir_fake_cnvrt_sort.zarr/",         #### EDIT THIS 
                  "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/genotypes/chri_fake_cnvrt_sort.zarr/"]         #### EDIT THIS 
 ou_metasam_fl = ["data/samples.metaara.txt",
@@ -360,7 +358,7 @@ step_len_snp  = int(block_len_snp * step_frac_snp)
 
 # Function to loop through population combinations:
 
-# In[14]:
+# In[23]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
@@ -437,7 +435,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                             acb=popB_ac[popB][:,0:2][is_locus],
                             acc=popC_ac[popC][:,0:2][is_locus],
                             acd=popD_ac[popD][:,0:2][is_locus],
-                            blen=10)
+                            blen=100)
                         # convert Z-score (num of SD from 0) to pval (two-sided)
                         admix_pd_av_indup_pval = scipy.stats.norm.sf(abs(admix_pd_av_indup[2]))*2 
                         # add results in legend
@@ -548,13 +546,13 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from ara to col**, we should see similarity between ara-wt and col-296S (and, obviously, between col-296S and ara-296S).
 # * If we only see similarity between col-296S and ara-296S, we can confirm it introgressed, but we can't ascertain the direction. This is the positive control.
 
-# In[21]:
+# In[24]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_ara", \n    popA_list=["col_2_20"], \n    popB_list=["col_2_0"], \n    popC_list=["arab_2_20","arab_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[22]:
+# In[25]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["arab_2_20"], \n    popB_list=["arab_2_0"], \n    popC_list=["col_2_20","col_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')

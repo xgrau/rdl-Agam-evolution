@@ -33,12 +33,9 @@ p2_popl       = ["AOcol","BFgam","CIcol","CMgam","GAgam","GHcol","GHgam","GNgam"
 
 # outgroup populations
 ou_species    = ["quad","meru","mela"]
-ou_callset_fl = ["/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/arab_ref_hc_vqsr_cnvrt_sort.zarr/", #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/quad_ref_hc_vqsr_cnvrt_sort.zarr/", #### EDIT THIS 
+ou_callset_fl = ["/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/quad_ref_hc_vqsr_cnvrt_sort.zarr/", #### EDIT THIS 
                  "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/meru_hc_vqsr_cnvrt_sort.zarr/",     #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/mela_ref_hc_vqsr_good_cnvrt_sort.zarr/", #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/genotypes/epir_fake_cnvrt_sort.zarr/",         #### EDIT THIS 
-                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/genotypes/chri_fake_cnvrt_sort.zarr/"]         #### EDIT THIS 
+                 "/home/xavi/dades/Variation/phase1.AR3_Fontaine_AltSps/haplotypes/mela_ref_hc_vqsr_good_cnvrt_sort.zarr/"] #### EDIT THIS
 ou_metasam_fl = ["data/samples.metaqua.txt",
                  "data/samples.metamer.txt",
                  "data/samples.metamel.txt"]
@@ -359,7 +356,7 @@ step_len_snp  = int(block_len_snp * step_frac_snp)
 
 # Function to loop through population combinations:
 
-# In[14]:
+# In[27]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
@@ -436,7 +433,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                             acb=popB_ac[popB][:,0:2][is_locus],
                             acc=popC_ac[popC][:,0:2][is_locus],
                             acd=popD_ac[popD][:,0:2][is_locus],
-                            blen=10)
+                            blen=100)
                         # convert Z-score (num of SD from 0) to pval (two-sided)
                         admix_pd_av_indup_pval = scipy.stats.norm.sf(abs(admix_pd_av_indup[2]))*2 
                         # add results in legend
@@ -561,13 +558,13 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[22]:
+# In[28]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_gam", \n    popA_list=["col_0_2"], \n    popB_list=["col_0_0"], \n    popC_list=["gam_0_2","gam_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[23]:
+# In[29]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_col", \n    popA_list=["gam_0_2"], \n    popB_list=["gam_0_0"], \n    popC_list=["col_0_2","col_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
@@ -581,13 +578,13 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[24]:
+# In[30]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_gam", \n    popA_list=["col_2_2"], \n    popB_list=["col_2_0"], \n    popC_list=["gam_2_2","gam_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
 
 
-# In[25]:
+# In[31]:
 
 
 get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["gam_2_2"], \n    popB_list=["gam_2_0"], \n    popC_list=["col_2_2","col_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
@@ -597,7 +594,7 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 # 
 # Maybe if we look at Dxy we see something clearer?
 
-# In[26]:
+# In[32]:
 
 
 clu_varbool = np.logical_and(oc_genvars_seg["POS"] > loc_start-1e5, 

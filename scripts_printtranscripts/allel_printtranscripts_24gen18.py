@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import humanize
+import seaborn as sns
 
 
 # plot transcripts
