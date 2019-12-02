@@ -7,7 +7,7 @@
 # 
 # Input files:
 
-# In[1]:
+# In[7]:
 
 
 # output
@@ -50,7 +50,7 @@ gffann_fn  = "data/Anopheles-gambiae-PEST_BASEFEATURES_AgamP4.9.gff3"
 
 # Libraries:
 
-# In[2]:
+# In[8]:
 
 
 import os
@@ -72,7 +72,7 @@ import itertools
 
 # Functions:
 
-# In[3]:
+# In[9]:
 
 
 # load plot settings
@@ -106,7 +106,7 @@ def remove_indels(gt, ref, alt, pos):
 # 
 # Population and sample structure:
 
-# In[4]:
+# In[10]:
 
 
 # load samples list with sample code, groupings, locations etc.
@@ -135,7 +135,7 @@ print(p2_samples.groupby(("population")).size())
 
 # Variants and genotypes:
 
-# In[5]:
+# In[11]:
 
 
 # declare objects with variant data
@@ -157,7 +157,7 @@ print(p2_genotyp.shape)
 # 
 # Loads one outgroup, removes indels (duplicated variant positions) and subsets phase2 to include variants present in this outgroup. Then, loads outgroup genotypes and subsets them to remove indels and fit phase2. Then, loads the second outgroup and performs the same task. Thus, at each iteration, less and less variants remain (hopefully not too many are lost; worst offenders are `chri` and `epir`).
 
-# In[6]:
+# In[12]:
 
 
 oc_genotyp = p2_genotyp
@@ -204,7 +204,7 @@ for outn,outi in enumerate(ou_species):
 # 
 # Merge metadata files, with sample codes, species and populations:
 
-# In[7]:
+# In[13]:
 
 
 print("Cast sample metadata...")
@@ -232,7 +232,7 @@ oc_spsl = np.unique(oc_samples["species"].values)
 
 # Dictionaries of populations and species:
 
-# In[8]:
+# In[14]:
 
 
 print("Population dict...")
@@ -254,7 +254,7 @@ for spsi in oc_spsl:
 # 
 # Using both dictionaries:
 
-# In[9]:
+# In[15]:
 
 
 print("Genotypes to allele counts (population)...")
@@ -268,7 +268,7 @@ print(oc_genalco_sps.shape)
 
 # Define which variants to retain from phase2 (all other datasets will be recast to fit this):
 
-# In[10]:
+# In[16]:
 
 
 # Filters
@@ -291,7 +291,7 @@ print(oc_genotyp_seg.shape,"/", oc_genotyp.shape)
 # 
 # Accessibility
 
-# In[11]:
+# In[17]:
 
 
 accessi_df  = h5py.File(accessi_fn,mode="r")
@@ -300,7 +300,7 @@ accessi_arr = accessi_df[chrom]["is_accessible"][:]
 
 # Import GFF geneset:
 
-# In[12]:
+# In[18]:
 
 
 # import gff
@@ -344,7 +344,7 @@ geneset = geneset_gff(geneset)
 
 # Define parameters for windowed estimation of $D$:
 
-# In[13]:
+# In[19]:
 
 
 # window lengths for SNP blocks
@@ -356,13 +356,13 @@ step_len_snp  = int(block_len_snp * step_frac_snp)
 
 # Function to loop through population combinations:
 
-# In[27]:
+# In[33]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
                      popA_ac, popB_ac, popC_ac, popD_ac, 
-                     pos,cycle = "C", block_len_snp=block_len_snp, step_len_snp=step_len_snp,color=["blue","darkorange","turquoise","crimson","magenta","limegreen",
-                                "forestgreen","slategray","orchid","darkblue"]):
+                     pos, block_len_snp, step_len_snp, cycle = "C", blen=100,
+                     color=["blue","darkorange","turquoise","crimson","magenta","limegreen","forestgreen","slategray","orchid","darkblue"]):
     
     windows_pos = allel.moving_statistic(pos, statistic=lambda v: v[0], size=block_len_snp,step=step_len_snp)
 
@@ -394,7 +394,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                 ax1.set_xlabel("Mb")
                 ax1.set_ylabel("D")
                 plt.axhline(0, color='k',linestyle="--",label="")
-                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="locus")
+                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="Rdl")
                 plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
                 plt.axvline(inv_start/1e6, color='orange',linestyle=":",label="inversion")
                 plt.axvline(inv_end/1e6, color='orange',linestyle=":",label="")
@@ -406,7 +406,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                 ax2.set_xlabel("Mb")
                 ax2.set_ylabel("D")
                 plt.axhline(0, color='k',linestyle="--",label="")
-                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="locus")
+                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="Rdl")
                 plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
                 plt.axvline(inv_start/1e6, color='orange',linestyle=":",label="inversion")
                 plt.axvline(inv_end/1e6, color='orange',linestyle=":",label="")
@@ -433,16 +433,15 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                             acb=popB_ac[popB][:,0:2][is_locus],
                             acc=popC_ac[popC][:,0:2][is_locus],
                             acd=popD_ac[popD][:,0:2][is_locus],
-                            blen=100)
+                            blen=blen)
                         # convert Z-score (num of SD from 0) to pval (two-sided)
                         admix_pd_av_indup_pval = scipy.stats.norm.sf(abs(admix_pd_av_indup[2]))*2 
-                        # add results in legend
-                        plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
-                        plt.axvline(loc_start/1e6, color='red',linestyle=":",)
 
                         # zoomed region: plot
                         plt.subplot(1, 4, 3)
-                        plt.step(windows_pos/1e6, admix_pd_n_win, color=colors[cn], label="%s\nD = %.3f +/- %.3f | Z = %.3f | p = %.3E" % 
+                        plt.step(windows_pos/1e6, admix_pd_n_win, 
+                                 color=colors[cn], where="post",
+                                 label="%s\nD = %.3f +/- %.3f | Z = %.3f | p = %.3E" % 
                                      (popC,admix_pd_av_indup[0],admix_pd_av_indup[1],admix_pd_av_indup[2],admix_pd_av_indup_pval))
 
                 plt.axhline(0, color='k',linestyle="--",label="")
@@ -460,7 +459,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
 # 
 # First, let's look at **karyotypes of the inversion per population** (produced in notebook `karyotype_2La_phase2.ipynb`)
 
-# In[15]:
+# In[21]:
 
 
 kary_fn = "data/kt_2la.karyotype_with_outgroups.csv"
@@ -471,8 +470,14 @@ kary_df.head()
 
 
 # Similarly, we'll also load *Rdl* genotypes:
+# 
+# * `0`: wt/wt
+# * `1`: 296G/wt
+# * `2`: 296G/296G
+# * `10`: 296S/wt
+# * `20`: 296S/296S
 
-# In[16]:
+# In[22]:
 
 
 rdlg_fn = "data/genotypes_Rdl.csv"
@@ -483,20 +488,20 @@ print("rdl genotypes:",rdlg_df.shape)
 rdlg_df.head()
 
 
-# In[17]:
+# In[23]:
 
 
 np.unique(rdlg_df["gty296"], return_counts=True)
 
 
-# In[18]:
+# In[24]:
 
 
 oc_popl_inv = [j+"_"+str(i) for j in oc_popl for i in [0,1,2]]
 oc_samples["inv"]    = kary_df["estimated_kt"].values
 
 
-# In[19]:
+# In[25]:
 
 
 # indexed dictionary of species, inversions and genotypes
@@ -514,7 +519,7 @@ oc_genalco_sps_seg_inv_gty = oc_genotyp_seg.count_alleles_subpops(subpops=popdic
 oc_genalco_sps_seg_inv_gty.shape
 
 
-# In[20]:
+# In[26]:
 
 
 # indexed dictionary of species, inversions and genotypes
@@ -532,7 +537,7 @@ oc_genalco_pop_seg_inv_gty = oc_genotyp_seg.count_alleles_subpops(subpops=popdic
 oc_genalco_pop_seg_inv_gty.shape
 
 
-# In[21]:
+# In[27]:
 
 
 # indexed dictionary of species and inversions
@@ -558,16 +563,16 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[28]:
+# In[34]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_gam", \n    popA_list=["col_0_2"], \n    popB_list=["col_0_0"], \n    popC_list=["gam_0_2","gam_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_gam", \n    popA_list=["col_0_2"], \n    popB_list=["col_0_0"], \n    popC_list=["gam_0_2","gam_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
 
-# In[29]:
+# In[35]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_col", \n    popA_list=["gam_0_2"], \n    popB_list=["gam_0_0"], \n    popC_list=["col_0_2","col_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="0back_donor_col", \n    popA_list=["gam_0_2"], \n    popB_list=["gam_0_0"], \n    popC_list=["col_0_2","col_0_0"], \n    popD_list=["quad_0","mela_0"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
 
 # ### 296G on 2La/2La background
@@ -578,23 +583,23 @@ get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_stat
 # * If it spread **from gam to col**, we should see similarity between col-296G and gam-wt (and, obviously, between col-296G and gam-296G).
 # * If we only see similarity between gam-296G and col-296G, we confirm it introgressed, but we can't ascertain the direction.
 
-# In[30]:
+# In[36]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_gam", \n    popA_list=["col_2_2"], \n    popB_list=["col_2_0"], \n    popC_list=["gam_2_2","gam_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_gam", \n    popA_list=["col_2_2"], \n    popB_list=["col_2_0"], \n    popC_list=["gam_2_2","gam_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
 
-# In[31]:
+# In[37]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["gam_2_2"], \n    popB_list=["gam_2_0"], \n    popC_list=["col_2_2","col_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["gam_2_2"], \n    popB_list=["gam_2_0"], \n    popC_list=["col_2_2","col_2_0"], \n    popD_list=["meru_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
 
 # #### Loop Dxy
 # 
 # Maybe if we look at Dxy we see something clearer?
 
-# In[32]:
+# In[38]:
 
 
 clu_varbool = np.logical_and(oc_genvars_seg["POS"] > loc_start-1e5, 

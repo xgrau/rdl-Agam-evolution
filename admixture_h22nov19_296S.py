@@ -350,21 +350,21 @@ geneset = geneset_gff(geneset)
 
 
 # window lengths for SNP blocks
-block_len_snp = 5000
-step_frac_snp = 0.2
-step_perc_snp = int(step_frac_snp * 100)
-step_len_snp  = int(block_len_snp * step_frac_snp)
+#block_len_snp = 5000
+#step_frac_snp = 0.2
+#step_perc_snp = int(step_frac_snp * 100)
+#step_len_snp  = int(block_len_snp * step_frac_snp)
 
 
 # Function to loop through population combinations:
 
-# In[23]:
+# In[14]:
 
 
 def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list, 
                      popA_ac, popB_ac, popC_ac, popD_ac, 
-                     pos,cycle = "C", block_len_snp=block_len_snp, step_len_snp=step_len_snp,color=["blue","darkorange","turquoise","crimson","magenta","limegreen",
-                                "forestgreen","slategray","orchid","darkblue"]):
+                     pos, block_len_snp, step_len_snp, cycle = "C", blen=100,
+                     color=["blue","darkorange","turquoise","crimson","magenta","limegreen","forestgreen","slategray","orchid","darkblue"]):
     
     windows_pos = allel.moving_statistic(pos, statistic=lambda v: v[0], size=block_len_snp,step=step_len_snp)
 
@@ -396,7 +396,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                 ax1.set_xlabel("Mb")
                 ax1.set_ylabel("D")
                 plt.axhline(0, color='k',linestyle="--",label="")
-                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="locus")
+                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="Rdl")
                 plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
                 plt.axvline(inv_start/1e6, color='orange',linestyle=":",label="inversion")
                 plt.axvline(inv_end/1e6, color='orange',linestyle=":",label="")
@@ -408,7 +408,7 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                 ax2.set_xlabel("Mb")
                 ax2.set_ylabel("D")
                 plt.axhline(0, color='k',linestyle="--",label="")
-                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="locus")
+                plt.axvline(loc_start/1e6, color='red',linestyle=":",label="Rdl")
                 plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
                 plt.axvline(inv_start/1e6, color='orange',linestyle=":",label="inversion")
                 plt.axvline(inv_end/1e6, color='orange',linestyle=":",label="")
@@ -435,16 +435,15 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                             acb=popB_ac[popB][:,0:2][is_locus],
                             acc=popC_ac[popC][:,0:2][is_locus],
                             acd=popD_ac[popD][:,0:2][is_locus],
-                            blen=100)
+                            blen=blen)
                         # convert Z-score (num of SD from 0) to pval (two-sided)
                         admix_pd_av_indup_pval = scipy.stats.norm.sf(abs(admix_pd_av_indup[2]))*2 
-                        # add results in legend
-                        plt.axvline(loc_end/1e6, color='red',linestyle=":",label="")
-                        plt.axvline(loc_start/1e6, color='red',linestyle=":",)
 
                         # zoomed region: plot
                         plt.subplot(1, 4, 3)
-                        plt.step(windows_pos/1e6, admix_pd_n_win, color=colors[cn], label="%s\nD = %.3f +/- %.3f | Z = %.3f | p = %.3E" % 
+                        plt.step(windows_pos/1e6, admix_pd_n_win, 
+                                 color=colors[cn], where="post",
+                                 label="%s\nD = %.3f +/- %.3f | Z = %.3f | p = %.3E" % 
                                      (popC,admix_pd_av_indup[0],admix_pd_av_indup[1],admix_pd_av_indup[2],admix_pd_av_indup_pval))
 
                 plt.axhline(0, color='k',linestyle="--",label="")
@@ -475,6 +474,12 @@ kary_df.head()
 
 
 # Similarly, we'll also load *Rdl* genotypes:
+# 
+# * `0`: wt/wt
+# * `1`: 296G/wt
+# * `2`: 296G/296G
+# * `10`: 296S/wt
+# * `20`: 296S/296S
 
 # In[16]:
 
@@ -490,17 +495,11 @@ rdlg_df.head()
 # In[17]:
 
 
-np.unique(rdlg_df["gty296"], return_counts=True)
-
-
-# In[18]:
-
-
 oc_popl_inv = [j+"_"+str(i) for j in oc_popl for i in [0,1,2]]
 oc_samples["inv"]    = kary_df["estimated_kt"].values
 
 
-# In[19]:
+# In[18]:
 
 
 # indexed dictionary of species, inversions and genotypes
@@ -518,7 +517,7 @@ oc_genalco_sps_seg_inv_gty = oc_genotyp_seg.count_alleles_subpops(subpops=popdic
 oc_genalco_sps_seg_inv_gty.shape
 
 
-# In[20]:
+# In[19]:
 
 
 # indexed dictionary of species and inversions
@@ -546,14 +545,14 @@ oc_genalco_sps_seg_inv.shape
 # * If it spread **from ara to col**, we should see similarity between ara-wt and col-296S (and, obviously, between col-296S and ara-296S).
 # * If we only see similarity between col-296S and ara-296S, we can confirm it introgressed, but we can't ascertain the direction. This is the positive control.
 
-# In[24]:
+# In[20]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_ara", \n    popA_list=["col_2_20"], \n    popB_list=["col_2_0"], \n    popC_list=["arab_2_20","arab_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_ara", \n    popA_list=["col_2_20"], \n    popB_list=["col_2_0"], \n    popC_list=["arab_2_20","arab_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
 
-# In[25]:
+# In[21]:
 
 
-get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["arab_2_20"], \n    popB_list=["arab_2_0"], \n    popC_list=["col_2_20","col_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    cycle="C"\n)')
+get_ipython().run_cell_magic('capture', '--no-stdout --no-display', 'loop_D_statistic3(\n    name="2back_donor_col", \n    popA_list=["arab_2_20"], \n    popB_list=["arab_2_0"], \n    popC_list=["col_2_20","col_2_0","meru_2_0"], \n    popD_list=["chri_2","epir_2"],\n    popA_ac=oc_genalco_sps_seg_inv_gty, \n    popB_ac=oc_genalco_sps_seg_inv_gty, \n    popC_ac=oc_genalco_sps_seg_inv_gty, \n    popD_ac=oc_genalco_sps_seg_inv,\n    pos=oc_genvars_seg["POS"][:],\n    block_len_snp=10000,\n    step_len_snp=2000,\n    blen=100,\n    cycle="C"\n)')
 
