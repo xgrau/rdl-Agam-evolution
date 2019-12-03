@@ -1,0 +1,2274 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    monolit (AVX512, FMA3, 62 GB RAM)
+Command: iqtree -s rdo_hapnet_rdl.alig_loc.rei.fasta -nt 8 -m TEST+ASC -mset GTR -pre iqr_loc -bb 1000 -nm 10000 -cptime 3600
+Seed:    929541 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec  3 10:27:20 2019
+Kernel:  AVX+FMA - 8 threads (12 CPU cores detected)
+
+Reading alignment file rdo_hapnet_rdl.alig_loc.rei.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 1684 sequences with 2991 columns, 2984 distinct patterns
+2942 parsimony-informative, 49 singleton sites, 0 constant sites
+                          Gap/Ambiguity  Composition  p-value
+   1  AA0040-Ca_GHcol_gt0_kt0     0.00%    passed     90.02%
+   2  AA0040-Cb_GHcol_gt0_kt0     0.00%    passed     96.06%
+   3  AA0041-Ca_GHcol_gt0_kt2     0.00%    passed     97.15%
+   4  AA0041-Cb_GHcol_gt0_kt2     0.00%    passed     98.19%
+   5  AA0042-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+   6  AA0042-Cb_GHcol_gt1_kt0     0.00%    passed     97.04%
+   7  AA0043-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+   8  AA0043-Cb_GHcol_gt1_kt0     0.00%    passed     99.64%
+   9  AA0048-Ca_GHgam_gt1_kt2     0.00%    passed     98.11%
+  10  AA0048-Cb_GHgam_gt1_kt2     0.00%    passed     98.37%
+  11  AA0049-Ca_GHcol_gt1_kt0     0.00%    passed     99.18%
+  12  AA0049-Cb_GHcol_gt1_kt0     0.00%    passed     99.84%
+  13  AA0050-Ca_GHgam_gt1_kt2     0.00%    passed     99.72%
+  14  AA0050-Cb_GHgam_gt1_kt2     0.00%    passed     99.11%
+  15  AA0051-Ca_GHcol_gt1_kt0     0.00%    passed     98.44%
+  16  AA0051-Cb_GHcol_gt0_kt0     0.00%    passed     99.44%
+  17  AA0052-Ca_GHcol_gt0_kt2     0.00%    passed     99.60%
+  18  AA0052-Cb_GHcol_gt0_kt2     0.00%    passed     99.41%
+  19  AA0053-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  20  AA0053-Cb_GHcol_gt0_kt0     0.00%    passed     96.70%
+  21  AA0063-Ca_GHcol_gt1_kt0     0.00%    passed     99.08%
+  22  AA0063-Cb_GHcol_gt0_kt0     0.00%    passed     97.70%
+  23  AA0072-Ca_GHgam_gt1_kt2     0.00%    passed     99.88%
+  24  AA0072-Cb_GHgam_gt1_kt2     0.00%    passed     99.24%
+  25  AA0080-Ca_GHcol_gt0_kt2     0.00%    passed     98.99%
+  26  AA0080-Cb_GHcol_gt0_kt2     0.00%    passed     99.57%
+  27  AA0084-Ca_GHgam_gt1_kt0     0.00%    passed     98.18%
+  28  AA0084-Cb_GHgam_gt1_kt0     0.00%    passed     97.83%
+  29  AA0085-Ca_GHgam_gt1_kt2     0.00%    passed     98.72%
+  30  AA0085-Cb_GHgam_gt1_kt2     0.00%    passed     98.53%
+  31  AA0086-Ca_GHgam_gt1_kt0     0.00%    passed     98.18%
+  32  AA0086-Cb_GHgam_gt1_kt0     0.00%    passed     98.18%
+  33  AA0087-Ca_GHcol_gt0_kt0     0.00%    passed     89.13%
+  34  AA0087-Cb_GHcol_gt1_kt0     0.00%    passed     98.09%
+  35  AA0088-Ca_GHcol_gt1_kt0     0.00%    passed     99.81%
+  36  AA0088-Cb_GHcol_gt1_kt0     0.00%    passed     99.72%
+  37  AA0089-Ca_GHcol_gt1_kt0     0.00%    passed     99.45%
+  38  AA0089-Cb_GHcol_gt0_kt0     0.00%    passed     95.14%
+  39  AA0091-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  40  AA0091-Cb_GHcol_gt1_kt0     0.00%    passed     98.26%
+  41  AA0098-Ca_GHcol_gt1_kt0     0.00%    passed     99.85%
+  42  AA0098-Cb_GHcol_gt1_kt0     0.00%    passed     97.74%
+  43  AA0101-Ca_GHcol_gt0_kt2     0.00%    passed     98.73%
+  44  AA0101-Cb_GHcol_gt0_kt2     0.00%    passed     96.44%
+  45  AA0103-Ca_GHcol_gt1_kt0     0.00%    passed     99.84%
+  46  AA0103-Cb_GHcol_gt1_kt0     0.00%    passed     97.04%
+  47  AA0104-Ca_GHcol_gt1_kt0     0.00%    passed     99.85%
+  48  AA0104-Cb_GHcol_gt1_kt0     0.00%    passed     97.74%
+  49  AA0107-Ca_GHcol_gt1_kt0     0.00%    passed     98.09%
+  50  AA0107-Cb_GHcol_gt1_kt0     0.00%    passed     97.74%
+  51  AA0108-Ca_GHgam_gt1_kt0     0.00%    passed     98.18%
+  52  AA0108-Cb_GHgam_gt1_kt0     0.00%    passed     97.74%
+  53  AA0109-Ca_GHcol_gt1_kt0     0.00%    passed     99.85%
+  54  AA0109-Cb_GHcol_gt1_kt0     0.00%    passed     98.90%
+  55  AA0110-Ca_GHcol_gt1_kt0     0.00%    passed     99.85%
+  56  AA0110-Cb_GHcol_gt1_kt0     0.00%    passed     97.74%
+  57  AA0111-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  58  AA0111-Cb_GHcol_gt1_kt0     0.00%    passed     99.70%
+  59  AA0114-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  60  AA0114-Cb_GHcol_gt1_kt0     0.00%    passed     99.66%
+  61  AA0115-Ca_GHcol_gt0_kt2     0.00%    passed     96.69%
+  62  AA0115-Cb_GHcol_gt1_kt2     0.00%    passed     98.97%
+  63  AA0123-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  64  AA0123-Cb_GHcol_gt1_kt0     0.00%    passed     99.65%
+  65  AA0124-Ca_GHcol_gt0_kt0     0.00%    passed     95.14%
+  66  AA0124-Cb_GHcol_gt1_kt0     0.00%    passed     98.69%
+  67  AA0132-Ca_GHcol_gt1_kt0     0.00%    passed     97.74%
+  68  AA0132-Cb_GHcol_gt1_kt0     0.00%    passed     99.70%
+  69  AA0133-Ca_GHgam_gt1_kt2     0.00%    passed     99.78%
+  70  AA0133-Cb_GHgam_gt1_kt2     0.00%    passed     98.94%
+  71  AA0139-Ca_GHcol_gt1_kt2     0.00%    passed     99.72%
+  72  AA0139-Cb_GHcol_gt1_kt2     0.00%    passed     95.57%
+  73  AA0140-Ca_GHcol_gt1_kt0     0.00%    passed     98.60%
+  74  AA0140-Cb_GHcol_gt0_kt0     0.00%    passed     97.43%
+  75  AA0141-Ca_GHcol_gt1_kt0     0.00%    passed     99.42%
+  76  AA0141-Cb_GHcol_gt1_kt0     0.00%    passed     99.66%
+  77  AB0085-Ca_BFgam_gt1_kt2     0.00%    passed     97.74%
+  78  AB0085-Cb_BFgam_gt0_kt2     0.00%    passed     97.59%
+  79  AB0087-Ca_BFcol_gt2_kt2     0.00%    passed     99.68%
+  80  AB0087-Cb_BFcol_gt2_kt2     0.00%    passed     99.19%
+  81  AB0088-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+  82  AB0088-Cb_BFcol_gt0_kt2     0.00%    passed     99.82%
+  83  AB0089-Ca_BFcol_gt2_kt2     0.00%    passed     99.23%
+  84  AB0089-Cb_BFcol_gt0_kt2     0.00%    passed     98.87%
+  85  AB0090-Ca_BFcol_gt2_kt2     0.00%    passed     99.33%
+  86  AB0090-Cb_BFcol_gt0_kt2     0.00%    passed     98.83%
+  87  AB0091-Ca_BFcol_gt2_kt2     0.00%    passed     99.82%
+  88  AB0091-Cb_BFcol_gt2_kt2     0.00%    passed     99.52%
+  89  AB0092-Ca_BFcol_gt2_kt2     0.00%    passed     99.62%
+  90  AB0092-Cb_BFcol_gt2_kt2     0.00%    passed     99.18%
+  91  AB0094-Ca_BFcol_gt2_kt2     0.00%    passed     99.53%
+  92  AB0094-Cb_BFcol_gt0_kt2     0.00%    passed     99.66%
+  93  AB0095-Ca_BFcol_gt0_kt2     0.00%    passed     99.92%
+  94  AB0095-Cb_BFcol_gt0_kt2     0.00%    passed     99.72%
+  95  AB0097-Ca_BFcol_gt0_kt2     0.00%    passed     99.17%
+  96  AB0097-Cb_BFcol_gt0_kt2     0.00%    passed     92.82%
+  97  AB0098-Ca_BFcol_gt0_kt2     0.00%    passed     99.85%
+  98  AB0098-Cb_BFcol_gt2_kt2     0.00%    passed     99.68%
+  99  AB0099-Ca_BFcol_gt2_kt2     0.00%    passed     99.29%
+ 100  AB0099-Cb_BFcol_gt2_kt2     0.00%    passed     98.52%
+ 101  AB0100-Ca_BFcol_gt0_kt2     0.00%    passed     99.96%
+ 102  AB0100-Cb_BFcol_gt0_kt2     0.00%    passed     99.56%
+ 103  AB0101-Ca_BFcol_gt0_kt2     0.00%    passed     99.68%
+ 104  AB0101-Cb_BFcol_gt2_kt2     0.00%    passed     97.76%
+ 105  AB0103-Ca_BFgam_gt0_kt2     0.00%    passed     98.23%
+ 106  AB0103-Cb_BFgam_gt0_kt2     0.00%    passed     95.34%
+ 107  AB0104-Ca_BFgam_gt0_kt2     0.00%    passed     99.96%
+ 108  AB0104-Cb_BFgam_gt1_kt2     0.00%    passed     99.24%
+ 109  AB0108-Ca_BFgam_gt0_kt2     0.00%    passed     95.66%
+ 110  AB0108-Cb_BFgam_gt0_kt2     0.00%    passed     99.88%
+ 111  AB0109-Ca_BFcol_gt0_kt2     0.00%    passed     99.15%
+ 112  AB0109-Cb_BFcol_gt2_kt2     0.00%    passed     99.56%
+ 113  AB0110-Ca_BFcol_gt0_kt2     0.00%    passed     99.16%
+ 114  AB0110-Cb_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 115  AB0111-Ca_BFcol_gt2_kt2     0.00%    passed     99.70%
+ 116  AB0111-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 117  AB0112-Ca_BFcol_gt2_kt2     0.00%    passed     98.97%
+ 118  AB0112-Cb_BFcol_gt2_kt2     0.00%    passed     99.24%
+ 119  AB0113-Ca_BFcol_gt0_kt2     0.00%    passed     98.72%
+ 120  AB0113-Cb_BFcol_gt2_kt2     0.00%    passed     97.66%
+ 121  AB0114-Ca_BFcol_gt2_kt2     0.00%    passed     99.75%
+ 122  AB0114-Cb_BFcol_gt2_kt2     0.00%    passed     99.56%
+ 123  AB0115-Ca_BFcol_gt2_kt2     0.00%    passed     99.85%
+ 124  AB0115-Cb_BFcol_gt2_kt2     0.00%    passed     98.93%
+ 125  AB0118-Ca_BFgam_gt0_kt2     0.00%    passed     97.38%
+ 126  AB0118-Cb_BFgam_gt0_kt2     0.00%    passed     99.13%
+ 127  AB0119-Ca_BFgam_gt0_kt2     0.00%    passed     98.65%
+ 128  AB0119-Cb_BFgam_gt1_kt2     0.00%    passed     96.77%
+ 129  AB0122-Ca_BFcol_gt0_kt2     0.00%    passed     99.54%
+ 130  AB0122-Cb_BFcol_gt2_kt2     0.00%    passed     99.27%
+ 131  AB0123-Ca_BFcol_gt0_kt2     0.00%    passed     99.95%
+ 132  AB0123-Cb_BFcol_gt0_kt2     0.00%    passed     97.15%
+ 133  AB0124-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 134  AB0124-Cb_BFcol_gt2_kt2     0.00%    passed     99.77%
+ 135  AB0127-Ca_BFgam_gt1_kt2     0.00%    passed     99.78%
+ 136  AB0127-Cb_BFgam_gt1_kt2     0.00%    passed     95.05%
+ 137  AB0128-Ca_BFgam_gt0_kt2     0.00%    passed     99.04%
+ 138  AB0128-Cb_BFgam_gt1_kt2     0.00%    passed     98.82%
+ 139  AB0129-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 140  AB0129-Cb_BFgam_gt0_kt2     0.00%    passed     98.97%
+ 141  AB0130-Ca_BFgam_gt0_kt2     0.00%    passed     98.70%
+ 142  AB0130-Cb_BFgam_gt0_kt2     0.00%    passed     97.52%
+ 143  AB0133-Ca_BFgam_gt0_kt2     0.00%    passed     99.14%
+ 144  AB0133-Cb_BFgam_gt1_kt2     0.00%    passed     98.45%
+ 145  AB0134-Ca_BFgam_gt1_kt2     0.00%    passed     97.70%
+ 146  AB0134-Cb_BFgam_gt0_kt2     0.00%    passed     96.75%
+ 147  AB0135-Ca_BFgam_gt1_kt2     0.00%    passed     94.14%
+ 148  AB0135-Cb_BFgam_gt0_kt2     0.00%    passed     99.67%
+ 149  AB0136-Ca_BFgam_gt0_kt2     0.00%    passed     95.92%
+ 150  AB0136-Cb_BFgam_gt0_kt2     0.00%    passed     99.25%
+ 151  AB0137-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 152  AB0137-Cb_BFcol_gt2_kt2     0.00%    passed     99.92%
+ 153  AB0138-Ca_BFcol_gt2_kt2     0.00%    passed     98.15%
+ 154  AB0138-Cb_BFcol_gt0_kt2     0.00%    passed     98.98%
+ 155  AB0139-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 156  AB0139-Cb_BFcol_gt2_kt2     0.00%    passed     97.98%
+ 157  AB0140-Ca_BFcol_gt0_kt2     0.00%    passed     99.59%
+ 158  AB0140-Cb_BFcol_gt2_kt2     0.00%    passed     98.92%
+ 159  AB0142-Ca_BFcol_gt2_kt2     0.00%    passed     99.56%
+ 160  AB0142-Cb_BFcol_gt2_kt2     0.00%    passed     98.88%
+ 161  AB0143-Ca_BFgam_gt1_kt2     0.00%    passed     97.74%
+ 162  AB0143-Cb_BFgam_gt1_kt2     0.00%    passed     94.15%
+ 163  AB0146-Ca_BFgam_gt0_kt2     0.00%    passed     99.58%
+ 164  AB0146-Cb_BFgam_gt0_kt2     0.00%    passed     99.05%
+ 165  AB0147-Ca_BFgam_gt0_kt2     0.00%    passed     95.48%
+ 166  AB0147-Cb_BFgam_gt0_kt2     0.00%    passed     98.88%
+ 167  AB0150-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 168  AB0150-Cb_BFgam_gt1_kt2     0.00%    passed     95.82%
+ 169  AB0155-Ca_BFgam_gt1_kt2     0.00%    passed     98.71%
+ 170  AB0155-Cb_BFgam_gt1_kt2     0.00%    passed     98.72%
+ 171  AB0158-Ca_BFgam_gt0_kt2     0.00%    passed     98.15%
+ 172  AB0158-Cb_BFgam_gt0_kt2     0.00%    passed     99.42%
+ 173  AB0159-Ca_BFgam_gt0_kt2     0.00%    passed     99.46%
+ 174  AB0159-Cb_BFgam_gt0_kt2     0.00%    passed     94.17%
+ 175  AB0160-Ca_BFgam_gt0_kt2     0.00%    passed     99.93%
+ 176  AB0160-Cb_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 177  AB0161-Ca_BFgam_gt1_kt2     0.00%    passed     99.15%
+ 178  AB0161-Cb_BFgam_gt0_kt2     0.00%    passed     98.84%
+ 179  AB0164-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 180  AB0164-Cb_BFgam_gt1_kt2     0.00%    passed     97.91%
+ 181  AB0165-Ca_BFgam_gt0_kt2     0.00%    passed     99.33%
+ 182  AB0165-Cb_BFgam_gt0_kt2     0.00%    passed     95.49%
+ 183  AB0166-Ca_BFgam_gt1_kt2     0.00%    passed     97.49%
+ 184  AB0166-Cb_BFgam_gt0_kt2     0.00%    passed     99.44%
+ 185  AB0167-Ca_BFgam_gt1_kt2     0.00%    passed     96.32%
+ 186  AB0167-Cb_BFgam_gt0_kt2     0.00%    passed     97.76%
+ 187  AB0169-Ca_BFgam_gt0_kt2     0.00%    passed     99.98%
+ 188  AB0169-Cb_BFgam_gt0_kt2     0.00%    passed     97.21%
+ 189  AB0171-Ca_BFgam_gt0_kt2     0.00%    passed     98.78%
+ 190  AB0171-Cb_BFgam_gt0_kt2     0.00%    passed     96.41%
+ 191  AB0172-Ca_BFgam_gt0_kt2     0.00%    passed     98.47%
+ 192  AB0172-Cb_BFgam_gt0_kt2     0.00%    passed     98.57%
+ 193  AB0173-Ca_BFgam_gt0_kt2     0.00%    passed     99.15%
+ 194  AB0173-Cb_BFgam_gt1_kt2     0.00%    passed     97.74%
+ 195  AB0174-Ca_BFgam_gt0_kt2     0.00%    passed     97.44%
+ 196  AB0174-Cb_BFgam_gt0_kt2     0.00%    passed     98.22%
+ 197  AB0175-Ca_BFgam_gt0_kt2     0.00%    passed     96.91%
+ 198  AB0175-Cb_BFgam_gt0_kt2     0.00%    passed     97.86%
+ 199  AB0176-Ca_BFgam_gt0_kt2     0.00%    passed     99.64%
+ 200  AB0176-Cb_BFgam_gt0_kt2     0.00%    passed     92.57%
+ 201  AB0177-Ca_BFgam_gt1_kt2     0.00%    passed     99.91%
+ 202  AB0177-Cb_BFgam_gt0_kt2     0.00%    passed     99.65%
+ 203  AB0178-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 204  AB0178-Cb_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 205  AB0179-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 206  AB0179-Cb_BFgam_gt0_kt2     0.00%    passed     99.69%
+ 207  AB0181-Ca_BFcol_gt2_kt2     0.00%    passed     99.81%
+ 208  AB0181-Cb_BFcol_gt0_kt2     0.00%    passed     95.94%
+ 209  AB0182-Ca_BFcol_gt0_kt2     0.00%    passed     98.99%
+ 210  AB0182-Cb_BFcol_gt2_kt2     0.00%    passed     99.59%
+ 211  AB0183-Ca_BFcol_gt2_kt2     0.00%    passed     99.88%
+ 212  AB0183-Cb_BFcol_gt2_kt2     0.00%    passed     99.57%
+ 213  AB0184-Ca_BFcol_gt2_kt2     0.00%    passed     99.71%
+ 214  AB0184-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 215  AB0185-Ca_BFcol_gt0_kt2     0.00%    passed     96.50%
+ 216  AB0185-Cb_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 217  AB0186-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 218  AB0186-Cb_BFcol_gt0_kt2     0.00%    passed     99.09%
+ 219  AB0187-Ca_BFcol_gt2_kt2     0.00%    passed     99.53%
+ 220  AB0187-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 221  AB0188-Ca_BFcol_gt0_kt2     0.00%    passed     98.40%
+ 222  AB0188-Cb_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 223  AB0189-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 224  AB0189-Cb_BFcol_gt0_kt2     0.00%    passed     95.97%
+ 225  AB0190-Ca_BFcol_gt2_kt2     0.00%    passed     98.72%
+ 226  AB0190-Cb_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 227  AB0191-Ca_BFcol_gt2_kt2     0.00%    passed     99.19%
+ 228  AB0191-Cb_BFcol_gt0_kt2     0.00%    passed     98.33%
+ 229  AB0192-Ca_BFcol_gt0_kt2     0.00%    passed    100.00%
+ 230  AB0192-Cb_BFcol_gt0_kt2     0.00%    passed     98.77%
+ 231  AB0195-Ca_BFcol_gt0_kt2     0.00%    passed     98.99%
+ 232  AB0195-Cb_BFcol_gt2_kt2     0.00%    passed     98.53%
+ 233  AB0196-Ca_BFcol_gt2_kt2     0.00%    passed     99.03%
+ 234  AB0196-Cb_BFcol_gt2_kt2     0.00%    passed     99.78%
+ 235  AB0197-Ca_BFgam_gt1_kt2     0.00%    passed     99.54%
+ 236  AB0197-Cb_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 237  AB0198-Ca_BFgam_gt0_kt2     0.00%    passed     99.41%
+ 238  AB0198-Cb_BFgam_gt0_kt2     0.00%    passed     96.54%
+ 239  AB0199-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 240  AB0199-Cb_BFgam_gt0_kt2     0.00%    passed     98.82%
+ 241  AB0200-Ca_BFgam_gt0_kt2     0.00%    passed     98.48%
+ 242  AB0200-Cb_BFgam_gt0_kt2     0.00%    passed     98.93%
+ 243  AB0201-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 244  AB0201-Cb_BFgam_gt0_kt2     0.00%    passed     99.04%
+ 245  AB0202-Ca_BFgam_gt1_kt2     0.00%    passed     94.53%
+ 246  AB0202-Cb_BFgam_gt0_kt2     0.00%    passed     98.03%
+ 247  AB0203-Ca_BFgam_gt0_kt2     0.00%    passed     98.68%
+ 248  AB0203-Cb_BFgam_gt0_kt2     0.00%    passed     98.97%
+ 249  AB0204-Ca_BFcol_gt0_kt2     0.00%    passed     99.31%
+ 250  AB0204-Cb_BFcol_gt2_kt2     0.00%    passed     99.75%
+ 251  AB0206-Ca_BFgam_gt1_kt2     0.00%    passed     99.07%
+ 252  AB0206-Cb_BFgam_gt0_kt2     0.00%    passed     98.32%
+ 253  AB0207-Ca_BFgam_gt1_kt2     0.00%    passed     97.97%
+ 254  AB0207-Cb_BFgam_gt0_kt2     0.00%    passed     98.26%
+ 255  AB0208-Ca_BFgam_gt0_kt2     0.00%    passed     98.42%
+ 256  AB0208-Cb_BFgam_gt0_kt2     0.00%    passed     99.53%
+ 257  AB0209-Ca_BFcol_gt2_kt2     0.00%    passed     99.77%
+ 258  AB0209-Cb_BFcol_gt0_kt2     0.00%    passed     99.76%
+ 259  AB0210-Ca_BFcol_gt0_kt2     0.00%    passed     98.65%
+ 260  AB0210-Cb_BFcol_gt2_kt2     0.00%    passed     99.68%
+ 261  AB0211-Ca_BFgam_gt0_kt2     0.00%    passed     94.28%
+ 262  AB0211-Cb_BFgam_gt0_kt2     0.00%    passed     99.25%
+ 263  AB0212-Ca_BFcol_gt2_kt2     0.00%    passed     99.68%
+ 264  AB0212-Cb_BFcol_gt0_kt2     0.00%    passed     98.65%
+ 265  AB0213-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 266  AB0213-Cb_BFcol_gt0_kt2     0.00%    passed     99.04%
+ 267  AB0215-Ca_BFcol_gt2_kt2     0.00%    passed     99.79%
+ 268  AB0215-Cb_BFcol_gt0_kt2     0.00%    passed     98.24%
+ 269  AB0217-Ca_BFgam_gt0_kt2     0.00%    passed     98.03%
+ 270  AB0217-Cb_BFgam_gt1_kt2     0.00%    passed     97.09%
+ 271  AB0218-Ca_BFgam_gt0_kt2     0.00%    passed     99.53%
+ 272  AB0218-Cb_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 273  AB0219-Ca_BFcol_gt2_kt2     0.00%    passed     98.34%
+ 274  AB0219-Cb_BFcol_gt0_kt2     0.00%    passed     97.85%
+ 275  AB0221-Ca_BFcol_gt2_kt2     0.00%    passed     99.30%
+ 276  AB0221-Cb_BFcol_gt2_kt2     0.00%    passed     98.88%
+ 277  AB0222-Ca_BFcol_gt2_kt2     0.00%    passed     98.88%
+ 278  AB0222-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 279  AB0223-Ca_BFcol_gt2_kt2     0.00%    passed     98.94%
+ 280  AB0223-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 281  AB0226-Ca_BFcol_gt2_kt2     0.00%    passed     99.82%
+ 282  AB0226-Cb_BFcol_gt2_kt2     0.00%    passed     98.23%
+ 283  AB0227-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 284  AB0227-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 285  AB0228-Ca_BFgam_gt0_kt2     0.00%    passed     96.01%
+ 286  AB0228-Cb_BFgam_gt0_kt2     0.00%    passed     98.69%
+ 287  AB0229-Ca_BFcol_gt2_kt2     0.00%    passed     98.71%
+ 288  AB0229-Cb_BFcol_gt0_kt2     0.00%    passed     99.71%
+ 289  AB0232-Ca_BFgam_gt0_kt2     0.00%    passed     96.94%
+ 290  AB0232-Cb_BFgam_gt0_kt2     0.00%    passed     97.93%
+ 291  AB0234-Ca_BFcol_gt2_kt2     0.00%    passed     99.79%
+ 292  AB0234-Cb_BFcol_gt0_kt2     0.00%    passed     99.79%
+ 293  AB0235-Ca_BFgam_gt0_kt2     0.00%    passed     97.00%
+ 294  AB0235-Cb_BFgam_gt0_kt2     0.00%    passed     99.30%
+ 295  AB0236-Ca_BFgam_gt0_kt2     0.00%    passed     99.97%
+ 296  AB0236-Cb_BFgam_gt0_kt2     0.00%    passed     93.51%
+ 297  AB0237-Ca_BFcol_gt2_kt2     0.00%    passed     99.29%
+ 298  AB0237-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 299  AB0238-Ca_BFgam_gt0_kt2     0.00%    passed     97.39%
+ 300  AB0238-Cb_BFgam_gt1_kt2     0.00%    passed     98.26%
+ 301  AB0239-Ca_BFgam_gt0_kt2     0.00%    passed     99.58%
+ 302  AB0239-Cb_BFgam_gt1_kt2     0.00%    passed     99.60%
+ 303  AB0240-Ca_BFcol_gt2_kt2     0.00%    passed     98.34%
+ 304  AB0240-Cb_BFcol_gt0_kt2     0.00%    passed     99.56%
+ 305  AB0241-Ca_BFgam_gt1_kt2     0.00%    passed     97.83%
+ 306  AB0241-Cb_BFgam_gt1_kt2     0.00%    passed     95.25%
+ 307  AB0242-Ca_BFcol_gt2_kt2     0.00%    passed     98.92%
+ 308  AB0242-Cb_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 309  AB0243-Ca_BFcol_gt0_kt2     0.00%    passed     97.86%
+ 310  AB0243-Cb_BFcol_gt2_kt2     0.00%    passed     98.78%
+ 311  AB0244-Ca_BFgam_gt1_kt2     0.00%    passed     97.90%
+ 312  AB0244-Cb_BFgam_gt0_kt2     0.00%    passed     99.21%
+ 313  AB0246-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 314  AB0246-Cb_BFcol_gt0_kt2     0.00%    passed     99.28%
+ 315  AB0247-Ca_BFcol_gt2_kt2     0.00%    passed     99.24%
+ 316  AB0247-Cb_BFcol_gt2_kt2     0.00%    passed     99.68%
+ 317  AB0249-Ca_BFcol_gt0_kt2     0.00%    passed     98.90%
+ 318  AB0249-Cb_BFcol_gt2_kt2     0.00%    passed     98.43%
+ 319  AB0250-Ca_BFcol_gt2_kt2     0.00%    passed     99.56%
+ 320  AB0250-Cb_BFcol_gt0_kt2     0.00%    passed     98.70%
+ 321  AB0252-Ca_BFgam_gt0_kt2     0.00%    passed     99.50%
+ 322  AB0252-Cb_BFgam_gt0_kt2     0.00%    passed     90.41%
+ 323  AB0253-Ca_BFgam_gt1_kt2     0.00%    passed     99.78%
+ 324  AB0253-Cb_BFgam_gt0_kt2     0.00%    passed     99.95%
+ 325  AB0255-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 326  AB0255-Cb_BFgam_gt0_kt2     0.00%    passed     99.62%
+ 327  AB0257-Ca_BFcol_gt0_kt2     0.00%    passed     99.21%
+ 328  AB0257-Cb_BFcol_gt0_kt2     0.00%    passed     98.65%
+ 329  AB0258-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 330  AB0258-Cb_BFcol_gt0_kt2     0.00%    passed     99.56%
+ 331  AB0260-Ca_BFgam_gt1_kt2     0.00%    passed     98.67%
+ 332  AB0260-Cb_BFgam_gt1_kt2     0.00%    passed     99.77%
+ 333  AB0262-Ca_BFcol_gt2_kt2     0.00%    passed     99.93%
+ 334  AB0262-Cb_BFcol_gt0_kt2     0.00%    passed     98.80%
+ 335  AB0263-Ca_BFcol_gt0_kt2     0.00%    passed     93.94%
+ 336  AB0263-Cb_BFcol_gt0_kt2     0.00%    passed     99.51%
+ 337  AB0264-Ca_BFgam_gt1_kt2     0.00%    passed     98.54%
+ 338  AB0264-Cb_BFgam_gt0_kt2     0.00%    passed     99.50%
+ 339  AB0265-Ca_BFgam_gt1_kt2     0.00%    passed     98.11%
+ 340  AB0265-Cb_BFgam_gt0_kt2     0.00%    passed     99.15%
+ 341  AB0266-Ca_BFcol_gt0_kt2     0.00%    passed     99.32%
+ 342  AB0266-Cb_BFcol_gt2_kt2     0.00%    passed     99.94%
+ 343  AB0267-Ca_BFcol_gt2_kt2     0.00%    passed     99.51%
+ 344  AB0267-Cb_BFcol_gt2_kt2     0.00%    passed     99.19%
+ 345  AB0268-Ca_BFgam_gt0_kt2     0.00%    passed     99.97%
+ 346  AB0268-Cb_BFgam_gt0_kt2     0.00%    passed     97.97%
+ 347  AB0271-Ca_BFgam_gt0_kt2     0.00%    passed     99.16%
+ 348  AB0271-Cb_BFgam_gt0_kt2     0.00%    passed     98.46%
+ 349  AB0272-Ca_BFgam_gt0_kt2     0.00%    passed     99.19%
+ 350  AB0272-Cb_BFgam_gt1_kt2     0.00%    passed     99.76%
+ 351  AB0273-Ca_BFgam_gt1_kt2     0.00%    passed     99.23%
+ 352  AB0273-Cb_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 353  AB0274-Ca_BFgam_gt1_kt2     0.00%    passed     98.32%
+ 354  AB0274-Cb_BFgam_gt1_kt2     0.00%    passed     98.45%
+ 355  AB0275-Ca_BFgam_gt1_kt2     0.00%    passed     98.82%
+ 356  AB0275-Cb_BFgam_gt0_kt2     0.00%    passed     96.31%
+ 357  AB0276-Ca_BFcol_gt0_kt2     0.00%    passed     99.64%
+ 358  AB0276-Cb_BFcol_gt2_kt2     0.00%    passed     98.97%
+ 359  AB0277-Ca_BFgam_gt0_kt2     0.00%    passed     91.28%
+ 360  AB0277-Cb_BFgam_gt0_kt2     0.00%    passed     99.53%
+ 361  AB0278-Ca_BFgam_gt0_kt2     0.00%    passed     99.87%
+ 362  AB0278-Cb_BFgam_gt0_kt2     0.00%    passed     99.50%
+ 363  AB0279-Ca_BFcol_gt2_kt2     0.00%    passed     99.66%
+ 364  AB0279-Cb_BFcol_gt0_kt2     0.00%    passed     99.09%
+ 365  AB0280-Ca_BFgam_gt1_kt2     0.00%    passed     96.09%
+ 366  AB0280-Cb_BFgam_gt1_kt2     0.00%    passed     97.97%
+ 367  AB0281-Ca_BFgam_gt0_kt2     0.00%    passed     98.94%
+ 368  AB0281-Cb_BFgam_gt1_kt2     0.00%    passed     98.58%
+ 369  AB0282-Ca_BFcol_gt2_kt2     0.00%    passed     99.67%
+ 370  AB0282-Cb_BFcol_gt2_kt2     0.00%    passed     98.78%
+ 371  AB0283-Ca_BFgam_gt1_kt2     0.00%    passed     99.99%
+ 372  AB0283-Cb_BFgam_gt0_kt2     0.00%    passed     99.36%
+ 373  AB0284-Ca_BFgam_gt0_kt2     0.00%    passed     98.30%
+ 374  AB0284-Cb_BFgam_gt0_kt2     0.00%    passed     98.43%
+ 375  AC0092-Ca_UGgam_gt0_kt2     0.00%    passed     97.09%
+ 376  AC0092-Cb_UGgam_gt0_kt2     0.00%    passed     97.84%
+ 377  AC0095-Ca_UGgam_gt0_kt2     0.00%    passed     91.67%
+ 378  AC0095-Cb_UGgam_gt0_kt2     0.00%    passed     98.36%
+ 379  AC0097-Ca_UGgam_gt0_kt2     0.00%    passed     98.69%
+ 380  AC0097-Cb_UGgam_gt0_kt2     0.00%    passed     99.31%
+ 381  AC0098-Ca_UGgam_gt0_kt2     0.00%    passed     97.61%
+ 382  AC0098-Cb_UGgam_gt0_kt2     0.00%    passed     98.50%
+ 383  AC0099-Ca_UGgam_gt0_kt0     0.00%    passed     97.91%
+ 384  AC0099-Cb_UGgam_gt0_kt0     0.00%    passed     99.21%
+ 385  AC0102-Ca_UGgam_gt0_kt0     0.00%    passed     98.43%
+ 386  AC0102-Cb_UGgam_gt0_kt0     0.00%    passed     93.22%
+ 387  AC0103-Ca_UGgam_gt0_kt2     0.00%    passed     99.63%
+ 388  AC0103-Cb_UGgam_gt0_kt2     0.00%    passed     97.68%
+ 389  AC0104-Ca_UGgam_gt0_kt0     0.00%    passed     99.50%
+ 390  AC0104-Cb_UGgam_gt0_kt0     0.00%    passed     98.58%
+ 391  AC0105-Ca_UGgam_gt0_kt0     0.00%    passed     91.75%
+ 392  AC0105-Cb_UGgam_gt0_kt0     0.00%    passed     99.96%
+ 393  AC0106-Ca_UGgam_gt0_kt2     0.00%    passed     98.25%
+ 394  AC0106-Cb_UGgam_gt0_kt2     0.00%    passed     98.93%
+ 395  AC0107-Ca_UGgam_gt0_kt0     0.00%    passed     99.92%
+ 396  AC0107-Cb_UGgam_gt0_kt0     0.00%    passed     97.79%
+ 397  AC0108-Ca_UGgam_gt0_kt2     0.00%    passed     99.68%
+ 398  AC0108-Cb_UGgam_gt0_kt2     0.00%    passed     96.32%
+ 399  AC0109-Ca_UGgam_gt0_kt2     0.00%    passed     99.70%
+ 400  AC0109-Cb_UGgam_gt0_kt2     0.00%    passed     99.68%
+ 401  AC0111-Ca_UGgam_gt0_kt2     0.00%    passed     98.11%
+ 402  AC0111-Cb_UGgam_gt0_kt2     0.00%    passed     99.69%
+ 403  AC0115-Ca_UGgam_gt0_kt2     0.00%    passed     98.31%
+ 404  AC0115-Cb_UGgam_gt0_kt2     0.00%    passed     99.52%
+ 405  AC0116-Ca_UGgam_gt0_kt2     0.00%    passed     99.15%
+ 406  AC0116-Cb_UGgam_gt0_kt2     0.00%    passed     96.17%
+ 407  AC0119-Ca_UGgam_gt0_kt0     0.00%    passed     99.30%
+ 408  AC0119-Cb_UGgam_gt0_kt0     0.00%    passed     99.07%
+ 409  AC0120-Ca_UGgam_gt0_kt0     0.00%    passed     99.87%
+ 410  AC0120-Cb_UGgam_gt0_kt0     0.00%    passed     99.72%
+ 411  AC0121-Ca_UGgam_gt0_kt2     0.00%    passed     92.15%
+ 412  AC0121-Cb_UGgam_gt0_kt2     0.00%    passed     97.46%
+ 413  AC0124-Ca_UGgam_gt0_kt2     0.00%    passed     99.21%
+ 414  AC0124-Cb_UGgam_gt0_kt2     0.00%    passed     99.21%
+ 415  AC0126-Ca_UGgam_gt0_kt0     0.00%    passed     94.97%
+ 416  AC0126-Cb_UGgam_gt0_kt0     0.00%    passed     96.71%
+ 417  AC0127-Ca_UGgam_gt0_kt2     0.00%    passed     99.23%
+ 418  AC0127-Cb_UGgam_gt0_kt2     0.00%    passed     99.88%
+ 419  AC0129-Ca_UGgam_gt0_kt2     0.00%    passed     99.73%
+ 420  AC0129-Cb_UGgam_gt0_kt2     0.00%    passed     99.45%
+ 421  AC0130-Ca_UGgam_gt0_kt2     0.00%    passed     97.49%
+ 422  AC0130-Cb_UGgam_gt0_kt2     0.00%    passed     98.74%
+ 423  AC0132-Ca_UGgam_gt0_kt2     0.00%    passed     97.40%
+ 424  AC0132-Cb_UGgam_gt0_kt2     0.00%    passed     99.75%
+ 425  AC0137-Ca_UGgam_gt0_kt2     0.00%    passed     98.13%
+ 426  AC0137-Cb_UGgam_gt0_kt2     0.00%    passed     93.97%
+ 427  AC0138-Ca_UGgam_gt0_kt0     0.00%    passed     99.90%
+ 428  AC0138-Cb_UGgam_gt0_kt0     0.00%    passed     98.11%
+ 429  AC0139-Ca_UGgam_gt0_kt0     0.00%    passed     94.85%
+ 430  AC0139-Cb_UGgam_gt0_kt0     0.00%    passed     98.43%
+ 431  AC0140-Ca_UGgam_gt0_kt2     0.00%    passed     99.40%
+ 432  AC0140-Cb_UGgam_gt0_kt2     0.00%    passed     95.09%
+ 433  AC0141-Ca_UGgam_gt0_kt0     0.00%    passed     97.03%
+ 434  AC0141-Cb_UGgam_gt0_kt0     0.00%    passed     88.24%
+ 435  AC0143-Ca_UGgam_gt0_kt2     0.00%    passed     99.59%
+ 436  AC0143-Cb_UGgam_gt0_kt2     0.00%    passed     99.74%
+ 437  AC0144-Ca_UGgam_gt0_kt2     0.00%    passed     98.80%
+ 438  AC0144-Cb_UGgam_gt0_kt2     0.00%    passed     99.33%
+ 439  AC0146-Ca_UGgam_gt0_kt0     0.00%    passed     90.92%
+ 440  AC0146-Cb_UGgam_gt0_kt0     0.00%    passed     99.93%
+ 441  AC0147-Ca_UGgam_gt0_kt2     0.00%    passed     99.52%
+ 442  AC0147-Cb_UGgam_gt0_kt2     0.00%    passed     99.57%
+ 443  AC0148-Ca_UGgam_gt0_kt2     0.00%    passed     97.15%
+ 444  AC0148-Cb_UGgam_gt0_kt2     0.00%    passed     94.28%
+ 445  AC0150-Ca_UGgam_gt0_kt0     0.00%    passed     99.70%
+ 446  AC0150-Cb_UGgam_gt0_kt0     0.00%    passed     97.26%
+ 447  AC0153-Ca_UGgam_gt0_kt0     0.00%    passed     97.26%
+ 448  AC0153-Cb_UGgam_gt0_kt0     0.00%    passed     99.35%
+ 449  AC0157-Ca_UGgam_gt0_kt2     0.00%    passed     99.91%
+ 450  AC0157-Cb_UGgam_gt0_kt2     0.00%    passed     98.60%
+ 451  AC0159-Ca_UGgam_gt0_kt0     0.00%    passed     99.21%
+ 452  AC0159-Cb_UGgam_gt0_kt0     0.00%    passed     97.15%
+ 453  AC0161-Ca_UGgam_gt0_kt2     0.00%    passed     97.48%
+ 454  AC0161-Cb_UGgam_gt0_kt2     0.00%    passed     98.43%
+ 455  AC0169-Ca_UGgam_gt0_kt2     0.00%    passed     98.73%
+ 456  AC0169-Cb_UGgam_gt0_kt2     0.00%    passed     98.61%
+ 457  AC0171-Ca_UGgam_gt0_kt2     0.00%    passed     97.51%
+ 458  AC0171-Cb_UGgam_gt0_kt2     0.00%    passed     98.81%
+ 459  AC0172-Ca_UGgam_gt0_kt2     0.00%    passed     99.27%
+ 460  AC0172-Cb_UGgam_gt0_kt2     0.00%    passed     94.83%
+ 461  AC0176-Ca_UGgam_gt0_kt0     0.00%    passed     97.48%
+ 462  AC0176-Cb_UGgam_gt0_kt0     0.00%    passed     99.65%
+ 463  AC0179-Ca_UGgam_gt0_kt2     0.00%    passed     96.44%
+ 464  AC0179-Cb_UGgam_gt0_kt2     0.00%    passed     99.30%
+ 465  AC0180-Ca_UGgam_gt0_kt2     0.00%    passed     99.75%
+ 466  AC0180-Cb_UGgam_gt0_kt2     0.00%    passed     99.87%
+ 467  AC0181-Ca_UGgam_gt0_kt0     0.00%    passed     94.98%
+ 468  AC0181-Cb_UGgam_gt0_kt0     0.00%    passed     97.15%
+ 469  AC0182-Ca_UGgam_gt0_kt2     0.00%    passed     96.73%
+ 470  AC0182-Cb_UGgam_gt0_kt2     0.00%    passed     98.14%
+ 471  AC0184-Ca_UGgam_gt0_kt2     0.00%    passed     99.65%
+ 472  AC0184-Cb_UGgam_gt0_kt2     0.00%    passed     99.34%
+ 473  AC0186-Ca_UGgam_gt0_kt0     0.00%    passed     94.05%
+ 474  AC0186-Cb_UGgam_gt0_kt0     0.00%    passed     97.69%
+ 475  AC0189-Ca_UGgam_gt0_kt2     0.00%    passed     98.97%
+ 476  AC0189-Cb_UGgam_gt0_kt2     0.00%    passed     98.75%
+ 477  AC0190-Ca_UGgam_gt0_kt2     0.00%    passed     99.52%
+ 478  AC0190-Cb_UGgam_gt0_kt2     0.00%    passed     92.83%
+ 479  AC0191-Ca_UGgam_gt0_kt2     0.00%    passed     99.62%
+ 480  AC0191-Cb_UGgam_gt0_kt2     0.00%    passed     96.65%
+ 481  AC0192-Ca_UGgam_gt0_kt2     0.00%    passed     96.36%
+ 482  AC0192-Cb_UGgam_gt0_kt2     0.00%    passed     99.18%
+ 483  AC0193-Ca_UGgam_gt0_kt2     0.00%    passed     99.73%
+ 484  AC0193-Cb_UGgam_gt0_kt2     0.00%    passed     89.35%
+ 485  AC0194-Ca_UGgam_gt0_kt2     0.00%    passed     99.21%
+ 486  AC0194-Cb_UGgam_gt0_kt2     0.00%    passed     98.87%
+ 487  AC0196-Ca_UGgam_gt0_kt2     0.00%    passed     98.51%
+ 488  AC0196-Cb_UGgam_gt0_kt2     0.00%    passed     99.65%
+ 489  AC0197-Ca_UGgam_gt0_kt2     0.00%    passed     96.80%
+ 490  AC0197-Cb_UGgam_gt0_kt2     0.00%    passed     98.68%
+ 491  AC0201-Ca_UGgam_gt0_kt2     0.00%    passed     99.65%
+ 492  AC0201-Cb_UGgam_gt0_kt2     0.00%    passed     97.32%
+ 493  AG0096-Ca_GM_gt0_kt2        0.00%    passed     99.38%
+ 494  AG0096-Cb_GM_gt0_kt2        0.00%    passed     99.42%
+ 495  AG0097-Ca_GM_gt0_kt2        0.00%    passed     99.75%
+ 496  AG0097-Cb_GM_gt0_kt2        0.00%    passed     94.75%
+ 497  AG0098-Ca_GM_gt0_kt2        0.00%    passed     99.81%
+ 498  AG0098-Cb_GM_gt0_kt2        0.00%    passed     95.49%
+ 499  AG0102-Ca_GM_gt0_kt2        0.00%    passed     97.65%
+ 500  AG0102-Cb_GM_gt0_kt2        0.00%    passed     96.37%
+ 501  AG0104-Ca_GM_gt0_kt2        0.00%    passed     99.51%
+ 502  AG0104-Cb_GM_gt0_kt2        0.00%    passed     98.14%
+ 503  AG0106-Ca_GM_gt0_kt2        0.00%    passed     99.42%
+ 504  AG0106-Cb_GM_gt0_kt2        0.00%    passed     99.69%
+ 505  AG0108-Ca_GM_gt0_kt2        0.00%    passed     99.24%
+ 506  AG0108-Cb_GM_gt0_kt2        0.00%    passed     97.16%
+ 507  AG0118-Ca_GM_gt0_kt2        0.00%    passed     98.55%
+ 508  AG0118-Cb_GM_gt0_kt2        0.00%    passed     95.60%
+ 509  AG0125-Ca_GM_gt0_kt2        0.00%    passed     97.74%
+ 510  AG0125-Cb_GM_gt0_kt2        0.00%    passed     98.90%
+ 511  AG0126-Ca_GM_gt0_kt2        0.00%    passed     99.53%
+ 512  AG0126-Cb_GM_gt0_kt2        0.00%    passed     98.26%
+ 513  AG0127-Ca_GM_gt0_kt2        0.00%    passed     88.84%
+ 514  AG0127-Cb_GM_gt0_kt2        0.00%    passed     99.68%
+ 515  AG0129-Ca_GM_gt0_kt2        0.00%    passed     98.03%
+ 516  AG0129-Cb_GM_gt0_kt2        0.00%    passed     98.28%
+ 517  AG0137-Ca_GM_gt0_kt2        0.00%    passed     98.62%
+ 518  AG0137-Cb_GM_gt0_kt2        0.00%    passed     98.96%
+ 519  AG0138-Ca_GM_gt0_kt2        0.00%    passed     97.95%
+ 520  AG0138-Cb_GM_gt0_kt2        0.00%    passed     98.08%
+ 521  AG0143-Ca_GM_gt0_kt2        0.00%    passed     99.28%
+ 522  AG0143-Cb_GM_gt0_kt2        0.00%    passed     97.13%
+ 523  AG0144-Ca_GM_gt0_kt2        0.00%    passed     99.65%
+ 524  AG0144-Cb_GM_gt0_kt2        0.00%    passed     95.33%
+ 525  AG0145-Ca_GM_gt0_kt2        0.00%    passed     98.26%
+ 526  AG0145-Cb_GM_gt0_kt2        0.00%    passed     98.55%
+ 527  AG0146-Ca_GM_gt0_kt2        0.00%    passed     98.68%
+ 528  AG0146-Cb_GM_gt0_kt2        0.00%    passed     97.68%
+ 529  AG0147-Ca_GM_gt0_kt2        0.00%    passed     95.63%
+ 530  AG0147-Cb_GM_gt0_kt2        0.00%    passed     99.11%
+ 531  AG0148-Ca_GM_gt0_kt2        0.00%    passed     99.68%
+ 532  AG0148-Cb_GM_gt0_kt2        0.00%    passed     98.98%
+ 533  AG0152-Ca_GM_gt0_kt2        0.00%    passed     97.68%
+ 534  AG0152-Cb_GM_gt0_kt2        0.00%    passed     92.43%
+ 535  AG0153-Ca_GM_gt0_kt2        0.00%    passed     99.08%
+ 536  AG0153-Cb_GM_gt0_kt2        0.00%    passed     96.93%
+ 537  AG0156-Ca_GM_gt0_kt2        0.00%    passed     96.53%
+ 538  AG0156-Cb_GM_gt0_kt2        0.00%    passed     95.97%
+ 539  AG0159-Ca_GM_gt0_kt2        0.00%    passed     96.93%
+ 540  AG0159-Cb_GM_gt0_kt2        0.00%    passed     97.42%
+ 541  AG0162-Ca_GM_gt0_kt2        0.00%    passed     97.39%
+ 542  AG0162-Cb_GM_gt0_kt2        0.00%    passed     99.61%
+ 543  AG0163-Ca_GM_gt0_kt2        0.00%    passed     98.54%
+ 544  AG0163-Cb_GM_gt0_kt2        0.00%    passed     97.13%
+ 545  AG0178-Ca_GM_gt0_kt2        0.00%    passed     98.98%
+ 546  AG0178-Cb_GM_gt0_kt2        0.00%    passed     99.34%
+ 547  AG0181-Ca_GM_gt0_kt2        0.00%    passed     99.47%
+ 548  AG0181-Cb_GM_gt0_kt2        0.00%    passed     95.60%
+ 549  AG0183-Ca_GM_gt0_kt2        0.00%    passed     94.83%
+ 550  AG0183-Cb_GM_gt0_kt2        0.00%    passed     97.86%
+ 551  AG0195-Ca_GM_gt0_kt2        0.00%    passed     99.07%
+ 552  AG0195-Cb_GM_gt0_kt2        0.00%    passed     98.05%
+ 553  AG0202-Ca_GM_gt0_kt2        0.00%    passed     99.89%
+ 554  AG0202-Cb_GM_gt0_kt2        0.00%    passed     98.22%
+ 555  AG0221-Ca_GM_gt0_kt2        0.00%    passed     95.93%
+ 556  AG0221-Cb_GM_gt0_kt2        0.00%    passed     95.12%
+ 557  AG0223-Ca_GM_gt0_kt2        0.00%    passed     98.98%
+ 558  AG0223-Cb_GM_gt0_kt2        0.00%    passed     95.31%
+ 559  AG0227-Ca_GM_gt0_kt2        0.00%    passed     99.67%
+ 560  AG0227-Cb_GM_gt0_kt2        0.00%    passed     99.31%
+ 561  AG0231-Ca_GM_gt0_kt2        0.00%    passed     98.24%
+ 562  AG0231-Cb_GM_gt0_kt2        0.00%    passed     99.42%
+ 563  AJ0023-Ca_GW_gt0_kt0        0.00%    passed     99.50%
+ 564  AJ0023-Cb_GW_gt0_kt0        0.00%    passed     96.06%
+ 565  AJ0024-Ca_GW_gt0_kt0        0.00%    passed     98.26%
+ 566  AJ0024-Cb_GW_gt0_kt0        0.00%    passed     95.11%
+ 567  AJ0032-Ca_GW_gt0_kt2        0.00%    passed     99.27%
+ 568  AJ0032-Cb_GW_gt0_kt2        0.00%    passed     99.42%
+ 569  AJ0036-Ca_GW_gt0_kt0        0.00%    passed     99.24%
+ 570  AJ0036-Cb_GW_gt0_kt0        0.00%    passed     99.98%
+ 571  AJ0039-Ca_GW_gt0_kt0        0.00%    passed     98.41%
+ 572  AJ0039-Cb_GW_gt0_kt0        0.00%    passed     99.30%
+ 573  AJ0045-Ca_GW_gt0_kt2        0.00%    passed     99.11%
+ 574  AJ0045-Cb_GW_gt0_kt2        0.00%    passed     98.93%
+ 575  AJ0052-Ca_GW_gt0_kt0        0.00%    passed     98.33%
+ 576  AJ0052-Cb_GW_gt0_kt0        0.00%    passed     96.21%
+ 577  AJ0056-Ca_GW_gt0_kt0        0.00%    passed     99.51%
+ 578  AJ0056-Cb_GW_gt0_kt0        0.00%    passed     90.46%
+ 579  AJ0059-Ca_GW_gt0_kt0        0.00%    passed     99.52%
+ 580  AJ0059-Cb_GW_gt0_kt0        0.00%    passed     98.09%
+ 581  AJ0060-Ca_GW_gt0_kt0        0.00%    passed     96.06%
+ 582  AJ0060-Cb_GW_gt0_kt0        0.00%    passed     99.91%
+ 583  AJ0061-Ca_GW_gt0_kt0        0.00%    passed     98.77%
+ 584  AJ0061-Cb_GW_gt0_kt0        0.00%    passed     99.47%
+ 585  AJ0066-Ca_GW_gt0_kt0        0.00%    passed     99.45%
+ 586  AJ0066-Cb_GW_gt0_kt0        0.00%    passed     98.94%
+ 587  AJ0070-Ca_GW_gt0_kt0        0.00%    passed     99.40%
+ 588  AJ0070-Cb_GW_gt0_kt0        0.00%    passed     99.19%
+ 589  AJ0071-Ca_GW_gt0_kt0        0.00%    passed     98.17%
+ 590  AJ0071-Cb_GW_gt0_kt0        0.00%    passed     97.52%
+ 591  AJ0072-Ca_GW_gt0_kt0        0.00%    passed     98.28%
+ 592  AJ0072-Cb_GW_gt0_kt0        0.00%    passed     96.46%
+ 593  AJ0074-Ca_GW_gt0_kt2        0.00%    passed     99.74%
+ 594  AJ0074-Cb_GW_gt0_kt2        0.00%    passed     96.84%
+ 595  AJ0085-Ca_GW_gt0_kt0        0.00%    passed     97.54%
+ 596  AJ0085-Cb_GW_gt0_kt0        0.00%    passed     98.95%
+ 597  AJ0086-Ca_GW_gt0_kt0        0.00%    passed     97.35%
+ 598  AJ0086-Cb_GW_gt0_kt0        0.00%    passed     97.01%
+ 599  AJ0088-Ca_GW_gt0_kt0        0.00%    passed     98.50%
+ 600  AJ0088-Cb_GW_gt0_kt0        0.00%    passed     99.71%
+ 601  AJ0096-Ca_GW_gt0_kt0        0.00%    passed     95.76%
+ 602  AJ0096-Cb_GW_gt0_kt0        0.00%    passed     99.33%
+ 603  AJ0098-Ca_GW_gt0_kt0        0.00%    passed     98.07%
+ 604  AJ0098-Cb_GW_gt0_kt0        0.00%    passed     98.27%
+ 605  AJ0099-Ca_GW_gt0_kt0        0.00%    passed     98.92%
+ 606  AJ0099-Cb_GW_gt0_kt0        0.00%    passed     97.50%
+ 607  AJ0100-Ca_GW_gt0_kt0        0.00%    passed     96.62%
+ 608  AJ0100-Cb_GW_gt0_kt0        0.00%    passed     99.18%
+ 609  AJ0101-Ca_GW_gt0_kt0        0.00%    passed     98.97%
+ 610  AJ0101-Cb_GW_gt0_kt0        0.00%    passed     99.85%
+ 611  AJ0102-Ca_GW_gt0_kt0        0.00%    passed     96.43%
+ 612  AJ0102-Cb_GW_gt0_kt0        0.00%    passed     98.98%
+ 613  AJ0105-Ca_GW_gt0_kt0        0.00%    passed     97.59%
+ 614  AJ0105-Cb_GW_gt0_kt0        0.00%    passed     97.65%
+ 615  AJ0107-Ca_GW_gt0_kt0        0.00%    passed     99.08%
+ 616  AJ0107-Cb_GW_gt0_kt0        0.00%    passed     96.58%
+ 617  AJ0109-Ca_GW_gt0_kt0        0.00%    passed     99.60%
+ 618  AJ0109-Cb_GW_gt0_kt0        0.00%    passed     98.81%
+ 619  AJ0115-Ca_GW_gt0_kt0        0.00%    passed     99.06%
+ 620  AJ0115-Cb_GW_gt0_kt0        0.00%    passed     97.73%
+ 621  AJ0119-Ca_GW_gt0_kt0        0.00%    passed     99.99%
+ 622  AJ0119-Cb_GW_gt0_kt0        0.00%    passed     98.95%
+ 623  AJ0128-Ca_GW_gt0_kt0        0.00%    passed     96.79%
+ 624  AJ0128-Cb_GW_gt0_kt0        0.00%    passed     97.92%
+ 625  AJ0130-Ca_GW_gt0_kt0        0.00%    passed     97.11%
+ 626  AJ0130-Cb_GW_gt0_kt0        0.00%    passed     94.60%
+ 627  AJ0132-Ca_GW_gt0_kt0        0.00%    passed     99.62%
+ 628  AJ0132-Cb_GW_gt0_kt0        0.00%    passed     98.30%
+ 629  AJ0133-Ca_GW_gt0_kt0        0.00%    passed     99.98%
+ 630  AJ0133-Cb_GW_gt0_kt0        0.00%    passed     97.75%
+ 631  AJ0136-Ca_GW_gt0_kt0        0.00%    passed     97.46%
+ 632  AJ0136-Cb_GW_gt0_kt0        0.00%    passed     98.52%
+ 633  AJ0138-Ca_GW_gt0_kt2        0.00%    passed     99.91%
+ 634  AJ0138-Cb_GW_gt0_kt2        0.00%    passed     98.52%
+ 635  AJ0139-Ca_GW_gt0_kt0        0.00%    passed     98.99%
+ 636  AJ0139-Cb_GW_gt0_kt0        0.00%    passed     98.96%
+ 637  AJ0140-Ca_GW_gt0_kt0        0.00%    passed     99.68%
+ 638  AJ0140-Cb_GW_gt0_kt0        0.00%    passed     98.93%
+ 639  AJ0141-Ca_GW_gt0_kt0        0.00%    passed     99.29%
+ 640  AJ0141-Cb_GW_gt0_kt0        0.00%    passed     99.48%
+ 641  AJ0143-Ca_GW_gt0_kt0        0.00%    passed     99.21%
+ 642  AJ0143-Cb_GW_gt0_kt0        0.00%    passed     96.56%
+ 643  AJ0144-Ca_GW_gt0_kt0        0.00%    passed     99.94%
+ 644  AJ0144-Cb_GW_gt0_kt0        0.00%    passed     99.90%
+ 645  AJ0145-Ca_GW_gt0_kt2        0.00%    passed     96.67%
+ 646  AJ0145-Cb_GW_gt0_kt2        0.00%    passed     98.46%
+ 647  AJ0146-Ca_GW_gt0_kt0        0.00%    passed     98.18%
+ 648  AJ0146-Cb_GW_gt0_kt0        0.00%    passed     99.99%
+ 649  AJ0147-Ca_GW_gt0_kt2        0.00%    passed     99.28%
+ 650  AJ0147-Cb_GW_gt0_kt2        0.00%    passed     95.84%
+ 651  AJ0148-Ca_GW_gt0_kt0        0.00%    passed     97.69%
+ 652  AJ0148-Cb_GW_gt0_kt0        0.00%    passed     95.22%
+ 653  AJ0151-Ca_GW_gt0_kt0        0.00%    passed     96.13%
+ 654  AJ0151-Cb_GW_gt0_kt0        0.00%    passed     88.90%
+ 655  AJ0153-Ca_GW_gt0_kt0        0.00%    passed     99.64%
+ 656  AJ0153-Cb_GW_gt0_kt0        0.00%    passed     99.18%
+ 657  AJ0155-Ca_GW_gt0_kt0        0.00%    passed     98.27%
+ 658  AJ0155-Cb_GW_gt0_kt0        0.00%    passed     96.56%
+ 659  AJ0159-Ca_GW_gt0_kt0        0.00%    passed     96.15%
+ 660  AJ0159-Cb_GW_gt0_kt0        0.00%    passed     99.98%
+ 661  AK0060-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 662  AK0060-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 663  AK0062-Ca_KE_gt0_kt0        0.00%    passed     99.63%
+ 664  AK0062-Cb_KE_gt0_kt0        0.00%    passed     99.63%
+ 665  AK0065-Ca_KE_gt0_kt2        0.00%    passed     98.31%
+ 666  AK0065-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 667  AK0066-Ca_KE_gt0_kt2        0.00%    passed     97.51%
+ 668  AK0066-Cb_KE_gt0_kt2        0.00%    passed     97.65%
+ 669  AK0067-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 670  AK0067-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 671  AK0069-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 672  AK0069-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 673  AK0070-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 674  AK0070-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 675  AK0078-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 676  AK0078-Cb_KE_gt0_kt0        0.00%    passed     99.63%
+ 677  AK0081-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 678  AK0081-Cb_KE_gt0_kt0        0.00%    passed     99.63%
+ 679  AK0087-Ca_KE_gt0_kt2        0.00%    passed     97.70%
+ 680  AK0087-Cb_KE_gt0_kt2        0.00%    passed     97.65%
+ 681  AK0089-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 682  AK0089-Cb_KE_gt0_kt2        0.00%    passed     97.84%
+ 683  AK0093-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 684  AK0093-Cb_KE_gt0_kt2        0.00%    passed     97.65%
+ 685  AK0094-Ca_KE_gt0_kt2        0.00%    passed     94.97%
+ 686  AK0094-Cb_KE_gt0_kt2        0.00%    passed     99.48%
+ 687  AK0096-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 688  AK0096-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 689  AK0098-Ca_KE_gt0_kt2        0.00%    passed     97.51%
+ 690  AK0098-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 691  AK0099-Ca_KE_gt0_kt2        0.00%    passed     94.97%
+ 692  AK0099-Cb_KE_gt0_kt2        0.00%    passed     99.45%
+ 693  AK0101-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 694  AK0101-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 695  AK0103-Ca_KE_gt0_kt0        0.00%    passed     99.63%
+ 696  AK0103-Cb_KE_gt0_kt0        0.00%    passed     96.17%
+ 697  AK0105-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 698  AK0105-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 699  AK0106-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 700  AK0106-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 701  AK0107-Ca_KE_gt0_kt0        0.00%    passed     96.16%
+ 702  AK0107-Cb_KE_gt0_kt0        0.00%    passed     96.16%
+ 703  AK0109-Ca_KE_gt0_kt2        0.00%    passed     99.48%
+ 704  AK0109-Cb_KE_gt0_kt2        0.00%    passed     94.97%
+ 705  AK0110-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 706  AK0110-Cb_KE_gt0_kt2        0.00%    passed     97.70%
+ 707  AK0116-Ca_KE_gt0_kt2        0.00%    passed     97.86%
+ 708  AK0116-Cb_KE_gt0_kt2        0.00%    passed     97.05%
+ 709  AK0127-Ca_KE_gt0_kt2        0.00%    passed     97.65%
+ 710  AK0127-Cb_KE_gt0_kt2        0.00%    passed     97.51%
+ 711  AN0007-Ca_CMgam_gt0_kt0     0.00%    passed     99.21%
+ 712  AN0007-Cb_CMgam_gt0_kt0     0.00%    passed     99.44%
+ 713  AN0008-Ca_CMgam_gt0_kt0     0.00%    passed     99.59%
+ 714  AN0008-Cb_CMgam_gt0_kt0     0.00%    passed     99.11%
+ 715  AN0010-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 716  AN0010-Cb_CMgam_gt0_kt0     0.00%    passed     97.33%
+ 717  AN0011-Ca_CMgam_gt0_kt0     0.00%    passed     99.62%
+ 718  AN0011-Cb_CMgam_gt0_kt0     0.00%    passed     90.80%
+ 719  AN0012-Ca_CMgam_gt0_kt0     0.00%    passed     99.73%
+ 720  AN0012-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 721  AN0013-Ca_CMgam_gt0_kt0     0.00%    passed     99.17%
+ 722  AN0013-Cb_CMgam_gt0_kt0     0.00%    passed     95.55%
+ 723  AN0014-Ca_CMgam_gt0_kt0     0.00%    passed     99.03%
+ 724  AN0014-Cb_CMgam_gt0_kt0     0.00%    passed     97.27%
+ 725  AN0015-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 726  AN0015-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 727  AN0018-Ca_CMgam_gt0_kt0     0.00%    passed     98.75%
+ 728  AN0018-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 729  AN0019-Ca_CMgam_gt0_kt0     0.00%    passed     99.94%
+ 730  AN0019-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 731  AN0020-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 732  AN0020-Cb_CMgam_gt0_kt0     0.00%    passed     99.45%
+ 733  AN0023-Ca_CMgam_gt0_kt2     0.00%    passed     99.55%
+ 734  AN0023-Cb_CMgam_gt0_kt2     0.00%    passed     95.87%
+ 735  AN0024-Ca_CMgam_gt0_kt2     0.00%    passed     99.90%
+ 736  AN0024-Cb_CMgam_gt0_kt2     0.00%    passed     96.21%
+ 737  AN0026-Ca_CMgam_gt0_kt2     0.00%    passed     99.36%
+ 738  AN0026-Cb_CMgam_gt1_kt2     0.00%    passed     99.24%
+ 739  AN0028-Ca_CMgam_gt0_kt0     0.00%    passed     96.62%
+ 740  AN0028-Cb_CMgam_gt0_kt0     0.00%    passed     99.16%
+ 741  AN0030-Ca_CMgam_gt0_kt2     0.00%    passed     96.70%
+ 742  AN0030-Cb_CMgam_gt0_kt2     0.00%    passed     98.74%
+ 743  AN0034-Ca_CMgam_gt1_kt2     0.00%    passed     96.37%
+ 744  AN0034-Cb_CMgam_gt0_kt2     0.00%    passed     96.39%
+ 745  AN0035-Ca_CMgam_gt0_kt0     0.00%    passed     99.94%
+ 746  AN0035-Cb_CMgam_gt0_kt0     0.00%    passed     97.10%
+ 747  AN0036-Ca_CMgam_gt0_kt2     0.00%    passed     98.40%
+ 748  AN0036-Cb_CMgam_gt1_kt2     0.00%    passed     98.32%
+ 749  AN0040-Ca_CMgam_gt0_kt2     0.00%    passed     99.49%
+ 750  AN0040-Cb_CMgam_gt0_kt2     0.00%    passed     99.99%
+ 751  AN0043-Ca_CMgam_gt0_kt2     0.00%    passed     97.47%
+ 752  AN0043-Cb_CMgam_gt1_kt2     0.00%    passed     97.77%
+ 753  AN0046-Ca_CMgam_gt0_kt2     0.00%    passed     97.76%
+ 754  AN0046-Cb_CMgam_gt1_kt2     0.00%    passed     98.67%
+ 755  AN0047-Ca_CMgam_gt1_kt2     0.00%    passed     99.24%
+ 756  AN0047-Cb_CMgam_gt1_kt2     0.00%    passed     97.71%
+ 757  AN0048-Ca_CMgam_gt0_kt2     0.00%    passed     97.22%
+ 758  AN0048-Cb_CMgam_gt0_kt2     0.00%    passed     99.04%
+ 759  AN0049-Ca_CMgam_gt0_kt2     0.00%    passed     95.66%
+ 760  AN0049-Cb_CMgam_gt0_kt2     0.00%    passed     99.92%
+ 761  AN0053-Ca_CMgam_gt0_kt2     0.00%    passed     96.91%
+ 762  AN0053-Cb_CMgam_gt1_kt2     0.00%    passed     98.32%
+ 763  AN0054-Ca_CMgam_gt1_kt2     0.00%    passed     99.24%
+ 764  AN0054-Cb_CMgam_gt0_kt2     0.00%    passed     97.42%
+ 765  AN0055-Ca_CMgam_gt0_kt0     0.00%    passed     99.96%
+ 766  AN0055-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 767  AN0057-Ca_CMgam_gt0_kt0     0.00%    passed     98.96%
+ 768  AN0057-Cb_CMgam_gt0_kt0     0.00%    passed     99.85%
+ 769  AN0058-Ca_CMgam_gt1_kt2     0.00%    passed     95.47%
+ 770  AN0058-Cb_CMgam_gt1_kt2     0.00%    passed     99.78%
+ 771  AN0060-Ca_CMgam_gt1_kt2     0.00%    passed     99.73%
+ 772  AN0060-Cb_CMgam_gt0_kt2     0.00%    passed     98.80%
+ 773  AN0061-Ca_CMgam_gt0_kt0     0.00%    passed     98.63%
+ 774  AN0061-Cb_CMgam_gt0_kt0     0.00%    passed     99.76%
+ 775  AN0064-Ca_CMgam_gt1_kt2     0.00%    passed     97.74%
+ 776  AN0064-Cb_CMgam_gt0_kt2     0.00%    passed     99.93%
+ 777  AN0067-Ca_CMgam_gt0_kt2     0.00%    passed     98.88%
+ 778  AN0067-Cb_CMgam_gt0_kt2     0.00%    passed     99.58%
+ 779  AN0068-Ca_CMgam_gt0_kt0     0.00%    passed     97.76%
+ 780  AN0068-Cb_CMgam_gt0_kt0     0.00%    passed     99.30%
+ 781  AN0069-Ca_CMgam_gt0_kt0     0.00%    passed     98.61%
+ 782  AN0069-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 783  AN0070-Ca_CMgam_gt1_kt2     0.00%    passed     99.02%
+ 784  AN0070-Cb_CMgam_gt0_kt2     0.00%    passed     98.26%
+ 785  AN0071-Ca_CMgam_gt0_kt2     0.00%    passed     99.99%
+ 786  AN0071-Cb_CMgam_gt1_kt2     0.00%    passed     99.19%
+ 787  AN0073-Ca_CMgam_gt0_kt0     0.00%    passed     98.85%
+ 788  AN0073-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 789  AN0075-Ca_CMgam_gt0_kt0     0.00%    passed     97.10%
+ 790  AN0075-Cb_CMgam_gt0_kt0     0.00%    passed     99.16%
+ 791  AN0076-Ca_CMgam_gt0_kt2     0.00%    passed     99.42%
+ 792  AN0076-Cb_CMgam_gt0_kt2     0.00%    passed     99.30%
+ 793  AN0077-Ca_CMgam_gt0_kt0     0.00%    passed     97.90%
+ 794  AN0077-Cb_CMgam_gt0_kt0     0.00%    passed     95.92%
+ 795  AN0079-Ca_CMgam_gt0_kt0     0.00%    passed     98.93%
+ 796  AN0079-Cb_CMgam_gt0_kt0     0.00%    passed    100.00%
+ 797  AN0080-Ca_CMgam_gt1_kt0     0.00%    passed     98.44%
+ 798  AN0080-Cb_CMgam_gt0_kt0     0.00%    passed     98.31%
+ 799  AN0082-Ca_CMgam_gt1_kt2     0.00%    passed     99.24%
+ 800  AN0082-Cb_CMgam_gt0_kt2     0.00%    passed     98.96%
+ 801  AN0084-Ca_CMgam_gt0_kt0     0.00%    passed     99.70%
+ 802  AN0084-Cb_CMgam_gt0_kt0     0.00%    passed     93.73%
+ 803  AN0085-Ca_CMgam_gt1_kt0     0.00%    passed     99.98%
+ 804  AN0085-Cb_CMgam_gt0_kt0     0.00%    passed     99.25%
+ 805  AN0087-Ca_CMgam_gt0_kt0     0.00%    passed     99.18%
+ 806  AN0087-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 807  AN0089-Ca_CMgam_gt0_kt2     0.00%    passed     94.63%
+ 808  AN0089-Cb_CMgam_gt0_kt2     0.00%    passed     99.96%
+ 809  AN0090-Ca_CMgam_gt0_kt2     0.00%    passed     98.89%
+ 810  AN0090-Cb_CMgam_gt0_kt2     0.00%    passed     99.36%
+ 811  AN0091-Ca_CMgam_gt1_kt2     0.00%    passed     98.46%
+ 812  AN0091-Cb_CMgam_gt0_kt2     0.00%    passed     98.54%
+ 813  AN0092-Ca_CMgam_gt0_kt2     0.00%    passed     99.75%
+ 814  AN0092-Cb_CMgam_gt0_kt2     0.00%    passed     99.42%
+ 815  AN0093-Ca_CMgam_gt1_kt2     0.00%    passed     95.05%
+ 816  AN0093-Cb_CMgam_gt0_kt2     0.00%    passed     98.45%
+ 817  AN0095-Ca_CMgam_gt0_kt2     0.00%    passed     98.43%
+ 818  AN0095-Cb_CMgam_gt1_kt2     0.00%    passed     95.91%
+ 819  AN0099-Ca_CMgam_gt0_kt0     0.00%    passed     98.50%
+ 820  AN0099-Cb_CMgam_gt1_kt0     0.00%    passed     99.00%
+ 821  AN0105-Ca_CMgam_gt0_kt2     0.00%    passed     99.44%
+ 822  AN0105-Cb_CMgam_gt0_kt2     0.00%    passed     95.54%
+ 823  AN0106-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 824  AN0106-Cb_CMgam_gt0_kt0     0.00%    passed     99.89%
+ 825  AN0107-Ca_CMgam_gt0_kt0     0.00%    passed     99.85%
+ 826  AN0107-Cb_CMgam_gt0_kt0     0.00%    passed     99.25%
+ 827  AN0108-Ca_CMgam_gt1_kt2     0.00%    passed     95.91%
+ 828  AN0108-Cb_CMgam_gt0_kt2     0.00%    passed     99.31%
+ 829  AN0112-Ca_CMgam_gt0_kt2     0.00%    passed     99.35%
+ 830  AN0112-Cb_CMgam_gt0_kt2     0.00%    passed     96.71%
+ 831  AN0113-Ca_CMgam_gt0_kt0     0.00%    passed     98.41%
+ 832  AN0113-Cb_CMgam_gt0_kt0     0.00%    passed     98.70%
+ 833  AN0114-Ca_CMgam_gt0_kt2     0.00%    passed     96.65%
+ 834  AN0114-Cb_CMgam_gt0_kt2     0.00%    passed     99.57%
+ 835  AN0115-Ca_CMgam_gt1_kt0     0.00%    passed     97.62%
+ 836  AN0115-Cb_CMgam_gt0_kt0     0.00%    passed     98.40%
+ 837  AN0118-Ca_CMgam_gt1_kt2     0.00%    passed     95.10%
+ 838  AN0118-Cb_CMgam_gt0_kt2     0.00%    passed     97.93%
+ 839  AN0121-Ca_CMgam_gt0_kt2     0.00%    passed     98.39%
+ 840  AN0121-Cb_CMgam_gt1_kt2     0.00%    passed     98.32%
+ 841  AN0122-Ca_CMgam_gt0_kt0     0.00%    passed     98.40%
+ 842  AN0122-Cb_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 843  AN0123-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 844  AN0123-Cb_CMgam_gt0_kt0     0.00%    passed     92.61%
+ 845  AN0124-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 846  AN0124-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 847  AN0125-Ca_CMgam_gt0_kt0     0.00%    passed     87.48%
+ 848  AN0125-Cb_CMgam_gt0_kt0     0.00%    passed     98.04%
+ 849  AN0126-Ca_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 850  AN0126-Cb_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 851  AN0127-Ca_CMgam_gt1_kt0     0.00%    passed     97.62%
+ 852  AN0127-Cb_CMgam_gt0_kt0     0.00%    passed     99.81%
+ 853  AN0129-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 854  AN0129-Cb_CMgam_gt1_kt0     0.00%    passed     98.12%
+ 855  AN0130-Ca_CMgam_gt0_kt0     0.00%    passed     99.41%
+ 856  AN0130-Cb_CMgam_gt0_kt0     0.00%    passed     99.51%
+ 857  AN0131-Ca_CMgam_gt0_kt0     0.00%    passed     96.33%
+ 858  AN0131-Cb_CMgam_gt0_kt0     0.00%    passed     98.49%
+ 859  AN0132-Ca_CMgam_gt0_kt0     0.00%    passed     97.57%
+ 860  AN0132-Cb_CMgam_gt0_kt0     0.00%    passed     92.17%
+ 861  AN0134-Ca_CMgam_gt1_kt0     0.00%    passed     97.97%
+ 862  AN0134-Cb_CMgam_gt0_kt0     0.00%    passed     99.64%
+ 863  AN0135-Ca_CMgam_gt1_kt2     0.00%    passed     98.32%
+ 864  AN0135-Cb_CMgam_gt0_kt2     0.00%    passed     99.38%
+ 865  AN0136-Ca_CMgam_gt0_kt0     0.00%    passed     98.05%
+ 866  AN0136-Cb_CMgam_gt0_kt0     0.00%    passed     95.90%
+ 867  AN0137-Ca_CMgam_gt0_kt0     0.00%    passed     99.63%
+ 868  AN0137-Cb_CMgam_gt0_kt0     0.00%    passed     91.87%
+ 869  AN0138-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 870  AN0138-Cb_CMgam_gt0_kt0     0.00%    passed     99.03%
+ 871  AN0139-Ca_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 872  AN0139-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 873  AN0140-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 874  AN0140-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 875  AN0141-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 876  AN0141-Cb_CMgam_gt0_kt0     0.00%    passed     99.32%
+ 877  AN0142-Ca_CMgam_gt1_kt0     0.00%    passed     99.07%
+ 878  AN0142-Cb_CMgam_gt0_kt0     0.00%    passed     96.00%
+ 879  AN0144-Ca_CMgam_gt0_kt0     0.00%    passed     98.05%
+ 880  AN0144-Cb_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 881  AN0147-Ca_CMgam_gt0_kt0     0.00%    passed     99.28%
+ 882  AN0147-Cb_CMgam_gt0_kt0     0.00%    passed     96.04%
+ 883  AN0151-Ca_CMgam_gt0_kt0     0.00%    passed     99.65%
+ 884  AN0151-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 885  AN0152-Ca_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 886  AN0152-Cb_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 887  AN0153-Ca_CMgam_gt1_kt0     0.00%    passed     99.64%
+ 888  AN0153-Cb_CMgam_gt0_kt0     0.00%    passed     98.82%
+ 889  AN0154-Ca_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 890  AN0154-Cb_CMgam_gt0_kt0     0.00%    passed     99.11%
+ 891  AN0155-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 892  AN0155-Cb_CMgam_gt0_kt0     0.00%    passed     97.81%
+ 893  AN0157-Ca_CMgam_gt0_kt0     0.00%    passed     98.52%
+ 894  AN0157-Cb_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 895  AN0158-Ca_CMgam_gt0_kt0     0.00%    passed     98.79%
+ 896  AN0158-Cb_CMgam_gt0_kt0     0.00%    passed     95.89%
+ 897  AN0159-Ca_CMgam_gt0_kt0     0.00%    passed     99.94%
+ 898  AN0159-Cb_CMgam_gt0_kt0     0.00%    passed     99.45%
+ 899  AN0160-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 900  AN0160-Cb_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 901  AN0162-Ca_CMgam_gt0_kt0     0.00%    passed     98.37%
+ 902  AN0162-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 903  AN0163-Ca_CMgam_gt0_kt0     0.00%    passed     99.25%
+ 904  AN0163-Cb_CMgam_gt0_kt0     0.00%    passed     97.33%
+ 905  AN0164-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 906  AN0164-Cb_CMgam_gt0_kt0     0.00%    passed     98.49%
+ 907  AN0166-Ca_CMgam_gt0_kt0     0.00%    passed     97.79%
+ 908  AN0166-Cb_CMgam_gt0_kt0     0.00%    passed     97.81%
+ 909  AN0167-Ca_CMgam_gt0_kt0     0.00%    passed     96.32%
+ 910  AN0167-Cb_CMgam_gt1_kt0     0.00%    passed     99.34%
+ 911  AN0168-Ca_CMgam_gt0_kt0     0.00%    passed     99.70%
+ 912  AN0168-Cb_CMgam_gt1_kt0     0.00%    passed     99.89%
+ 913  AN0169-Ca_CMgam_gt0_kt0     0.00%    passed     99.45%
+ 914  AN0169-Cb_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 915  AN0170-Ca_CMgam_gt1_kt0     0.00%    passed     99.98%
+ 916  AN0170-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 917  AN0171-Ca_CMgam_gt0_kt0     0.00%    passed     99.79%
+ 918  AN0171-Cb_CMgam_gt0_kt0     0.00%    passed     99.56%
+ 919  AN0172-Ca_CMgam_gt0_kt0     0.00%    passed     99.12%
+ 920  AN0172-Cb_CMgam_gt0_kt0     0.00%    passed     99.04%
+ 921  AN0173-Ca_CMgam_gt0_kt0     0.00%    passed     99.43%
+ 922  AN0173-Cb_CMgam_gt0_kt0     0.00%    passed     99.88%
+ 923  AN0174-Ca_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 924  AN0174-Cb_CMgam_gt0_kt0     0.00%    passed     95.42%
+ 925  AN0175-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 926  AN0175-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 927  AN0177-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 928  AN0177-Cb_CMgam_gt0_kt0     0.00%    passed     98.52%
+ 929  AN0178-Ca_CMgam_gt0_kt0     0.00%    passed     98.40%
+ 930  AN0178-Cb_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 931  AN0179-Ca_CMgam_gt0_kt0     0.00%    passed     99.98%
+ 932  AN0179-Cb_CMgam_gt0_kt0     0.00%    passed     97.52%
+ 933  AN0180-Ca_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 934  AN0180-Cb_CMgam_gt1_kt0     0.00%    passed     99.50%
+ 935  AN0181-Ca_CMgam_gt0_kt0     0.00%    passed     92.61%
+ 936  AN0181-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 937  AN0183-Ca_CMgam_gt0_kt0     0.00%    passed     98.37%
+ 938  AN0183-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 939  AN0184-Ca_CMgam_gt0_kt0     0.00%    passed     97.79%
+ 940  AN0184-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 941  AN0185-Ca_CMgam_gt0_kt0     0.00%    passed     90.69%
+ 942  AN0185-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 943  AN0186-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 944  AN0186-Cb_CMgam_gt0_kt0     0.00%    passed     99.44%
+ 945  AN0187-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 946  AN0187-Cb_CMgam_gt0_kt0     0.00%    passed     98.68%
+ 947  AN0188-Ca_CMgam_gt0_kt0     0.00%    passed     99.13%
+ 948  AN0188-Cb_CMgam_gt0_kt0     0.00%    passed     90.80%
+ 949  AN0189-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 950  AN0189-Cb_CMgam_gt1_kt0     0.00%    passed     99.96%
+ 951  AN0190-Ca_CMgam_gt0_kt0     0.00%    passed     99.59%
+ 952  AN0190-Cb_CMgam_gt0_kt0     0.00%    passed     97.57%
+ 953  AN0191-Ca_CMgam_gt0_kt0     0.00%    passed     99.81%
+ 954  AN0191-Cb_CMgam_gt0_kt0     0.00%    passed     97.10%
+ 955  AN0192-Ca_CMgam_gt0_kt0     0.00%    passed     99.62%
+ 956  AN0192-Cb_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 957  AN0193-Ca_CMgam_gt0_kt0     0.00%    passed     99.11%
+ 958  AN0193-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+ 959  AN0194-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 960  AN0194-Cb_CMgam_gt0_kt0     0.00%    passed     89.17%
+ 961  AN0197-Ca_CMgam_gt1_kt0     0.00%    passed     98.16%
+ 962  AN0197-Cb_CMgam_gt1_kt0     0.00%    passed     98.83%
+ 963  AN0199-Ca_CMgam_gt1_kt0     0.00%    passed     99.50%
+ 964  AN0199-Cb_CMgam_gt0_kt0     0.00%    passed     99.73%
+ 965  AN0200-Ca_CMgam_gt0_kt0     0.00%    passed     99.49%
+ 966  AN0200-Cb_CMgam_gt0_kt0     0.00%    passed     96.64%
+ 967  AN0201-Ca_CMgam_gt0_kt0     0.00%    passed     98.49%
+ 968  AN0201-Cb_CMgam_gt1_kt0     0.00%    passed     99.17%
+ 969  AN0202-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 970  AN0202-Cb_CMgam_gt0_kt0     0.00%    passed     99.89%
+ 971  AN0203-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 972  AN0203-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 973  AN0204-Ca_CMgam_gt0_kt0     0.00%    passed     96.80%
+ 974  AN0204-Cb_CMgam_gt0_kt0     0.00%    passed     99.05%
+ 975  AN0205-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 976  AN0205-Cb_CMgam_gt0_kt0     0.00%    passed     98.05%
+ 977  AN0206-Ca_CMgam_gt0_kt0     0.00%    passed     98.50%
+ 978  AN0206-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+ 979  AN0207-Ca_CMgam_gt0_kt0     0.00%    passed     99.81%
+ 980  AN0207-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 981  AN0208-Ca_CMgam_gt0_kt0     0.00%    passed     94.77%
+ 982  AN0208-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+ 983  AN0210-Ca_CMgam_gt0_kt0     0.00%    passed     98.77%
+ 984  AN0210-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+ 985  AN0212-Ca_CMgam_gt0_kt0     0.00%    passed     99.88%
+ 986  AN0212-Cb_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 987  AN0213-Ca_CMgam_gt0_kt0     0.00%    passed     98.97%
+ 988  AN0213-Cb_CMgam_gt0_kt0     0.00%    passed     98.05%
+ 989  AN0215-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 990  AN0215-Cb_CMgam_gt0_kt0     0.00%    passed     98.12%
+ 991  AN0217-Ca_CMgam_gt0_kt0     0.00%    passed     98.52%
+ 992  AN0217-Cb_CMgam_gt0_kt0     0.00%    passed     99.23%
+ 993  AN0218-Ca_CMgam_gt0_kt0     0.00%    passed     99.92%
+ 994  AN0218-Cb_CMgam_gt0_kt0     0.00%    passed     99.93%
+ 995  AN0219-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 996  AN0219-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+ 997  AN0220-Ca_CMgam_gt0_kt0     0.00%    passed     97.82%
+ 998  AN0220-Cb_CMgam_gt0_kt0     0.00%    passed     98.76%
+ 999  AN0221-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1000  AN0221-Cb_CMgam_gt0_kt0     0.00%    passed     98.75%
+1001  AN0222-Ca_CMgam_gt0_kt0     0.00%    passed     98.32%
+1002  AN0222-Cb_CMgam_gt0_kt0     0.00%    passed     99.42%
+1003  AN0223-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1004  AN0223-Cb_CMgam_gt0_kt0     0.00%    passed     99.74%
+1005  AN0225-Ca_CMgam_gt1_kt0     0.00%    passed     98.12%
+1006  AN0225-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1007  AN0226-Ca_CMgam_gt0_kt0     0.00%    passed     99.21%
+1008  AN0226-Cb_CMgam_gt0_kt0     0.00%    passed     99.12%
+1009  AN0228-Ca_CMgam_gt0_kt0     0.00%    passed     95.75%
+1010  AN0228-Cb_CMgam_gt1_kt0     0.00%    passed     99.93%
+1011  AN0229-Ca_CMgam_gt0_kt0     0.00%    passed     99.99%
+1012  AN0229-Cb_CMgam_gt0_kt0     0.00%    passed     99.12%
+1013  AN0230-Ca_CMgam_gt0_kt2     0.00%    passed     97.69%
+1014  AN0230-Cb_CMgam_gt1_kt2     0.00%    passed     99.85%
+1015  AN0231-Ca_CMgam_gt0_kt0     0.00%    passed     99.73%
+1016  AN0231-Cb_CMgam_gt0_kt0     0.00%    passed     99.13%
+1017  AN0232-Ca_CMgam_gt1_kt0     0.00%    passed     99.94%
+1018  AN0232-Cb_CMgam_gt0_kt0     0.00%    passed     98.13%
+1019  AN0233-Ca_CMgam_gt0_kt0     0.00%    passed     99.86%
+1020  AN0233-Cb_CMgam_gt0_kt0     0.00%    passed     97.26%
+1021  AN0235-Ca_CMgam_gt0_kt0     0.00%    passed     98.75%
+1022  AN0235-Cb_CMgam_gt0_kt0     0.00%    passed     99.25%
+1023  AN0236-Ca_CMgam_gt1_kt2     0.00%    passed     98.32%
+1024  AN0236-Cb_CMgam_gt1_kt2     0.00%    passed     97.24%
+1025  AN0238-Ca_CMgam_gt0_kt2     0.00%    passed     98.72%
+1026  AN0238-Cb_CMgam_gt0_kt2     0.00%    passed     98.71%
+1027  AN0240-Ca_CMgam_gt0_kt0     0.00%    passed     98.86%
+1028  AN0240-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+1029  AN0241-Ca_CMgam_gt1_kt2     0.00%    passed     99.24%
+1030  AN0241-Cb_CMgam_gt0_kt2     0.00%    passed     95.89%
+1031  AN0242-Ca_CMgam_gt1_kt0     0.00%    passed     99.98%
+1032  AN0242-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+1033  AN0243-Ca_CMgam_gt0_kt2     0.00%    passed     98.51%
+1034  AN0243-Cb_CMgam_gt0_kt2     0.00%    passed     99.05%
+1035  AN0244-Ca_CMgam_gt1_kt0     0.00%    passed     97.12%
+1036  AN0244-Cb_CMgam_gt0_kt0     0.00%    passed     99.41%
+1037  AN0245-Ca_CMgam_gt0_kt0     0.00%    passed     99.51%
+1038  AN0245-Cb_CMgam_gt0_kt0     0.00%    passed     98.75%
+1039  AN0246-Ca_CMgam_gt0_kt0     0.00%    passed     99.05%
+1040  AN0246-Cb_CMgam_gt0_kt0     0.00%    passed     99.96%
+1041  AN0247-Ca_CMgam_gt0_kt0     0.00%    passed     98.51%
+1042  AN0247-Cb_CMgam_gt1_kt0     0.00%    passed     99.19%
+1043  AN0248-Ca_CMgam_gt1_kt2     0.00%    passed     95.25%
+1044  AN0248-Cb_CMgam_gt0_kt2     0.00%    passed     98.62%
+1045  AN0250-Ca_CMgam_gt0_kt2     0.00%    passed     98.90%
+1046  AN0250-Cb_CMgam_gt1_kt2     0.00%    passed     96.59%
+1047  AN0251-Ca_CMgam_gt0_kt0     0.00%    passed     99.75%
+1048  AN0251-Cb_CMgam_gt1_kt0     0.00%    passed     99.02%
+1049  AN0252-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1050  AN0252-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1051  AN0254-Ca_CMgam_gt0_kt0     0.00%    passed     99.71%
+1052  AN0254-Cb_CMgam_gt1_kt0     0.00%    passed     99.50%
+1053  AN0255-Ca_CMgam_gt0_kt0     0.00%    passed     99.03%
+1054  AN0255-Cb_CMgam_gt0_kt0     0.00%    passed     99.27%
+1055  AN0256-Ca_CMgam_gt0_kt0     0.00%    passed     99.65%
+1056  AN0256-Cb_CMgam_gt0_kt0     0.00%    passed     99.54%
+1057  AN0258-Ca_CMgam_gt1_kt2     0.00%    passed     99.69%
+1058  AN0258-Cb_CMgam_gt0_kt2     0.00%    passed     95.87%
+1059  AN0259-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1060  AN0259-Cb_CMgam_gt0_kt0     0.00%    passed     99.66%
+1061  AN0261-Ca_CMgam_gt0_kt0     0.00%    passed     99.85%
+1062  AN0261-Cb_CMgam_gt0_kt0     0.00%    passed     99.70%
+1063  AN0263-Ca_CMgam_gt0_kt0     0.00%    passed     99.21%
+1064  AN0263-Cb_CMgam_gt0_kt0     0.00%    passed     99.25%
+1065  AN0264-Ca_CMgam_gt0_kt0     0.00%    passed     97.25%
+1066  AN0264-Cb_CMgam_gt0_kt0     0.00%    passed     99.42%
+1067  AN0266-Ca_CMgam_gt1_kt2     0.00%    passed     95.76%
+1068  AN0266-Cb_CMgam_gt0_kt2     0.00%    passed     98.62%
+1069  AN0268-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+1070  AN0268-Cb_CMgam_gt1_kt0     0.00%    passed     98.12%
+1071  AN0269-Ca_CMgam_gt0_kt2     0.00%    passed     98.97%
+1072  AN0269-Cb_CMgam_gt0_kt2     0.00%    passed     93.22%
+1073  AN0270-Ca_CMgam_gt0_kt0     0.00%    passed     99.25%
+1074  AN0270-Cb_CMgam_gt0_kt0     0.00%    passed     99.51%
+1075  AN0272-Ca_CMgam_gt0_kt2     0.00%    passed     98.99%
+1076  AN0272-Cb_CMgam_gt0_kt2     0.00%    passed     99.60%
+1077  AN0276-Ca_CMgam_gt1_kt2     0.00%    passed     96.64%
+1078  AN0276-Cb_CMgam_gt0_kt2     0.00%    passed     98.32%
+1079  AN0277-Ca_CMgam_gt0_kt0     0.00%    passed     99.23%
+1080  AN0277-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+1081  AN0281-Ca_CMgam_gt0_kt2     0.00%    passed     96.45%
+1082  AN0281-Cb_CMgam_gt0_kt2     0.00%    passed     99.54%
+1083  AN0282-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+1084  AN0282-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+1085  AN0283-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+1086  AN0283-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+1087  AN0284-Ca_CMgam_gt0_kt0     0.00%    passed     99.30%
+1088  AN0284-Cb_CMgam_gt0_kt0     0.00%    passed     98.70%
+1089  AN0285-Ca_CMgam_gt0_kt0     0.00%    passed     99.85%
+1090  AN0285-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1091  AN0288-Ca_CMgam_gt0_kt0     0.00%    passed     99.12%
+1092  AN0288-Cb_CMgam_gt0_kt0     0.00%    passed     99.21%
+1093  AN0289-Ca_CMgam_gt0_kt0     0.00%    passed     99.40%
+1094  AN0289-Cb_CMgam_gt0_kt0     0.00%    passed     99.74%
+1095  AN0291-Ca_CMgam_gt1_kt0     0.00%    passed     98.18%
+1096  AN0291-Cb_CMgam_gt0_kt0     0.00%    passed     98.56%
+1097  AN0292-Ca_CMgam_gt0_kt0     0.00%    passed     92.54%
+1098  AN0292-Cb_CMgam_gt0_kt0     0.00%    passed     97.81%
+1099  AN0293-Ca_CMgam_gt0_kt0     0.00%    passed     99.69%
+1100  AN0293-Cb_CMgam_gt0_kt0     0.00%    passed     99.30%
+1101  AN0294-Ca_CMgam_gt0_kt0     0.00%    passed     98.97%
+1102  AN0294-Cb_CMgam_gt0_kt0     0.00%    passed     95.32%
+1103  AN0295-Ca_CMgam_gt0_kt2     0.00%    passed     99.27%
+1104  AN0295-Cb_CMgam_gt1_kt2     0.00%    passed     99.78%
+1105  AN0296-Ca_CMgam_gt0_kt0     0.00%    passed     98.64%
+1106  AN0296-Cb_CMgam_gt1_kt0     0.00%    passed     99.98%
+1107  AN0297-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1108  AN0297-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1109  AN0298-Ca_CMgam_gt0_kt0     0.00%    passed     99.23%
+1110  AN0298-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1111  AN0299-Ca_CMgam_gt0_kt0     0.00%    passed     98.56%
+1112  AN0299-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1113  AN0300-Ca_CMgam_gt0_kt0     0.00%    passed     97.68%
+1114  AN0300-Cb_CMgam_gt1_kt0     0.00%    passed     98.50%
+1115  AN0301-Ca_CMgam_gt0_kt2     0.00%    passed     98.88%
+1116  AN0301-Cb_CMgam_gt0_kt2     0.00%    passed     92.99%
+1117  AN0302-Ca_CMgam_gt1_kt0     0.00%    passed     98.49%
+1118  AN0302-Cb_CMgam_gt0_kt0     0.00%    passed     96.66%
+1119  AN0304-Ca_CMgam_gt0_kt0     0.00%    passed     99.23%
+1120  AN0304-Cb_CMgam_gt1_kt0     0.00%    passed     97.77%
+1121  AN0305-Ca_CMgam_gt0_kt0     0.00%    passed     99.96%
+1122  AN0305-Cb_CMgam_gt0_kt0     0.00%    passed     99.54%
+1123  AN0307-Ca_CMgam_gt0_kt0     0.00%    passed     99.22%
+1124  AN0307-Cb_CMgam_gt0_kt0     0.00%    passed     98.41%
+1125  AN0308-Ca_CMgam_gt0_kt0     0.00%    passed     99.66%
+1126  AN0308-Cb_CMgam_gt0_kt0     0.00%    passed     94.33%
+1127  AN0309-Ca_CMgam_gt0_kt0     0.00%    passed     98.46%
+1128  AN0309-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+1129  AN0311-Ca_CMgam_gt1_kt0     0.00%    passed     97.74%
+1130  AN0311-Cb_CMgam_gt1_kt0     0.00%    passed     97.74%
+1131  AN0312-Ca_CMgam_gt0_kt0     0.00%    passed     98.43%
+1132  AN0312-Cb_CMgam_gt0_kt0     0.00%    passed     97.78%
+1133  AN0314-Ca_CMgam_gt0_kt0     0.00%    passed     99.70%
+1134  AN0314-Cb_CMgam_gt0_kt0     0.00%    passed     99.51%
+1135  AN0315-Ca_CMgam_gt0_kt0     0.00%    passed     98.85%
+1136  AN0315-Cb_CMgam_gt1_kt0     0.00%    passed     98.18%
+1137  AN0316-Ca_CMgam_gt1_kt0     0.00%    passed     98.78%
+1138  AN0316-Cb_CMgam_gt0_kt0     0.00%    passed     95.93%
+1139  AN0317-Ca_CMgam_gt0_kt0     0.00%    passed     99.47%
+1140  AN0317-Cb_CMgam_gt0_kt0     0.00%    passed     97.78%
+1141  AN0318-Ca_CMgam_gt0_kt0     0.00%    passed     99.67%
+1142  AN0318-Cb_CMgam_gt0_kt0     0.00%    passed     99.69%
+1143  AN0319-Ca_CMgam_gt0_kt0     0.00%    passed     99.92%
+1144  AN0319-Cb_CMgam_gt1_kt0     0.00%    passed     98.44%
+1145  AN0320-Ca_CMgam_gt0_kt0     0.00%    passed     98.71%
+1146  AN0320-Cb_CMgam_gt1_kt0     0.00%    passed     98.72%
+1147  AP0002-Ca_FRgam_gt0_kt0     0.00%    passed     98.09%
+1148  AP0002-Cb_FRgam_gt0_kt0     0.00%    passed     99.55%
+1149  AP0005-Ca_FRgam_gt0_kt0     0.00%    passed     99.52%
+1150  AP0005-Cb_FRgam_gt0_kt0     0.00%    passed     98.09%
+1151  AP0009-Ca_FRgam_gt0_kt2     0.00%    passed     98.63%
+1152  AP0009-Cb_FRgam_gt0_kt2     0.00%    passed     97.24%
+1153  AP0010-Ca_FRgam_gt0_kt0     0.00%    passed     98.09%
+1154  AP0010-Cb_FRgam_gt0_kt0     0.00%    passed     99.55%
+1155  AP0011-Ca_FRgam_gt0_kt2     0.00%    passed     98.24%
+1156  AP0011-Cb_FRgam_gt0_kt2     0.00%    passed     92.38%
+1157  AP0014-Ca_FRgam_gt0_kt0     0.00%    passed     99.52%
+1158  AP0014-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1159  AP0019-Ca_FRgam_gt0_kt0     0.00%    passed     99.92%
+1160  AP0019-Cb_FRgam_gt0_kt0     0.00%    passed     99.91%
+1161  AP0020-Ca_FRgam_gt0_kt0     0.00%    passed     98.51%
+1162  AP0020-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1163  AP0021-Ca_FRgam_gt0_kt0     0.00%    passed     99.81%
+1164  AP0021-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1165  AP0022-Ca_FRgam_gt0_kt2     0.00%    passed     98.50%
+1166  AP0022-Cb_FRgam_gt0_kt2     0.00%    passed     98.22%
+1167  AP0023-Ca_FRgam_gt0_kt0     0.00%    passed     98.70%
+1168  AP0023-Cb_FRgam_gt0_kt0     0.00%    passed     98.97%
+1169  AP0025-Ca_FRgam_gt0_kt0     0.00%    passed     99.74%
+1170  AP0025-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1171  AP0030-Ca_FRgam_gt0_kt0     0.00%    passed     99.41%
+1172  AP0030-Cb_FRgam_gt0_kt0     0.00%    passed     98.97%
+1173  AP0031-Ca_FRgam_gt0_kt0     0.00%    passed     99.52%
+1174  AP0031-Cb_FRgam_gt0_kt0     0.00%    passed     98.63%
+1175  AP0033-Ca_FRgam_gt0_kt0     0.00%    passed     99.55%
+1176  AP0033-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1177  AP0035-Ca_FRgam_gt0_kt0     0.00%    passed     99.52%
+1178  AP0035-Cb_FRgam_gt0_kt0     0.00%    passed     99.52%
+1179  AQ0001-Ca_GQgam_gt1_kt0     0.00%    passed     97.74%
+1180  AQ0001-Cb_GQgam_gt1_kt0     0.00%    passed     97.74%
+1181  AQ0002-Ca_GQgam_gt1_kt0     0.00%    passed     99.84%
+1182  AQ0002-Cb_GQgam_gt1_kt0     0.00%    passed     97.74%
+1183  AQ0004-Ca_GQgam_gt1_kt0     0.00%    passed     99.94%
+1184  AQ0004-Cb_GQgam_gt1_kt0     0.00%    passed     99.98%
+1185  AQ0005-Ca_GQgam_gt0_kt0     0.00%    passed     99.72%
+1186  AQ0005-Cb_GQgam_gt1_kt0     0.00%    passed     99.66%
+1187  AQ0011-Ca_GQgam_gt1_kt0     0.00%    passed     99.57%
+1188  AQ0011-Cb_GQgam_gt0_kt0     0.00%    passed     98.61%
+1189  AQ0012-Ca_GQgam_gt1_kt0     0.00%    passed     99.98%
+1190  AQ0012-Cb_GQgam_gt1_kt0     0.00%    passed     99.85%
+1191  AQ0013-Ca_GQgam_gt1_kt0     0.00%    passed     99.85%
+1192  AQ0013-Cb_GQgam_gt0_kt0     0.00%    passed     97.78%
+1193  AQ0014-Ca_GQgam_gt1_kt0     0.00%    passed     99.99%
+1194  AQ0014-Cb_GQgam_gt0_kt0     0.00%    passed     96.33%
+1195  AQ0015-Ca_GQgam_gt1_kt0     0.00%    passed     98.18%
+1196  AQ0015-Cb_GQgam_gt0_kt0     0.00%    passed     97.38%
+1197  AR0001-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1198  AR0001-Cb_AOcol_gt0_kt0     0.00%    passed     99.36%
+1199  AR0007-Ca_AOcol_gt0_kt0     0.00%    passed     95.07%
+1200  AR0007-Cb_AOcol_gt0_kt0     0.00%    passed     99.37%
+1201  AR0008-Ca_AOcol_gt0_kt0     0.00%    passed     96.43%
+1202  AR0008-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1203  AR0009-Ca_AOcol_gt1_kt0     0.00%    passed     99.38%
+1204  AR0009-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1205  AR0010-Ca_AOcol_gt1_kt0     0.00%    passed     99.50%
+1206  AR0010-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1207  AR0011-Ca_AOcol_gt1_kt0     0.00%    passed     99.44%
+1208  AR0011-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1209  AR0012-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1210  AR0012-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1211  AR0013-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1212  AR0013-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1213  AR0015-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1214  AR0015-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1215  AR0016-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1216  AR0016-Cb_AOcol_gt0_kt0     0.00%    passed     99.82%
+1217  AR0017-Ca_AOcol_gt0_kt0     0.00%    passed     93.37%
+1218  AR0017-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1219  AR0018-Ca_AOcol_gt0_kt0     0.00%    passed     98.34%
+1220  AR0018-Cb_AOcol_gt1_kt0     0.00%    passed     99.02%
+1221  AR0019-Ca_AOcol_gt0_kt0     0.00%    passed     97.98%
+1222  AR0019-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1223  AR0020-Ca_AOcol_gt0_kt0     0.00%    passed     99.50%
+1224  AR0020-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1225  AR0021-Ca_AOcol_gt0_kt0     0.00%    passed     97.05%
+1226  AR0021-Cb_AOcol_gt0_kt0     0.00%    passed     96.96%
+1227  AR0022-Ca_AOcol_gt1_kt0     0.00%    passed     98.75%
+1228  AR0022-Cb_AOcol_gt0_kt0     0.00%    passed     95.82%
+1229  AR0023-Ca_AOcol_gt0_kt0     0.00%    passed     95.07%
+1230  AR0023-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1231  AR0024-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1232  AR0024-Cb_AOcol_gt0_kt0     0.00%    passed     97.66%
+1233  AR0027-Ca_AOcol_gt0_kt0     0.00%    passed     97.77%
+1234  AR0027-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1235  AR0034-Ca_AOcol_gt0_kt0     0.00%    passed     99.24%
+1236  AR0034-Cb_AOcol_gt1_kt0     0.00%    passed     99.74%
+1237  AR0035-Ca_AOcol_gt1_kt0     0.00%    passed     97.62%
+1238  AR0035-Cb_AOcol_gt1_kt0     0.00%    passed     98.18%
+1239  AR0036-Ca_AOcol_gt0_kt0     0.00%    passed     93.03%
+1240  AR0036-Cb_AOcol_gt0_kt0     0.00%    passed     93.03%
+1241  AR0038-Ca_AOcol_gt0_kt0     0.00%    passed     96.25%
+1242  AR0038-Cb_AOcol_gt0_kt0     0.00%    passed     99.11%
+1243  AR0040-Ca_AOcol_gt1_kt0     0.00%    passed     99.50%
+1244  AR0040-Cb_AOcol_gt1_kt0     0.00%    passed     99.12%
+1245  AR0042-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1246  AR0042-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1247  AR0043-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1248  AR0043-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1249  AR0044-Ca_AOcol_gt0_kt0     0.00%    passed     97.77%
+1250  AR0044-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1251  AR0045-Ca_AOcol_gt0_kt0     0.00%    passed     99.64%
+1252  AR0045-Cb_AOcol_gt0_kt0     0.00%    passed     99.34%
+1253  AR0047-Ca_AOcol_gt1_kt0     0.00%    passed     98.42%
+1254  AR0047-Cb_AOcol_gt0_kt0     0.00%    passed     95.74%
+1255  AR0048-Ca_AOcol_gt0_kt0     0.00%    passed     99.42%
+1256  AR0048-Cb_AOcol_gt0_kt0     0.00%    passed     98.72%
+1257  AR0049-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1258  AR0049-Cb_AOcol_gt1_kt0     0.00%    passed     98.89%
+1259  AR0050-Ca_AOcol_gt0_kt0     0.00%    passed     94.41%
+1260  AR0050-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1261  AR0051-Ca_AOcol_gt0_kt0     0.00%    passed     94.32%
+1262  AR0051-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1263  AR0053-Ca_AOcol_gt0_kt0     0.00%    passed     98.41%
+1264  AR0053-Cb_AOcol_gt0_kt0     0.00%    passed     96.56%
+1265  AR0054-Ca_AOcol_gt1_kt0     0.00%    passed     99.10%
+1266  AR0054-Cb_AOcol_gt1_kt0     0.00%    passed     96.91%
+1267  AR0057-Ca_AOcol_gt0_kt0     0.00%    passed     95.27%
+1268  AR0057-Cb_AOcol_gt1_kt0     0.00%    passed     99.28%
+1269  AR0059-Ca_AOcol_gt0_kt0     0.00%    passed     87.02%
+1270  AR0059-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1271  AR0060-Ca_AOcol_gt0_kt0     0.00%    passed     98.29%
+1272  AR0060-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1273  AR0061-Ca_AOcol_gt0_kt0     0.00%    passed     96.56%
+1274  AR0061-Cb_AOcol_gt0_kt0     0.00%    passed     95.05%
+1275  AR0062-Ca_AOcol_gt0_kt0     0.00%    passed     98.29%
+1276  AR0062-Cb_AOcol_gt1_kt0     0.00%    passed     99.43%
+1277  AR0063-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1278  AR0063-Cb_AOcol_gt0_kt0     0.00%    passed     95.82%
+1279  AR0064-Ca_AOcol_gt0_kt0     0.00%    passed     96.40%
+1280  AR0064-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1281  AR0065-Ca_AOcol_gt0_kt0     0.00%    passed     99.57%
+1282  AR0065-Cb_AOcol_gt0_kt0     0.00%    passed     97.44%
+1283  AR0066-Ca_AOcol_gt0_kt0     0.00%    passed     99.30%
+1284  AR0066-Cb_AOcol_gt0_kt0     0.00%    passed     99.60%
+1285  AR0069-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1286  AR0069-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1287  AR0070-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1288  AR0070-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1289  AR0071-Ca_AOcol_gt0_kt0     0.00%    passed     97.23%
+1290  AR0071-Cb_AOcol_gt0_kt0     0.00%    passed     98.72%
+1291  AR0072-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1292  AR0072-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1293  AR0073-Ca_AOcol_gt1_kt0     0.00%    passed     98.75%
+1294  AR0073-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1295  AR0074-Ca_AOcol_gt0_kt0     0.00%    passed     97.77%
+1296  AR0074-Cb_AOcol_gt0_kt0     0.00%    passed     95.14%
+1297  AR0075-Ca_AOcol_gt0_kt0     0.00%    passed     97.15%
+1298  AR0075-Cb_AOcol_gt1_kt0     0.00%    passed     99.50%
+1299  AR0076-Ca_AOcol_gt0_kt0     0.00%    passed     96.40%
+1300  AR0076-Cb_AOcol_gt0_kt0     0.00%    passed     97.05%
+1301  AR0077-Ca_AOcol_gt0_kt0     0.00%    passed     99.16%
+1302  AR0077-Cb_AOcol_gt0_kt0     0.00%    passed     98.13%
+1303  AR0078-Ca_AOcol_gt0_kt0     0.00%    passed     92.25%
+1304  AR0078-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1305  AR0079-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1306  AR0079-Cb_AOcol_gt0_kt0     0.00%    passed     97.77%
+1307  AR0080-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1308  AR0080-Cb_AOcol_gt0_kt0     0.00%    passed     99.45%
+1309  AR0081-Ca_AOcol_gt0_kt0     0.00%    passed     99.24%
+1310  AR0081-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1311  AR0082-Ca_AOcol_gt0_kt0     0.00%    passed     99.11%
+1312  AR0082-Cb_AOcol_gt0_kt0     0.00%    passed     89.94%
+1313  AR0083-Ca_AOcol_gt0_kt0     0.00%    passed     97.77%
+1314  AR0083-Cb_AOcol_gt0_kt0     0.00%    passed     89.02%
+1315  AR0084-Ca_AOcol_gt1_kt0     0.00%    passed     97.74%
+1316  AR0084-Cb_AOcol_gt0_kt0     0.00%    passed     95.56%
+1317  AR0085-Ca_AOcol_gt1_kt0     0.00%    passed     99.95%
+1318  AR0085-Cb_AOcol_gt0_kt0     0.00%    passed     95.14%
+1319  AR0086-Ca_AOcol_gt0_kt0     0.00%    passed     97.13%
+1320  AR0086-Cb_AOcol_gt0_kt0     0.00%    passed     97.34%
+1321  AR0087-Ca_AOcol_gt0_kt0     0.00%    passed     91.01%
+1322  AR0087-Cb_AOcol_gt0_kt0     0.00%    passed     99.50%
+1323  AR0088-Ca_AOcol_gt1_kt0     0.00%    passed     99.50%
+1324  AR0088-Cb_AOcol_gt1_kt0     0.00%    passed     98.75%
+1325  AR0089-Ca_AOcol_gt0_kt0     0.00%    passed     93.19%
+1326  AR0089-Cb_AOcol_gt1_kt0     0.00%    passed     98.26%
+1327  AR0090-Ca_AOcol_gt0_kt0     0.00%    passed     99.12%
+1328  AR0090-Cb_AOcol_gt0_kt0     0.00%    passed     94.66%
+1329  AR0092-Ca_AOcol_gt1_kt0     0.00%    passed     99.71%
+1330  AR0092-Cb_AOcol_gt0_kt0     0.00%    passed     95.48%
+1331  AR0093-Ca_AOcol_gt0_kt0     0.00%    passed     96.56%
+1332  AR0093-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1333  AR0095-Ca_AOcol_gt0_kt0     0.00%    passed     99.57%
+1334  AR0095-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1335  AR0096-Ca_AOcol_gt0_kt0     0.00%    passed     98.89%
+1336  AR0096-Cb_AOcol_gt0_kt0     0.00%    passed     98.29%
+1337  AR0097-Ca_AOcol_gt0_kt0     0.00%    passed     99.94%
+1338  AR0097-Cb_AOcol_gt1_kt0     0.00%    passed     98.75%
+1339  AR0098-Ca_AOcol_gt1_kt0     0.00%    passed     98.51%
+1340  AR0098-Cb_AOcol_gt1_kt0     0.00%    passed     97.74%
+1341  AR0099-Ca_AOcol_gt0_kt0     0.00%    passed     97.52%
+1342  AR0099-Cb_AOcol_gt0_kt0     0.00%    passed     96.76%
+1343  AR0100-Ca_AOcol_gt0_kt0     0.00%    passed     95.81%
+1344  AR0100-Cb_AOcol_gt0_kt0     0.00%    passed     99.92%
+1345  AS0001-Ca_GAgam_gt1_kt0     0.00%    passed     99.33%
+1346  AS0001-Cb_GAgam_gt0_kt0     0.00%    passed     99.11%
+1347  AS0002-Ca_GAgam_gt0_kt0     0.00%    passed     97.83%
+1348  AS0002-Cb_GAgam_gt0_kt0     0.00%    passed     98.74%
+1349  AS0003-Ca_GAgam_gt0_kt0     0.00%    passed     96.58%
+1350  AS0003-Cb_GAgam_gt1_kt0     0.00%    passed     99.54%
+1351  AS0004-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1352  AS0004-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1353  AS0006-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1354  AS0006-Cb_GAgam_gt1_kt0     0.00%    passed     99.82%
+1355  AS0007-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1356  AS0007-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1357  AS0008-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1358  AS0008-Cb_GAgam_gt1_kt0     0.00%    passed     99.50%
+1359  AS0009-Ca_GAgam_gt1_kt0     0.00%    passed     99.23%
+1360  AS0009-Cb_GAgam_gt0_kt0     0.00%    passed     99.97%
+1361  AS0010-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1362  AS0010-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1363  AS0011-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1364  AS0011-Cb_GAgam_gt1_kt0     0.00%    passed     99.89%
+1365  AS0012-Ca_GAgam_gt1_kt0     0.00%    passed     98.09%
+1366  AS0012-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1367  AS0013-Ca_GAgam_gt1_kt0     0.00%    passed     98.75%
+1368  AS0013-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1369  AS0014-Ca_GAgam_gt1_kt0     0.00%    passed     98.74%
+1370  AS0014-Cb_GAgam_gt1_kt0     0.00%    passed     99.50%
+1371  AS0015-Ca_GAgam_gt1_kt0     0.00%    passed     98.80%
+1372  AS0015-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1373  AS0016-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1374  AS0016-Cb_GAgam_gt1_kt0     0.00%    passed     98.09%
+1375  AS0017-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1376  AS0017-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1377  AS0018-Ca_GAgam_gt1_kt0     0.00%    passed     98.04%
+1378  AS0018-Cb_GAgam_gt0_kt0     0.00%    passed     99.18%
+1379  AS0019-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1380  AS0019-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1381  AS0021-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1382  AS0021-Cb_GAgam_gt1_kt0     0.00%    passed     99.23%
+1383  AS0022-Ca_GAgam_gt1_kt0     0.00%    passed     97.62%
+1384  AS0022-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1385  AS0024-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1386  AS0024-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1387  AS0025-Ca_GAgam_gt1_kt0     0.00%    passed     98.60%
+1388  AS0025-Cb_GAgam_gt0_kt0     0.00%    passed     98.80%
+1389  AS0026-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1390  AS0026-Cb_GAgam_gt1_kt0     0.00%    passed     99.89%
+1391  AS0027-Ca_GAgam_gt1_kt0     0.00%    passed     99.89%
+1392  AS0027-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1393  AS0029-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1394  AS0029-Cb_GAgam_gt0_kt0     0.00%    passed     98.94%
+1395  AS0030-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1396  AS0030-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1397  AS0032-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1398  AS0032-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1399  AS0033-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1400  AS0033-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1401  AS0034-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1402  AS0034-Cb_GAgam_gt0_kt0     0.00%    passed     98.50%
+1403  AS0035-Ca_GAgam_gt1_kt0     0.00%    passed     98.52%
+1404  AS0035-Cb_GAgam_gt1_kt0     0.00%    passed     97.62%
+1405  AS0036-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1406  AS0036-Cb_GAgam_gt1_kt0     0.00%    passed     99.49%
+1407  AS0037-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1408  AS0037-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1409  AS0039-Ca_GAgam_gt1_kt0     0.00%    passed     99.50%
+1410  AS0039-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1411  AS0040-Ca_GAgam_gt1_kt0     0.00%    passed     99.89%
+1412  AS0040-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1413  AS0041-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1414  AS0041-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1415  AS0042-Ca_GAgam_gt0_kt0     0.00%    passed     99.97%
+1416  AS0042-Cb_GAgam_gt1_kt0     0.00%    passed     99.50%
+1417  AS0044-Ca_GAgam_gt1_kt0     0.00%    passed     99.94%
+1418  AS0044-Cb_GAgam_gt1_kt0     0.00%    passed     97.72%
+1419  AS0045-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1420  AS0045-Cb_GAgam_gt0_kt0     0.00%    passed     99.32%
+1421  AS0046-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1422  AS0046-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1423  AS0047-Ca_GAgam_gt1_kt0     0.00%    passed     99.81%
+1424  AS0047-Cb_GAgam_gt0_kt0     0.00%    passed     98.82%
+1425  AS0048-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1426  AS0048-Cb_GAgam_gt1_kt0     0.00%    passed     98.67%
+1427  AS0049-Ca_GAgam_gt1_kt0     0.00%    passed     97.77%
+1428  AS0049-Cb_GAgam_gt0_kt0     0.00%    passed     99.35%
+1429  AS0051-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1430  AS0051-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1431  AS0052-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1432  AS0052-Cb_GAgam_gt0_kt0     0.00%    passed     98.94%
+1433  AS0053-Ca_GAgam_gt1_kt0     0.00%    passed     99.89%
+1434  AS0053-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1435  AS0055-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1436  AS0055-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1437  AS0056-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1438  AS0056-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1439  AS0057-Ca_GAgam_gt0_kt0     0.00%    passed     97.28%
+1440  AS0057-Cb_GAgam_gt1_kt0     0.00%    passed     99.24%
+1441  AS0058-Ca_GAgam_gt0_kt0     0.00%    passed     98.99%
+1442  AS0058-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1443  AS0059-Ca_GAgam_gt0_kt0     0.00%    passed     99.32%
+1444  AS0059-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1445  AS0060-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1446  AS0060-Cb_GAgam_gt1_kt0     0.00%    passed     99.98%
+1447  AS0062-Ca_GAgam_gt1_kt0     0.00%    passed     98.44%
+1448  AS0062-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1449  AS0064-Ca_GAgam_gt0_kt0     0.00%    passed     98.75%
+1450  AS0064-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1451  AS0065-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1452  AS0065-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1453  AS0066-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1454  AS0066-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1455  AS0068-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1456  AS0068-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1457  AS0069-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1458  AS0069-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1459  AS0070-Ca_GAgam_gt0_kt0     0.00%    passed     99.93%
+1460  AS0070-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1461  AS0072-Ca_GAgam_gt0_kt0     0.00%    passed     98.75%
+1462  AS0072-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1463  AS0073-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1464  AS0073-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1465  AS0074-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1466  AS0074-Cb_GAgam_gt1_kt0     0.00%    passed     99.50%
+1467  AS0076-Ca_GAgam_gt1_kt0     0.00%    passed     97.74%
+1468  AS0076-Cb_GAgam_gt1_kt0     0.00%    passed     99.97%
+1469  AS0077-Ca_GAgam_gt1_kt0     0.00%    passed     98.18%
+1470  AS0077-Cb_GAgam_gt1_kt0     0.00%    passed     97.74%
+1471  AS0078-Ca_GAgam_gt1_kt0     0.00%    passed     99.50%
+1472  AS0078-Cb_GAgam_gt0_kt0     0.00%    passed     99.18%
+1473  AV0001-Ca_GNgam_gt1_kt2     0.00%    passed     99.24%
+1474  AV0001-Cb_GNgam_gt0_kt2     0.00%    passed     98.11%
+1475  AV0002-Ca_GNgam_gt0_kt2     0.00%    passed     99.78%
+1476  AV0002-Cb_GNgam_gt0_kt2     0.00%    passed     98.23%
+1477  AV0004-Ca_GNgam_gt0_kt0     0.00%    passed     99.94%
+1478  AV0004-Cb_GNgam_gt0_kt0     0.00%    passed     99.58%
+1479  AV0006-Ca_GNgam_gt0_kt0     0.00%    passed     99.01%
+1480  AV0006-Cb_GNgam_gt0_kt0     0.00%    passed     95.69%
+1481  AV0007-Ca_GNgam_gt1_kt0     0.00%    passed     99.28%
+1482  AV0007-Cb_GNgam_gt0_kt0     0.00%    passed     99.26%
+1483  AV0011-Ca_GNgam_gt0_kt2     0.00%    passed     99.73%
+1484  AV0011-Cb_GNgam_gt0_kt2     0.00%    passed     98.38%
+1485  AV0014-Ca_GNgam_gt1_kt0     0.00%    passed     99.76%
+1486  AV0014-Cb_GNgam_gt1_kt0     0.00%    passed     98.18%
+1487  AV0020-Ca_GNgam_gt1_kt2     0.00%    passed     99.05%
+1488  AV0020-Cb_GNgam_gt0_kt2     0.00%    passed     99.72%
+1489  AV0022-Ca_GNgam_gt0_kt0     0.00%    passed     99.12%
+1490  AV0022-Cb_GNgam_gt0_kt0     0.00%    passed     99.68%
+1491  AV0024-Ca_GNgam_gt0_kt0     0.00%    passed     99.88%
+1492  AV0024-Cb_GNgam_gt0_kt0     0.00%    passed     98.26%
+1493  AV0025-Ca_GNgam_gt0_kt0     0.00%    passed     99.66%
+1494  AV0025-Cb_GNgam_gt1_kt0     0.00%    passed     97.74%
+1495  AV0026-Ca_GNgam_gt0_kt0     0.00%    passed     97.81%
+1496  AV0026-Cb_GNgam_gt1_kt0     0.00%    passed     99.59%
+1497  AV0027-Ca_GNgam_gt1_kt0     0.00%    passed     98.93%
+1498  AV0027-Cb_GNgam_gt1_kt0     0.00%    passed     98.18%
+1499  AV0028-Ca_GNgam_gt1_kt0     0.00%    passed     98.93%
+1500  AV0028-Cb_GNgam_gt1_kt0     0.00%    passed     98.18%
+1501  AV0032-Ca_GNgam_gt0_kt0     0.00%    passed     99.30%
+1502  AV0032-Cb_GNgam_gt1_kt0     0.00%    passed     99.83%
+1503  AV0033-Ca_GNgam_gt1_kt0     0.00%    passed     98.18%
+1504  AV0033-Cb_GNgam_gt1_kt0     0.00%    passed     98.18%
+1505  AV0034-Ca_GNgam_gt0_kt2     0.00%    passed     99.50%
+1506  AV0034-Cb_GNgam_gt1_kt2     0.00%    passed     92.53%
+1507  AV0035-Ca_GNgam_gt0_kt2     0.00%    passed     98.54%
+1508  AV0035-Cb_GNgam_gt1_kt2     0.00%    passed     97.83%
+1509  AV0036-Ca_GNgam_gt0_kt2     0.00%    passed     97.91%
+1510  AV0036-Cb_GNgam_gt0_kt2     0.00%    passed     99.26%
+1511  AV0037-Ca_GNgam_gt0_kt0     0.00%    passed     98.10%
+1512  AV0037-Cb_GNgam_gt1_kt0     0.00%    passed     94.60%
+1513  AV0038-Ca_GNcol_gt0_kt0     0.00%    passed     95.72%
+1514  AV0038-Cb_GNcol_gt0_kt0     0.00%    passed     94.60%
+1515  AV0039-Ca_GNgam_gt0_kt0     0.00%    passed     98.49%
+1516  AV0039-Cb_GNgam_gt1_kt0     0.00%    passed     98.12%
+1517  AV0040-Ca_GNcol_gt0_kt0     0.00%    passed     98.94%
+1518  AV0040-Cb_GNcol_gt0_kt0     0.00%    passed     98.21%
+1519  AV0041-Ca_GNgam_gt1_kt0     0.00%    passed     98.78%
+1520  AV0041-Cb_GNgam_gt0_kt0     0.00%    passed     99.98%
+1521  AV0042-Ca_GNcol_gt0_kt0     0.00%    passed     98.98%
+1522  AV0042-Cb_GNcol_gt0_kt0     0.00%    passed     99.34%
+1523  AV0043-Ca_GNgam_gt0_kt0     0.00%    passed     98.34%
+1524  AV0043-Cb_GNgam_gt0_kt0     0.00%    passed     98.70%
+1525  AV0044-Ca_GNgam_gt1_kt0     0.00%    passed     98.72%
+1526  AV0044-Cb_GNgam_gt0_kt0     0.00%    passed     99.15%
+1527  AV0045-Ca_GNgam_gt1_kt0     0.00%    passed     98.18%
+1528  AV0045-Cb_GNgam_gt0_kt0     0.00%    passed     99.76%
+1529  AV0046-Ca_GNcol_gt0_kt0     0.00%    passed     99.74%
+1530  AV0046-Cb_GNcol_gt0_kt0     0.00%    passed     97.98%
+1531  AV0047-Ca_GNgam_gt1_kt0     0.00%    passed     98.18%
+1532  AV0047-Cb_GNgam_gt1_kt0     0.00%    passed     98.18%
+1533  AY0006-Ca_CIcol_gt1_kt0     0.00%    passed     99.62%
+1534  AY0006-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1535  AY0007-Ca_CIcol_gt1_kt2     0.00%    passed     97.74%
+1536  AY0007-Cb_CIcol_gt0_kt2     0.00%    passed     99.54%
+1537  AY0011-Ca_CIcol_gt1_kt0     0.00%    passed     99.64%
+1538  AY0011-Cb_CIcol_gt1_kt0     0.00%    passed     98.78%
+1539  AY0015-Ca_CIcol_gt1_kt0     0.00%    passed     97.83%
+1540  AY0015-Cb_CIcol_gt1_kt0     0.00%    passed     98.40%
+1541  AY0017-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1542  AY0017-Cb_CIcol_gt1_kt0     0.00%    passed     97.42%
+1543  AY0020-Ca_CIcol_gt0_kt2     0.00%    passed     97.13%
+1544  AY0020-Cb_CIcol_gt1_kt2     0.00%    passed     97.74%
+1545  AY0023-Ca_CIcol_gt1_kt0     0.00%    passed     99.92%
+1546  AY0023-Cb_CIcol_gt1_kt0     0.00%    passed     98.09%
+1547  AY0025-Ca_CIcol_gt1_kt0     0.00%    passed     99.94%
+1548  AY0025-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1549  AY0029-Ca_CIcol_gt1_kt0     0.00%    passed     97.58%
+1550  AY0029-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1551  AY0035-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1552  AY0035-Cb_CIcol_gt1_kt0     0.00%    passed     99.66%
+1553  AY0036-Ca_CIcol_gt1_kt0     0.00%    passed     99.81%
+1554  AY0036-Cb_CIcol_gt1_kt0     0.00%    passed     96.88%
+1555  AY0038-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1556  AY0038-Cb_CIcol_gt1_kt0     0.00%    passed     99.73%
+1557  AY0040-Ca_CIcol_gt0_kt2     0.00%    passed     99.33%
+1558  AY0040-Cb_CIcol_gt0_kt2     0.00%    passed     99.56%
+1559  AY0041-Ca_CIcol_gt0_kt2     0.00%    passed     99.72%
+1560  AY0041-Cb_CIcol_gt0_kt2     0.00%    passed     98.96%
+1561  AY0045-Ca_CIcol_gt0_kt2     0.00%    passed     96.34%
+1562  AY0045-Cb_CIcol_gt0_kt2     0.00%    passed     99.28%
+1563  AY0047-Ca_CIcol_gt0_kt2     0.00%    passed     99.19%
+1564  AY0047-Cb_CIcol_gt1_kt2     0.00%    passed     97.74%
+1565  AY0048-Ca_CIcol_gt1_kt0     0.00%    passed     97.62%
+1566  AY0048-Cb_CIcol_gt1_kt0     0.00%    passed     98.09%
+1567  AY0050-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1568  AY0050-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1569  AY0052-Ca_CIcol_gt0_kt2     0.00%    passed     99.81%
+1570  AY0052-Cb_CIcol_gt0_kt2     0.00%    passed     99.76%
+1571  AY0053-Ca_CIcol_gt1_kt0     0.00%    passed     99.66%
+1572  AY0053-Cb_CIcol_gt1_kt0     0.00%    passed     99.72%
+1573  AY0055-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1574  AY0055-Cb_CIcol_gt1_kt0     0.00%    passed     99.44%
+1575  AY0056-Ca_CIcol_gt1_kt0     0.00%    passed     99.98%
+1576  AY0056-Cb_CIcol_gt1_kt0     0.00%    passed     99.94%
+1577  AY0057-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1578  AY0057-Cb_CIcol_gt1_kt0     0.00%    passed     98.09%
+1579  AY0058-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1580  AY0058-Cb_CIcol_gt1_kt0     0.00%    passed     99.82%
+1581  AY0059-Ca_CIcol_gt0_kt2     0.00%    passed     99.04%
+1582  AY0059-Cb_CIcol_gt0_kt2     0.00%    passed     99.23%
+1583  AY0060-Ca_CIcol_gt1_kt0     0.00%    passed     99.89%
+1584  AY0060-Cb_CIcol_gt1_kt0     0.00%    passed     99.66%
+1585  AY0062-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1586  AY0062-Cb_CIcol_gt1_kt0     0.00%    passed     99.95%
+1587  AY0064-Ca_CIcol_gt1_kt0     0.00%    passed     99.37%
+1588  AY0064-Cb_CIcol_gt1_kt0     0.00%    passed     99.95%
+1589  AY0065-Ca_CIcol_gt0_kt2     0.00%    passed     99.35%
+1590  AY0065-Cb_CIcol_gt1_kt2     0.00%    passed     99.65%
+1591  AY0066-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1592  AY0066-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1593  AY0068-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1594  AY0068-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1595  AY0069-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1596  AY0069-Cb_CIcol_gt1_kt0     0.00%    passed     97.99%
+1597  AY0072-Ca_CIcol_gt1_kt0     0.00%    passed     99.73%
+1598  AY0072-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1599  AY0074-Ca_CIcol_gt1_kt0     0.00%    passed     97.62%
+1600  AY0074-Cb_CIcol_gt0_kt0     0.00%    passed     98.83%
+1601  AY0078-Ca_CIcol_gt1_kt0     0.00%    passed     99.88%
+1602  AY0078-Cb_CIcol_gt1_kt0     0.00%    passed     99.50%
+1603  AY0082-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1604  AY0082-Cb_CIcol_gt1_kt0     0.00%    passed     99.82%
+1605  AY0083-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1606  AY0083-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1607  AY0088-Ca_CIcol_gt0_kt2     0.00%    passed     98.10%
+1608  AY0088-Cb_CIcol_gt0_kt2     0.00%    passed     98.65%
+1609  AY0089-Ca_CIcol_gt0_kt2     0.00%    passed     98.99%
+1610  AY0089-Cb_CIcol_gt0_kt2     0.00%    passed     99.56%
+1611  AY0091-Ca_CIcol_gt1_kt0     0.00%    passed     97.74%
+1612  AY0091-Cb_CIcol_gt1_kt0     0.00%    passed     97.74%
+1613  SRS408146a_TZara_gt0_kt2    0.00%    passed     87.32%
+1614  SRS408146b_TZara_gt2_kt2    0.00%    passed     83.08%
+1615  SRS408148a_BFara_gt0_kt2    0.00%    passed     21.89%
+1616  SRS408148b_BFara_gt0_kt2    0.00%    passed      9.06%
+1617  SRS408154a_TZara_gt0_kt2    0.00%    passed     22.64%
+1618  SRS408154b_TZara_gt0_kt2    0.00%    passed     18.91%
+1619  SRS408183a_TZara_gt0_kt2    0.00%    passed     28.75%
+1620  SRS408183b_TZara_gt0_kt2    0.00%    passed     18.66%
+1621  SRS408970a_CMara_gt0_kt2    0.00%    passed      9.86%
+1622  SRS408970b_CMara_gt0_kt2    0.00%    passed      9.80%
+1623  SRS408984a_CMara_gt0_kt2    0.00%    passed     35.25%
+1624  SRS408984b_CMara_gt2_kt2    0.00%    passed     15.16%
+1625  SRS408985a_BFara_gt0_kt2    0.00%    passed     16.22%
+1626  SRS408985b_BFara_gt0_kt2    0.00%    passed      9.50%
+1627  SRS408987a_CMara_gt2_kt2    0.00%    passed     39.33%
+1628  SRS408987b_CMara_gt2_kt2    0.00%    passed     27.50%
+1629  SRS408989a_CMara_gt0_kt2    0.00%    passed     34.97%
+1630  SRS408989b_CMara_gt2_kt2    0.00%    passed     20.32%
+1631  SRS408990a_BFara_gt2_kt2    0.00%    passed     39.74%
+1632  SRS408990b_BFara_gt2_kt2    0.00%    passed     15.88%
+1633  SRS408991a_TZara_gt0_kt2    0.00%    passed     30.73%
+1634  SRS408991b_TZara_gt0_kt2    0.00%    passed     14.90%
+1635  SRS408993a_BFara_gt0_kt2    0.00%    passed      8.39%
+1636  SRS408993b_BFara_gt0_kt2    0.00%    failed      3.36%
+1637  SRS408143a_ZMqua_gt0_kt0    0.00%    passed     60.51%
+1638  SRS408143b_ZMqua_gt0_kt0    0.00%    passed     29.56%
+1639  SRS408145a_ZMqua_gt0_kt0    0.00%    passed     37.28%
+1640  SRS408145b_ZMqua_gt0_kt0    0.00%    passed     29.29%
+1641  SRS408151a_ZMqua_gt0_kt0    0.00%    passed     38.57%
+1642  SRS408151b_ZMqua_gt0_kt0    0.00%    passed     20.80%
+1643  SRS408155a_ZMqua_gt0_kt0    0.00%    passed     37.37%
+1644  SRS408155b_ZMqua_gt2_kt0    0.00%    passed     41.95%
+1645  SRS408966a_ZMqua_gt0_kt0    0.00%    failed      3.48%
+1646  SRS408966b_ZMqua_gt0_kt0    0.00%    failed      2.44%
+1647  SRS408969a_ZMqua_gt0_kt0    0.00%    passed     66.46%
+1648  SRS408969b_ZMqua_gt0_kt0    0.00%    passed     57.65%
+1649  SRS408972a_ZMqua_gt0_kt0    0.00%    passed     72.44%
+1650  SRS408972b_ZMqua_gt0_kt0    0.00%    passed     50.40%
+1651  SRS408973a_ZMqua_gt0_kt0    0.00%    passed     28.63%
+1652  SRS408973b_ZMqua_gt0_kt0    0.00%    passed     16.68%
+1653  SRS408983a_ZMqua_gt0_kt0    0.00%    passed     53.32%
+1654  SRS408983b_ZMqua_gt0_kt0    0.00%    passed     30.36%
+1655  SRS420578a_ZMqua_gt0_kt0    0.00%    passed     65.38%
+1656  SRS420578b_ZMqua_gt2_kt0    0.00%    passed     46.61%
+1657  SRS408186a_SAmer_gt0_kt2    0.00%    failed      0.09%
+1658  SRS408186b_SAmer_gt0_kt2    0.00%    failed      0.09%
+1659  SRS408187a_SAmer_gt0_kt2    0.00%    failed      0.38%
+1660  SRS408187b_SAmer_gt0_kt2    0.00%    failed      0.23%
+1661  SRS408967a_SAmer_gt0_kt2    0.00%    failed      1.01%
+1662  SRS408967b_SAmer_gt0_kt2    0.00%    failed      0.39%
+1663  SRS408974a_SAmer_gt0_kt2    0.00%    failed      0.11%
+1664  SRS408974b_SAmer_gt0_kt2    0.00%    failed      0.12%
+1665  SRS408992a_SAmer_gt0_kt2    0.00%    failed      0.18%
+1666  SRS408992b_SAmer_gt0_kt2    0.00%    failed      0.16%
+1667  SRS410266a_KEmer_gt0_kt2    0.00%    passed      8.39%
+1668  SRS410266b_KEmer_gt0_kt2    0.00%    passed     10.69%
+1669  SRS410284a_KEmer_gt0_kt2    0.00%    failed      1.50%
+1670  SRS410284b_KEmer_gt0_kt2    0.00%    failed      1.26%
+1671  SRS410286a_KEmer_gt0_kt2    0.00%    failed      0.78%
+1672  SRS410286b_KEmer_gt0_kt2    0.00%    failed      0.55%
+1673  SRS410290a_KEmer_gt0_kt2    0.00%    failed      2.08%
+1674  SRS410290b_KEmer_gt0_kt2    0.00%    failed      2.03%
+1675  SRS420577a_KEmer_gt0_kt2    0.00%    failed      0.03%
+1676  SRS420577b_KEmer_gt0_kt2    0.00%    failed      0.02%
+1677  SRS408185a_CMmel_gt0_kt0    0.00%    passed      9.88%
+1678  SRS408185b_CMmel_gt0_kt0    0.00%    passed      7.23%
+1679  SRS408142a_CMmel_gt0_kt0    0.00%    failed      2.82%
+1680  SRS408142b_CMmel_gt0_kt0    0.00%    failed      3.26%
+1681  SRS408147a_CMmel_gt0_kt0    0.00%    passed      6.16%
+1682  SRS408147b_CMmel_gt0_kt0    0.00%    failed      3.52%
+1683  SRS408994a_CMmel_gt0_kt0    0.00%    failed      4.77%
+1684  SRS408994b_CMmel_gt0_kt0    0.00%    passed      5.93%
+****  TOTAL                       0.00%  25 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: AA0043-Ca_GHcol_gt1_kt0 is identical to AA0042-Ca_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0103-Cb_GHcol_gt1_kt0 is identical to AA0042-Cb_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0103-Ca_GHcol_gt1_kt0 is identical to AA0049-Cb_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0139-Ca_GHcol_gt1_kt2 is identical to AA0050-Ca_GHgam_gt1_kt2 but kept for subsequent analysis
+NOTE: AB0104-Cb_BFgam_gt1_kt2 is identical to AA0072-Cb_GHgam_gt1_kt2 but kept for subsequent analysis
+NOTE: AA0086-Ca_GHgam_gt1_kt0 is identical to AA0084-Ca_GHgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0107-Ca_GHcol_gt1_kt0 is identical to AA0087-Cb_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0124-Ca_GHcol_gt0_kt0 is identical to AA0089-Cb_GHcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AA0110-Ca_GHcol_gt1_kt0 is identical to AA0098-Ca_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0132-Cb_GHcol_gt1_kt0 is identical to AA0111-Cb_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AA0141-Cb_GHcol_gt1_kt0 is identical to AA0114-Cb_GHcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AB0127-Ca_BFgam_gt1_kt2 is identical to AA0133-Ca_GHgam_gt1_kt2 but kept for subsequent analysis
+NOTE: AB0191-Ca_BFcol_gt2_kt2 is identical to AB0087-Cb_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AY0040-Cb_CIcol_gt0_kt2 is identical to AB0100-Cb_BFcol_gt0_kt2 but kept for subsequent analysis
+NOTE: AB0124-Ca_BFcol_gt2_kt2 is identical to AB0111-Cb_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AB0276-Cb_BFcol_gt2_kt2 is identical to AB0112-Ca_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AB0150-Ca_BFgam_gt1_kt2 is identical to AB0129-Ca_BFgam_gt1_kt2 but kept for subsequent analysis
+NOTE: AB0185-Cb_BFcol_gt2_kt2 is identical to AB0137-Ca_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AB0242-Ca_BFcol_gt2_kt2 is identical to AB0140-Cb_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AB0221-Cb_BFcol_gt2_kt2 is identical to AB0142-Cb_BFcol_gt2_kt2 but kept for subsequent analysis
+NOTE: AB0279-Cb_BFcol_gt0_kt2 is identical to AB0186-Cb_BFcol_gt0_kt2 but kept for subsequent analysis
+NOTE: AB0212-Cb_BFcol_gt0_kt2 is identical to AB0210-Ca_BFcol_gt0_kt2 but kept for subsequent analysis
+NOTE: AB0258-Cb_BFcol_gt0_kt2 is identical to AB0240-Cb_BFcol_gt0_kt2 but kept for subsequent analysis
+NOTE: AG0106-Ca_GM_gt0_kt2 is identical to AG0096-Cb_GM_gt0_kt2 but kept for subsequent analysis
+NOTE: AG0152-Ca_GM_gt0_kt2 is identical to AG0146-Cb_GM_gt0_kt2 but kept for subsequent analysis
+NOTE: AG0159-Ca_GM_gt0_kt2 is identical to AG0153-Cb_GM_gt0_kt2 but kept for subsequent analysis
+NOTE: AG0223-Ca_GM_gt0_kt2 is identical to AG0178-Ca_GM_gt0_kt2 but kept for subsequent analysis
+NOTE: AJ0133-Ca_GW_gt0_kt0 is identical to AJ0036-Cb_GW_gt0_kt0 but kept for subsequent analysis
+NOTE: AK0060-Cb_KE_gt0_kt0 is identical to AK0060-Ca_KE_gt0_kt0 but kept for subsequent analysis
+NOTE: AK0062-Cb_KE_gt0_kt0 is identical to AK0062-Ca_KE_gt0_kt0 but kept for subsequent analysis
+NOTE: AK0066-Ca_KE_gt0_kt2 is identical to AK0065-Cb_KE_gt0_kt2 but kept for subsequent analysis
+NOTE: AK0070-Ca_KE_gt0_kt2 is identical to AK0066-Cb_KE_gt0_kt2 but kept for subsequent analysis
+NOTE: AK0099-Ca_KE_gt0_kt2 is identical to AK0094-Ca_KE_gt0_kt2 but kept for subsequent analysis
+NOTE: AK0109-Ca_KE_gt0_kt2 is identical to AK0094-Cb_KE_gt0_kt2 but kept for subsequent analysis
+NOTE: AK0127-Cb_KE_gt0_kt2 is identical to AK0098-Ca_KE_gt0_kt2 but kept for subsequent analysis
+NOTE: AN0186-Cb_CMgam_gt0_kt0 is identical to AN0007-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0190-Ca_CMgam_gt0_kt0 is identical to AN0008-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0154-Cb_CMgam_gt0_kt0 is identical to AN0008-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0163-Cb_CMgam_gt0_kt0 is identical to AN0010-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0015-Ca_CMgam_gt0_kt0 is identical to AN0012-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AS0064-Ca_GAgam_gt0_kt0 is identical to AN0018-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0159-Ca_CMgam_gt0_kt0 is identical to AN0019-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0169-Ca_CMgam_gt0_kt0 is identical to AN0020-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0246-Cb_CMgam_gt0_kt0 is identical to AN0055-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0191-Cb_CMgam_gt0_kt0 is identical to AN0075-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0242-Cb_CMgam_gt1_kt0 is identical to AN0085-Ca_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0107-Cb_CMgam_gt0_kt0 is identical to AN0085-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0202-Cb_CMgam_gt0_kt0 is identical to AN0106-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0178-Ca_CMgam_gt0_kt0 is identical to AN0122-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0160-Cb_CMgam_gt0_kt0 is identical to AN0122-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0181-Ca_CMgam_gt0_kt0 is identical to AN0123-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0144-Cb_CMgam_gt0_kt0 is identical to AN0126-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0139-Ca_CMgam_gt0_kt0 is identical to AN0126-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0268-Cb_CMgam_gt1_kt0 is identical to AN0129-Cb_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0314-Cb_CMgam_gt0_kt0 is identical to AN0130-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0164-Cb_CMgam_gt0_kt0 is identical to AN0131-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0144-Ca_CMgam_gt0_kt0 is identical to AN0136-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0170-Cb_CMgam_gt0_kt0 is identical to AN0138-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AS0045-Cb_GAgam_gt0_kt0 is identical to AN0141-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0166-Cb_CMgam_gt0_kt0 is identical to AN0155-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0217-Ca_CMgam_gt0_kt0 is identical to AN0157-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0183-Ca_CMgam_gt0_kt0 is identical to AN0162-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0184-Ca_CMgam_gt0_kt0 is identical to AN0166-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0261-Cb_CMgam_gt0_kt0 is identical to AN0168-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0193-Cb_CMgam_gt1_kt0 is identical to AN0170-Ca_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0226-Cb_CMgam_gt0_kt0 is identical to AN0172-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0199-Ca_CMgam_gt1_kt0 is identical to AN0180-Cb_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0207-Ca_CMgam_gt0_kt0 is identical to AN0191-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0240-Cb_CMgam_gt1_kt0 is identical to AN0206-Cb_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0235-Ca_CMgam_gt0_kt0 is identical to AN0221-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0264-Cb_CMgam_gt0_kt0 is identical to AN0222-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0263-Ca_CMgam_gt0_kt0 is identical to AN0226-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AS0078-Ca_GAgam_gt1_kt0 is identical to AN0254-Cb_CMgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AN0305-Cb_CMgam_gt0_kt0 is identical to AN0256-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0285-Ca_CMgam_gt0_kt0 is identical to AN0261-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0298-Ca_CMgam_gt0_kt0 is identical to AN0277-Ca_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AN0299-Ca_CMgam_gt0_kt0 is identical to AN0291-Cb_CMgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AP0005-Cb_FRgam_gt0_kt0 is identical to AP0002-Ca_FRgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AP0010-Cb_FRgam_gt0_kt0 is identical to AP0002-Cb_FRgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AP0014-Ca_FRgam_gt0_kt0 is identical to AP0005-Ca_FRgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AP0030-Cb_FRgam_gt0_kt0 is identical to AP0023-Cb_FRgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0023-Ca_AOcol_gt0_kt0 is identical to AR0007-Ca_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0040-Ca_AOcol_gt1_kt0 is identical to AR0010-Ca_AOcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AR0019-Cb_AOcol_gt0_kt0 is identical to AR0015-Cb_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0087-Cb_AOcol_gt0_kt0 is identical to AR0020-Ca_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0076-Cb_AOcol_gt0_kt0 is identical to AR0021-Ca_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0063-Cb_AOcol_gt0_kt0 is identical to AR0022-Cb_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0071-Cb_AOcol_gt0_kt0 is identical to AR0048-Cb_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0093-Ca_AOcol_gt0_kt0 is identical to AR0053-Cb_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0096-Cb_AOcol_gt0_kt0 is identical to AR0062-Ca_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0095-Ca_AOcol_gt0_kt0 is identical to AR0065-Ca_AOcol_gt0_kt0 but kept for subsequent analysis
+NOTE: AR0088-Cb_AOcol_gt1_kt0 is identical to AR0073-Ca_AOcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AS0014-Cb_GAgam_gt1_kt0 is identical to AS0008-Cb_GAgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AS0042-Ca_GAgam_gt0_kt0 is identical to AS0009-Cb_GAgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AS0026-Cb_GAgam_gt1_kt0 is identical to AS0011-Cb_GAgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AS0052-Cb_GAgam_gt0_kt0 is identical to AS0029-Cb_GAgam_gt0_kt0 but kept for subsequent analysis
+NOTE: AV0028-Ca_GNgam_gt1_kt0 is identical to AV0027-Ca_GNgam_gt1_kt0 but kept for subsequent analysis
+NOTE: AY0072-Ca_CIcol_gt1_kt0 is identical to AY0038-Cb_CIcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AY0074-Ca_CIcol_gt1_kt0 is identical to AY0048-Ca_CIcol_gt1_kt0 but kept for subsequent analysis
+NOTE: AY0064-Cb_CIcol_gt1_kt0 is identical to AY0062-Cb_CIcol_gt1_kt0 but kept for subsequent analysis
+NOTE: 360 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AA0053-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0091-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0098-Cb_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0104-Cb_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0107-Cb_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0108-Cb_GHgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0110-Cb_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0111-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0114-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0123-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AA0132-Ca_GHcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AB0085-Ca_BFgam_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AB0143-Ca_BFgam_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0064-Ca_CMgam_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0069-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0087-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0124-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0140-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0155-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0160-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0162-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0164-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0175-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0181-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0187-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0189-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0203-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0215-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0219-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0219-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0221-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0223-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0225-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0252-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0252-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0259-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0285-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0297-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0297-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0298-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0299-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0311-Ca_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0311-Cb_CMgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AQ0001-Ca_GQgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AQ0001-Cb_GQgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AQ0002-Cb_GQgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0001-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0008-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0009-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0010-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0011-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0012-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0012-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0013-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0013-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0015-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0016-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0017-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0020-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0023-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0024-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0027-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0042-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0042-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0043-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0043-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0044-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0049-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0051-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0059-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0060-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0063-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0064-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0069-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0069-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0070-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0072-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0073-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0078-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0079-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0080-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0081-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0084-Ca_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0093-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0095-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0098-Cb_AOcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0004-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0004-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0006-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0007-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0007-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0008-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0010-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0010-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0011-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0012-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0013-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0015-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0016-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0017-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0017-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0019-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0019-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0021-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0022-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0024-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0024-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0026-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0027-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0029-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0030-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0030-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0032-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0032-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0033-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0033-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0034-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0036-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0037-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0037-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0039-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0040-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0041-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0041-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0045-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0046-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0046-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0048-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0051-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0051-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0052-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0053-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0055-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0055-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0056-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0056-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0058-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0059-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0060-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0062-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0064-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0065-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0065-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0066-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0066-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0068-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0068-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0069-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0069-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0070-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0072-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0073-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0073-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0074-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0076-Ca_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0077-Cb_GAgam_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0006-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0007-Ca_CIcol_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0017-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0020-Cb_CIcol_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0025-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0029-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0035-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0038-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0047-Cb_CIcol_gt1_kt2 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0050-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0050-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0055-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0057-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0058-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0062-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0066-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0066-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0068-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0068-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0069-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0072-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0082-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0083-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0083-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0091-Ca_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0091-Cb_CIcol_gt1_kt0 (identical to AA0042-Ca_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AN0026-Cb_CMgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0047-Ca_CMgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0054-Ca_CMgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0082-Ca_CMgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0241-Ca_CMgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AV0001-Ca_GNgam_gt1_kt2 (identical to AA0072-Cb_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AA0086-Cb_GHgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AA0108-Ca_GHgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0010-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0015-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0018-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0019-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0020-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0055-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0106-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0123-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0124-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0129-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0139-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0140-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0141-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0175-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0177-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0184-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0203-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0205-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0207-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0210-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0277-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0282-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0282-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0283-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0291-Ca_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0315-Cb_CMgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0014-Cb_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0027-Cb_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0028-Cb_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0033-Ca_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0033-Cb_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0045-Ca_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0047-Ca_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AV0047-Cb_GNgam_gt1_kt0 (identical to AA0084-Ca_GHgam_gt1_kt0) is ignored but added at the end
+NOTE: AS0012-Ca_GAgam_gt1_kt0 (identical to AA0087-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0016-Cb_GAgam_gt1_kt0 (identical to AA0087-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0023-Cb_CIcol_gt1_kt0 (identical to AA0087-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0048-Cb_CIcol_gt1_kt0 (identical to AA0087-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0057-Cb_CIcol_gt1_kt0 (identical to AA0087-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0035-Cb_CIcol_gt1_kt0 (identical to AA0114-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0053-Ca_CIcol_gt1_kt0 (identical to AA0114-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AY0060-Cb_CIcol_gt1_kt0 (identical to AA0114-Cb_GHcol_gt1_kt0) is ignored but added at the end
+NOTE: AB0253-Ca_BFgam_gt1_kt2 (identical to AA0133-Ca_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0058-Cb_CMgam_gt1_kt2 (identical to AA0133-Ca_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0295-Cb_CMgam_gt1_kt2 (identical to AA0133-Ca_GHgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0267-Cb_BFcol_gt2_kt2 (identical to AB0087-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0139-Ca_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0184-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0186-Ca_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0187-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0189-Ca_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0222-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0223-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0227-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0237-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0242-Cb_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0246-Ca_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0267-Ca_BFcol_gt2_kt2 (identical to AB0111-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0160-Cb_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0164-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0178-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0178-Cb_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0179-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0197-Cb_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0199-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0201-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0218-Cb_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0255-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0273-Cb_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0274-Ca_BFgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0036-Cb_CMgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0053-Cb_CMgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0121-Cb_CMgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0135-Ca_CMgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AN0236-Ca_CMgam_gt1_kt2 (identical to AB0129-Ca_BFgam_gt1_kt2) is ignored but added at the end
+NOTE: AB0190-Cb_BFcol_gt2_kt2 (identical to AB0137-Ca_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0227-Ca_BFcol_gt2_kt2 (identical to AB0137-Ca_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0258-Ca_BFcol_gt2_kt2 (identical to AB0137-Ca_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0222-Ca_BFcol_gt2_kt2 (identical to AB0142-Cb_BFcol_gt2_kt2) is ignored but added at the end
+NOTE: AB0257-Cb_BFcol_gt0_kt2 (identical to AB0210-Ca_BFcol_gt0_kt2) is ignored but added at the end
+NOTE: AY0088-Cb_CIcol_gt0_kt2 (identical to AB0210-Ca_BFcol_gt0_kt2) is ignored but added at the end
+NOTE: AY0089-Cb_CIcol_gt0_kt2 (identical to AB0240-Cb_BFcol_gt0_kt2) is ignored but added at the end
+NOTE: AJ0032-Cb_GW_gt0_kt2 (identical to AG0096-Cb_GM_gt0_kt2) is ignored but added at the end
+NOTE: AK0067-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0067-Cb_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0069-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0069-Cb_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0078-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0081-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0105-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0105-Cb_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0106-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0106-Cb_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0107-Ca_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0107-Cb_KE_gt0_kt0 (identical to AK0060-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0078-Cb_KE_gt0_kt0 (identical to AK0062-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0081-Cb_KE_gt0_kt0 (identical to AK0062-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0103-Ca_KE_gt0_kt0 (identical to AK0062-Ca_KE_gt0_kt0) is ignored but added at the end
+NOTE: AK0070-Cb_KE_gt0_kt2 (identical to AK0065-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0096-Cb_KE_gt0_kt2 (identical to AK0065-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0098-Cb_KE_gt0_kt2 (identical to AK0065-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0101-Cb_KE_gt0_kt2 (identical to AK0065-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0087-Cb_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0089-Ca_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0093-Ca_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0093-Cb_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0096-Ca_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0110-Ca_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0127-Ca_KE_gt0_kt2 (identical to AK0066-Cb_KE_gt0_kt2) is ignored but added at the end
+NOTE: AK0109-Cb_KE_gt0_kt2 (identical to AK0094-Ca_KE_gt0_kt2) is ignored but added at the end
+NOTE: AN0193-Ca_CMgam_gt0_kt0 (identical to AN0008-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0151-Cb_CMgam_gt0_kt0 (identical to AN0012-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0186-Ca_CMgam_gt0_kt0 (identical to AN0012-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AS0072-Ca_GAgam_gt0_kt0 (identical to AN0018-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0283-Cb_CMgam_gt1_kt0 (identical to AN0085-Ca_CMgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0163-Ca_CMgam_gt0_kt0 (identical to AN0085-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0235-Cb_CMgam_gt0_kt0 (identical to AN0085-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0263-Cb_CMgam_gt0_kt0 (identical to AN0085-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0270-Ca_CMgam_gt0_kt0 (identical to AN0085-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0169-Cb_CMgam_gt0_kt0 (identical to AN0122-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0152-Cb_CMgam_gt0_kt0 (identical to AN0126-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0157-Cb_CMgam_gt0_kt0 (identical to AN0126-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0174-Ca_CMgam_gt0_kt0 (identical to AN0126-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0178-Cb_CMgam_gt0_kt0 (identical to AN0126-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0208-Ca_CMgam_gt0_kt0 (identical to AN0126-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0152-Ca_CMgam_gt0_kt0 (identical to AN0126-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0154-Ca_CMgam_gt0_kt0 (identical to AN0126-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0180-Ca_CMgam_gt0_kt0 (identical to AN0126-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0194-Cb_CMgam_gt0_kt0 (identical to AN0126-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0201-Ca_CMgam_gt0_kt0 (identical to AN0131-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0205-Cb_CMgam_gt0_kt0 (identical to AN0136-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0183-Cb_CMgam_gt0_kt0 (identical to AN0138-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0185-Cb_CMgam_gt0_kt0 (identical to AN0138-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0194-Ca_CMgam_gt0_kt0 (identical to AN0138-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0202-Ca_CMgam_gt0_kt0 (identical to AN0138-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0208-Cb_CMgam_gt0_kt0 (identical to AN0138-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AS0059-Ca_GAgam_gt0_kt0 (identical to AN0141-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0292-Cb_CMgam_gt0_kt0 (identical to AN0155-Cb_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0314-Ca_CMgam_gt0_kt0 (identical to AN0168-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AN0242-Ca_CMgam_gt1_kt0 (identical to AN0170-Ca_CMgam_gt1_kt0) is ignored but added at the end
+NOTE: AQ0004-Cb_GQgam_gt1_kt0 (identical to AN0170-Ca_CMgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0229-Cb_CMgam_gt0_kt0 (identical to AN0172-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AQ0012-Ca_GQgam_gt1_kt0 (identical to AN0206-Cb_CMgam_gt1_kt0) is ignored but added at the end
+NOTE: AN0304-Ca_CMgam_gt0_kt0 (identical to AN0277-Ca_CMgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0010-Ca_FRgam_gt0_kt0 (identical to AP0002-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0033-Ca_FRgam_gt0_kt0 (identical to AP0002-Cb_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0014-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0020-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0021-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0025-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0031-Ca_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0033-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0035-Ca_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AP0035-Cb_FRgam_gt0_kt0 (identical to AP0005-Ca_FRgam_gt0_kt0) is ignored but added at the end
+NOTE: AR0075-Cb_AOcol_gt1_kt0 (identical to AR0010-Ca_AOcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0088-Ca_AOcol_gt1_kt0 (identical to AR0010-Ca_AOcol_gt1_kt0) is ignored but added at the end
+NOTE: AR0027-Ca_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0044-Ca_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0050-Cb_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0070-Cb_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0072-Cb_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0074-Ca_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0079-Cb_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0083-Ca_AOcol_gt0_kt0 (identical to AR0015-Cb_AOcol_gt0_kt0) is ignored but added at the end
+NOTE: AR0097-Cb_AOcol_gt1_kt0 (identical to AR0073-Ca_AOcol_gt1_kt0) is ignored but added at the end
+NOTE: AS0039-Ca_GAgam_gt1_kt0 (identical to AS0008-Cb_GAgam_gt1_kt0) is ignored but added at the end
+NOTE: AS0074-Cb_GAgam_gt1_kt0 (identical to AS0008-Cb_GAgam_gt1_kt0) is ignored but added at the end
+NOTE: AS0027-Ca_GAgam_gt1_kt0 (identical to AS0011-Cb_GAgam_gt1_kt0) is ignored but added at the end
+NOTE: AS0040-Ca_GAgam_gt1_kt0 (identical to AS0011-Cb_GAgam_gt1_kt0) is ignored but added at the end
+NOTE: AS0053-Ca_GAgam_gt1_kt0 (identical to AS0011-Cb_GAgam_gt1_kt0) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to iqr_loc.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.489 seconds
+NOTE: ModelFinder requires 524 MB RAM!
+ModelFinder will test 2 DNA models (sample size: 2991) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Ascertainment bias correction: 4 unobservable constant patterns
+  1  GTR+F+ASC     234538.321   2653 474382.642   516169.360   490309.564
+Ascertainment bias correction: 4 unobservable constant patterns
+  2  GTR+F+ASC+G4  218831.092   2654 442970.184   484912.862   458903.109
+Akaike Information Criterion:           GTR+F+ASC+G4
+Corrected Akaike Information Criterion: GTR+F+ASC+G4
+Bayesian Information Criterion:         GTR+F+ASC+G4
+Best-fit model: GTR+F+ASC+G4 chosen according to BIC
+
+All model information printed to iqr_loc.model.gz
+CPU time for ModelFinder: 190.997 seconds (0h:3m:10s)
+Wall-clock time for ModelFinder: 25.333 seconds (0h:0m:25s)
+Generating 1000 samples for ultrafast bootstrap (seed: 929541)...
+Ascertainment bias correction: 4 unobservable constant patterns
+
+NOTE: 524 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -228104.773
+2. Current log-likelihood: -218841.248
+3. Current log-likelihood: -218832.084
+4. Current log-likelihood: -218831.132
+Optimal log-likelihood: -218830.990
+Rate parameters:  A-C: 1.08168  A-G: 4.12781  A-T: 3.98273  C-G: 0.37290  C-T: 3.54062  G-T: 1.00000
+Base frequencies:  A: 0.203  C: 0.309  G: 0.268  T: 0.220
+Gamma shape alpha: 0.856
+Parameters optimization took 4 rounds (20.664 sec)
+Computing ML distances based on estimated model parameters... 100.704 sec
+Computing BIONJ tree...
+3.919 seconds
+Log-likelihood of BIONJ tree: -219875.218
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 173.902 second
+Computing log-likelihood of 98 initial trees ... 93.950 seconds
+Current best score: -218666.139
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -218245.883
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -218212.783
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -218173.949
+Iteration 10 / LogL: -218368.126 / Time: 0h:11m:9s
+Iteration 20 / LogL: -218486.763 / Time: 0h:16m:58s
+Finish initializing candidate tree set (20)
+Current best tree score: -218173.949 / CPU time: 971.089
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -218321.451 / Time: 0h:20m:5s (0h:50m:34s left)
+Iteration 40 / LogL: -218420.437 / Time: 0h:22m:55s (0h:37m:1s left)
+Iteration 50 / LogL: -218337.423 / Time: 0h:25m:57s (0h:28m:4s left)
+Log-likelihood cutoff on original alignment: -218617.196
+Iteration 60 / LogL: -218418.433 / Time: 0h:28m:58s (0h:21m:7s left)
+Iteration 70 / LogL: -218434.252 / Time: 0h:32m:0s (0h:15m:18s left)
+Iteration 80 / LogL: -218457.774 / Time: 0h:35m:2s (0h:10m:12s left)
+Iteration 90 / LogL: -218273.135 / Time: 0h:37m:59s (0h:5m:32s left)
+Iteration 100 / LogL: -218185.045 / Time: 0h:41m:26s (0h:1m:15s left)
+Log-likelihood cutoff on original alignment: -218617.196
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:42m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -218173.949
+Optimal log-likelihood: -218173.944
+Rate parameters:  A-C: 1.05608  A-G: 4.12134  A-T: 3.97503  C-G: 0.36665  C-T: 3.54938  G-T: 1.00000
+Base frequencies:  A: 0.203  C: 0.309  G: 0.268  T: 0.220
+Gamma shape alpha: 0.846
+Parameters optimization took 1 rounds (1.799 sec)
+BEST SCORE FOUND : -218173.944
+Creating bootstrap support values...
+Split supports printed to NEXUS file iqr_loc.splits.nex
+Total tree length: 27.128
+
+Total number of iterations: 104
+CPU time used for tree search: 18571.569 sec (5h:9m:31s)
+Wall-clock time used for tree search: 2526.369 sec (0h:42m:6s)
+Total CPU time used: 18936.996 sec (5h:15m:36s)
+Total wall-clock time used: 2582.272 sec (0h:43m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file iqr_loc.splits.nex...
+1324 taxa and 20136 splits.
+Consensus tree written to iqr_loc.contree
+Reading input trees file iqr_loc.contree
+Log-likelihood of consensus tree: -220328.999
+
+Analysis results written to: 
+  IQ-TREE report:                iqr_loc.iqtree
+  Maximum-likelihood tree:       iqr_loc.treefile
+  Likelihood distances:          iqr_loc.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          iqr_loc.splits.nex
+  Consensus tree:                iqr_loc.contree
+  Screen log file:               iqr_loc.log
+
+Date and Time: Tue Dec  3 11:11:20 2019

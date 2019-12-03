@@ -446,7 +446,6 @@ def loop_D_statistic3(name, popA_list, popB_list, popC_list, popD_list,
                                  label="%s\nD = %.3f +/- %.3f | Z = %.3f | p = %.3E" % 
                                      (popC,admix_pd_av_indup[0],admix_pd_av_indup[1],admix_pd_av_indup[2],admix_pd_av_indup_pval))
 
-                plt.axhline(0, color='k',linestyle="--",label="")
                 ax2.legend(loc='center left', bbox_to_anchor=(1.1, 0.5))
 
                 # save pdf
