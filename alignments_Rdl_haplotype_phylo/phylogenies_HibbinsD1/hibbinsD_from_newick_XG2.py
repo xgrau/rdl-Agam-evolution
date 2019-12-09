@@ -21,7 +21,7 @@ from matplotlib import pyplot as plt
 # input: master tree
 tree = Phylo.read(sys.argv[1],"newick")
 out_name = sys.argv[2]
-max_size = 100
+max_size = 20
 num_bootstrap = 10000
 
 # input: lists of specimens from populations A,B,C,D
