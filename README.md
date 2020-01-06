@@ -2,7 +2,7 @@
 
 ## What is this
 
-The scripts and data in this repository can be used to reproduce all analyses from the manuscript [***Resistance to dieldrin* evolution in African malaria vectors is driven by interspecific and interkaryotypic introgression**](https://github.com/xgrau/rdl-Agam-evolution) (Grau-Bové et al., bioRxiv 2019).
+The scripts and data in this repository can be used to reproduce all analyses from the manuscript [***Resistance to dieldrin* evolution in African malaria vectors is driven by interspecific and interkaryotypic introgression**](https://www.biorxiv.org/content/10.1101/2019.12.17.879775v1) (Grau-Bové et al., bioRxiv 2019).
 
 Genome variation data for this project has been generated as part of the [***Anopheles gambiae* 1000 Genomes Consortium**](https://www.malariagen.net/projects/ag1000g).
 
